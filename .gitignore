@@ -1,3 +1,7 @@
+# Do not include executables
+/bin/*.exe
+/bin/*.lib
+
 # Ignore VS project files
 *.psess
 *.db

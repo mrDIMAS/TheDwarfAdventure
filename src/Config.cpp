@@ -166,7 +166,15 @@ void Config::Load(const string &fileName)
 void Config::Save(const string &fileName) const
 {
 	ofstream file(fileName);
+
+	// Preserve order of values. This will make diffs much clear
+	map<string, string> orderedValues;
 	for (auto &keyVal : mValues)
+	{
+		orderedValues[keyVal.first] = keyVal.second;
+	}
+
+	for (auto &keyVal : orderedValues)
 	{
 		file << keyVal.first << " = " << "\"" << keyVal.second << "\";" << endl;
 	}
