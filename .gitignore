@@ -1,0 +1,20 @@
+# Ignore VS project files
+*.psess
+*.db
+*.user
+*.opendb
+*.cd
+*.exp
+*.iobj
+*.ipdb
+
+# Ignore VS generated files
+projects/Debug
+projects/Release
+projects/ipch
+projects/.vs
+projects/.vs
+
+# Ignore CodeLite generated files
+codeliteproj/.clang
+codeliteproj/.codelite

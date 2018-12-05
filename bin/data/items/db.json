@@ -1,0 +1,5687 @@
+{
+  "Armor_LeatherArmor": {
+    "blueprintResult": "Unknown",
+    "bodyPartAffectors": {
+      "Body": {
+        "rect": {
+          "h": 1.0,
+          "w": 1.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        "texture": "data/textures/body_parts/body_leather_armor.png"
+      }
+    },
+    "bookText": "",
+    "chemDmgReductionPercent": 6.0,
+    "class": "Armor",
+    "composeItems": {
+      "Ingredient_Fabric": 2,
+      "Ingredient_Leather": 3,
+      "Metal_Iron": 1
+    },
+    "consumable": "Unknown",
+    "damage": {
+      "class": "Unknown",
+      "count": 0.0,
+      "flags": 0
+    },
+    "decomposeItems": {
+      "Ingredient_Leather": 1,
+      "Rubbish": 1
+    },
+    "description": "armorLeatherDesc",
+    "durability": 260.0,
+    "elecDmgReductionPercent": 8.0,
+    "fireDmgReductionPercent": 8.0,
+    "hasPhysicalBody": false,
+    "heal": 0.0,
+    "healFrames": 0,
+    "isMelee": false,
+    "name": "armorLeather",
+    "physDmgReductionPercent": 7.500000476837158,
+    "price": 235,
+    "rareness": 10,
+    "repairItems": {
+      "High": {
+        "Metal_Iron": 1
+      },
+      "Low": {
+        "Ingredient_Leather": 1
+      },
+      "Medium": {
+        "Ingredient_Fabric": 1
+      }
+    },
+    "requiredDexterityForUse": 1,
+    "requiredIntelligenceForCraft": 1,
+    "requiredIntelligenceForUse": 3,
+    "requiredStrengthForUse": 1,
+    "shootDistance": 0.0,
+    "shootPeriod": 30,
+    "stability": 0.0,
+    "staminaRestoration": 0.0,
+    "staminaRestorationFrames": 0,
+    "texture": "data/textures/items/armor_set.png",
+    "textureRect": {
+      "h": 64.0,
+      "w": 64.0,
+      "x": 64.0,
+      "y": 64.0
+    },
+    "throwable": false,
+    "weight": 6.150000095367432
+  },
+  "Armor_LightLeatherArmor": {
+    "blueprintResult": "Unknown",
+    "bodyPartAffectors": {
+      "Body": {
+        "rect": {
+          "h": 1.0,
+          "w": 1.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        "texture": "data/textures/body_parts/body_light_leather_armor.png"
+      }
+    },
+    "bookText": "",
+    "chemDmgReductionPercent": 5.0,
+    "class": "Armor",
+    "composeItems": {
+      "Ingredient_Fabric": 1,
+      "Ingredient_Leather": 2
+    },
+    "consumable": "Unknown",
+    "damage": {
+      "class": "Unknown",
+      "count": 0.0,
+      "flags": 0
+    },
+    "decomposeItems": {
+      "Ingredient_Leather": 1,
+      "Rubbish": 1
+    },
+    "description": "armorLightLeatherDesc",
+    "durability": 130.0,
+    "elecDmgReductionPercent": 6.0,
+    "fireDmgReductionPercent": 7.0,
+    "hasPhysicalBody": false,
+    "heal": 0.0,
+    "healFrames": 0,
+    "isMelee": false,
+    "name": "armorLightLeather",
+    "physDmgReductionPercent": 6.5,
+    "price": 145,
+    "rareness": 10,
+    "repairItems": {
+      "High": {
+        "Ingredient_Fabric": 1
+      },
+      "Low": {
+        "Ingredient_Leather": 1
+      },
+      "Medium": {
+        "Ingredient_Fabric": 1
+      }
+    },
+    "requiredDexterityForUse": 1,
+    "requiredIntelligenceForCraft": 1,
+    "requiredIntelligenceForUse": 3,
+    "requiredStrengthForUse": 1,
+    "shootDistance": 0.0,
+    "shootPeriod": 30,
+    "stability": 0.0,
+    "staminaRestoration": 0.0,
+    "staminaRestorationFrames": 0,
+    "texture": "data/textures/items/armor_set.png",
+    "textureRect": {
+      "h": 64.0,
+      "w": 64.0,
+      "x": 64.0,
+      "y": 64.0
+    },
+    "throwable": false,
+    "weight": 5.0
+  },
+  "Armor_SteelArmor": {
+    "blueprintResult": "Unknown",
+    "bodyPartAffectors": {
+      "Body": {
+        "rect": {
+          "h": 1.0,
+          "w": 1.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        "texture": "data/textures/body_parts/body_steel_armor.png"
+      }
+    },
+    "bookText": "",
+    "chemDmgReductionPercent": 2.0,
+    "class": "Armor",
+    "composeItems": {
+      "Ingredient_Fabric": 1,
+      "Ingredient_Fur": 1,
+      "Ingredient_Leather": 2,
+      "Metal_Iron": 6
+    },
+    "consumable": "Unknown",
+    "damage": {
+      "class": "Unknown",
+      "count": 0.0,
+      "flags": 0
+    },
+    "decomposeItems": {
+      "Ingredient_Leather": 1,
+      "Metal_Iron": 2,
+      "Rubbish": 1
+    },
+    "description": "armorSteelDesc",
+    "durability": 550.0,
+    "elecDmgReductionPercent": 1.5,
+    "fireDmgReductionPercent": 5.0,
+    "hasPhysicalBody": false,
+    "heal": 0.0,
+    "healFrames": 0,
+    "isMelee": false,
+    "name": "armorSteel",
+    "physDmgReductionPercent": 12.5,
+    "price": 450,
+    "rareness": 10,
+    "repairItems": {
+      "High": {
+        "Ingredient_Leather": 1,
+        "Metal_Iron": 1
+      },
+      "Low": {
+        "Metal_Iron": 1
+      },
+      "Medium": {
+        "Ingredient_Leather": 1,
+        "Metal_Iron": 1
+      }
+    },
+    "requiredDexterityForUse": 1,
+    "requiredIntelligenceForCraft": 1,
+    "requiredIntelligenceForUse": 4,
+    "requiredStrengthForUse": 1,
+    "shootDistance": 0.0,
+    "shootPeriod": 30,
+    "stability": 0.0,
+    "staminaRestoration": 0.0,
+    "staminaRestorationFrames": 0,
+    "texture": "data/textures/items/armor_set.png",
+    "textureRect": {
+      "h": 64.0,
+      "w": 64.0,
+      "x": 64.0,
+      "y": 64.0
+    },
+    "throwable": false,
+    "weight": 16.100000381469727
+  },
+  "Blueprint_AcidBlob": {
+    "blueprintResult": "Projectile_AcidBlob",
+    "bodyPartAffectors": null,
+    "bookText": "",
+    "chemDmgReductionPercent": 0.0,
+    "class": "Blueprint",
+    "composeItems": null,
+    "consumable": "Unknown",
+    "damage": {
+      "class": "Unknown",
+      "count": 0.0,
+      "flags": 0
+    },
+    "decomposeItems": null,
+    "description": "blueprintAcidBlobDesc",
+    "durability": 1.0,
+    "elecDmgReductionPercent": 0.0,
+    "fireDmgReductionPercent": 0.0,
+    "hasPhysicalBody": false,
+    "heal": 0.0,
+    "healFrames": 0,
+    "isMelee": false,
+    "name": "blueprintAcidBlob",
+    "physDmgReductionPercent": 0.0,
+    "price": 26,
+    "rareness": 10,
+    "repairItems": null,
+    "requiredDexterityForUse": 1,
+    "requiredIntelligenceForCraft": 1,
+    "requiredIntelligenceForUse": 1,
+    "requiredStrengthForUse": 1,
+    "shootDistance": 0.0,
+    "shootPeriod": 30,
+    "stability": 0.0,
+    "staminaRestoration": 0.0,
+    "staminaRestorationFrames": 0,
+    "texture": "data/textures/items/blueprint.png",
+    "textureRect": {
+      "h": 18.0,
+      "w": 12.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "throwable": false,
+    "weight": 0.0
+  },
+  "Blueprint_AcidGun": {
+    "blueprintResult": "Weapon_AcidGun",
+    "bodyPartAffectors": null,
+    "bookText": "",
+    "chemDmgReductionPercent": 0.0,
+    "class": "Blueprint",
+    "composeItems": null,
+    "consumable": "Unknown",
+    "damage": {
+      "class": "Unknown",
+      "count": 0.0,
+      "flags": 0
+    },
+    "decomposeItems": null,
+    "description": "blueprintAcidGunDesc",
+    "durability": 1.0,
+    "elecDmgReductionPercent": 0.0,
+    "fireDmgReductionPercent": 0.0,
+    "hasPhysicalBody": false,
+    "heal": 0.0,
+    "healFrames": 0,
+    "isMelee": false,
+    "name": "blueprintAcidGun",
+    "physDmgReductionPercent": 0.0,
+    "price": 142,
+    "rareness": 10,
+    "repairItems": null,
+    "requiredDexterityForUse": 1,
+    "requiredIntelligenceForCraft": 1,
+    "requiredIntelligenceForUse": 1,
+    "requiredStrengthForUse": 1,
+    "shootDistance": 0.0,
+    "shootPeriod": 30,
+    "stability": 0.0,
+    "staminaRestoration": 0.0,
+    "staminaRestorationFrames": 0,
+    "texture": "data/textures/items/blueprint.png",
+    "textureRect": {
+      "h": 18.0,
+      "w": 12.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "throwable": false,
+    "weight": 0.0
+  },
+  "Blueprint_Drill": {
+    "blueprintResult": "Weapon_Drill",
+    "bodyPartAffectors": null,
+    "bookText": "",
+    "chemDmgReductionPercent": 0.0,
+    "class": "Blueprint",
+    "composeItems": null,
+    "consumable": "Unknown",
+    "damage": {
+      "class": "Unknown",
+      "count": 0.0,
+      "flags": 0
+    },
+    "decomposeItems": null,
+    "description": "blueprintDrillDesc",
+    "durability": 1.0,
+    "elecDmgReductionPercent": 0.0,
+    "fireDmgReductionPercent": 0.0,
+    "hasPhysicalBody": false,
+    "heal": 0.0,
+    "healFrames": 0,
+    "isMelee": false,
+    "name": "blueprintDrill",
+    "physDmgReductionPercent": 0.0,
+    "price": 45,
+    "rareness": 10,
+    "repairItems": null,
+    "requiredDexterityForUse": 1,
+    "requiredIntelligenceForCraft": 1,
+    "requiredIntelligenceForUse": 1,
+    "requiredStrengthForUse": 1,
+    "shootDistance": 0.0,
+    "shootPeriod": 30,
+    "stability": 0.0,
+    "staminaRestoration": 0.0,
+    "staminaRestorationFrames": 0,
+    "texture": "data/textures/items/blueprint.png",
+    "textureRect": {
+      "h": 18.0,
+      "w": 12.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "throwable": false,
+    "weight": 0.0
+  },
+  "Blueprint_ForceGun": {
+    "blueprintResult": "Weapon_ForceGun",
+    "bodyPartAffectors": null,
+    "bookText": "",
+    "chemDmgReductionPercent": 0.0,
+    "class": "Blueprint",
+    "composeItems": null,
+    "consumable": "Unknown",
+    "damage": {
+      "class": "Unknown",
+      "count": 0.0,
+      "flags": 0
+    },
+    "decomposeItems": null,
+    "description": "blueprintForceGunDesc",
+    "durability": 1.0,
+    "elecDmgReductionPercent": 0.0,
+    "fireDmgReductionPercent": 0.0,
+    "hasPhysicalBody": false,
+    "heal": 0.0,
+    "healFrames": 0,
+    "isMelee": false,
+    "name": "blueprintForceGun",
+    "physDmgReductionPercent": 0.0,
+    "price": 700,
+    "rareness": 10,
+    "repairItems": null,
+    "requiredDexterityForUse": 1,
+    "requiredIntelligenceForCraft": 1,
+    "requiredIntelligenceForUse": 1,
+    "requiredStrengthForUse": 1,
+    "shootDistance": 0.0,
+    "shootPeriod": 30,
+    "stability": 0.0,
+    "staminaRestoration": 0.0,
+    "staminaRestorationFrames": 0,
+    "texture": "data/textures/items/blueprint.png",
+    "textureRect": {
+      "h": 18.0,
+      "w": 12.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "throwable": false,
+    "weight": 0.0
+  },
+  "Blueprint_GravityGun": {
+    "blueprintResult": "Weapon_GravityGun",
+    "bodyPartAffectors": null,
+    "bookText": "",
+    "chemDmgReductionPercent": 0.0,
+    "class": "Blueprint",
+    "composeItems": null,
+    "consumable": "Unknown",
+    "damage": {
+      "class": "Unknown",
+      "count": 0.0,
+      "flags": 0
+    },
+    "decomposeItems": null,
+    "description": "blueprintGravityGunDesc",
+    "durability": 1.0,
+    "elecDmgReductionPercent": 0.0,
+    "fireDmgReductionPercent": 0.0,
+    "hasPhysicalBody": false,
+    "heal": 0.0,
+    "healFrames": 0,
+    "isMelee": false,
+    "name": "blueprintGravityGun",
+    "physDmgReductionPercent": 0.0,
+    "price": 1400,
+    "rareness": 10,
+    "repairItems": null,
+    "requiredDexterityForUse": 1,
+    "requiredIntelligenceForCraft": 1,
+    "requiredIntelligenceForUse": 1,
+    "requiredStrengthForUse": 1,
+    "shootDistance": 0.0,
+    "shootPeriod": 30,
+    "stability": 0.0,
+    "staminaRestoration": 0.0,
+    "staminaRestorationFrames": 0,
+    "texture": "data/textures/items/blueprint.png",
+    "textureRect": {
+      "h": 18.0,
+      "w": 12.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "throwable": false,
+    "weight": 0.0
+  },
+  "Blueprint_Grenade": {
+    "blueprintResult": "Projectile_Grenade",
+    "bodyPartAffectors": null,
+    "bookText": "",
+    "chemDmgReductionPercent": 0.0,
+    "class": "Blueprint",
+    "composeItems": null,
+    "consumable": "Unknown",
+    "damage": {
+      "class": "Unknown",
+      "count": 0.0,
+      "flags": 0
+    },
+    "decomposeItems": null,
+    "description": "blueprintGrenadeDesc",
+    "durability": 1.0,
+    "elecDmgReductionPercent": 0.0,
+    "fireDmgReductionPercent": 0.0,
+    "hasPhysicalBody": false,
+    "heal": 0.0,
+    "healFrames": 0,
+    "isMelee": false,
+    "name": "blueprintGrenade",
+    "physDmgReductionPercent": 0.0,
+    "price": 28,
+    "rareness": 10,
+    "repairItems": null,
+    "requiredDexterityForUse": 1,
+    "requiredIntelligenceForCraft": 1,
+    "requiredIntelligenceForUse": 1,
+    "requiredStrengthForUse": 1,
+    "shootDistance": 0.0,
+    "shootPeriod": 30,
+    "stability": 0.0,
+    "staminaRestoration": 0.0,
+    "staminaRestorationFrames": 0,
+    "texture": "data/textures/items/blueprint.png",
+    "textureRect": {
+      "h": 18.0,
+      "w": 12.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "throwable": false,
+    "weight": 0.0
+  },
+  "Blueprint_GrenadeLauncher": {
+    "blueprintResult": "Weapon_GrenadeLauncher",
+    "bodyPartAffectors": null,
+    "bookText": "",
+    "chemDmgReductionPercent": 0.0,
+    "class": "Blueprint",
+    "composeItems": null,
+    "consumable": "Unknown",
+    "damage": {
+      "class": "Unknown",
+      "count": 0.0,
+      "flags": 0
+    },
+    "decomposeItems": null,
+    "description": "blueprintGrenadeLauncherDesc",
+    "durability": 1.0,
+    "elecDmgReductionPercent": 0.0,
+    "fireDmgReductionPercent": 0.0,
+    "hasPhysicalBody": false,
+    "heal": 0.0,
+    "healFrames": 0,
+    "isMelee": false,
+    "name": "blueprintGrenadeLauncher",
+    "physDmgReductionPercent": 0.0,
+    "price": 115,
+    "rareness": 10,
+    "repairItems": null,
+    "requiredDexterityForUse": 1,
+    "requiredIntelligenceForCraft": 1,
+    "requiredIntelligenceForUse": 1,
+    "requiredStrengthForUse": 1,
+    "shootDistance": 0.0,
+    "shootPeriod": 30,
+    "stability": 0.0,
+    "staminaRestoration": 0.0,
+    "staminaRestorationFrames": 0,
+    "texture": "data/textures/items/blueprint.png",
+    "textureRect": {
+      "h": 18.0,
+      "w": 12.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "throwable": false,
+    "weight": 0.0
+  },
+  "Blueprint_Harpoon": {
+    "blueprintResult": "Weapon_Harpoon",
+    "bodyPartAffectors": null,
+    "bookText": "",
+    "chemDmgReductionPercent": 0.0,
+    "class": "Blueprint",
+    "composeItems": null,
+    "consumable": "Unknown",
+    "damage": {
+      "class": "Unknown",
+      "count": 0.0,
+      "flags": 0
+    },
+    "decomposeItems": null,
+    "description": "blueprintHarpoonDesc",
+    "durability": 1.0,
+    "elecDmgReductionPercent": 0.0,
+    "fireDmgReductionPercent": 0.0,
+    "hasPhysicalBody": false,
+    "heal": 0.0,
+    "healFrames": 0,
+    "isMelee": false,
+    "name": "blueprintHarpoon",
+    "physDmgReductionPercent": 0.0,
+    "price": 97,
+    "rareness": 10,
+    "repairItems": null,
+    "requiredDexterityForUse": 1,
+    "requiredIntelligenceForCraft": 1,
+    "requiredIntelligenceForUse": 1,
+    "requiredStrengthForUse": 1,
+    "shootDistance": 0.0,
+    "shootPeriod": 30,
+    "stability": 0.0,
+    "staminaRestoration": 0.0,
+    "staminaRestorationFrames": 0,
+    "texture": "data/textures/items/blueprint.png",
+    "textureRect": {
+      "h": 18.0,
+      "w": 12.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "throwable": false,
+    "weight": 0.0
+  },
+  "Blueprint_HarpoonProj": {
+    "blueprintResult": "Projectile_Harpoon",
+    "bodyPartAffectors": null,
+    "bookText": "",
+    "chemDmgReductionPercent": 0.0,
+    "class": "Blueprint",
+    "composeItems": null,
+    "consumable": "Unknown",
+    "damage": {
+      "class": "Unknown",
+      "count": 0.0,
+      "flags": 0
+    },
+    "decomposeItems": null,
+    "description": "blueprintHarpoonDesc",
+    "durability": 1.0,
+    "elecDmgReductionPercent": 0.0,
+    "fireDmgReductionPercent": 0.0,
+    "hasPhysicalBody": false,
+    "heal": 0.0,
+    "healFrames": 0,
+    "isMelee": false,
+    "name": "blueprintHarpoon",
+    "physDmgReductionPercent": 0.0,
+    "price": 22,
+    "rareness": 10,
+    "repairItems": null,
+    "requiredDexterityForUse": 1,
+    "requiredIntelligenceForCraft": 1,
+    "requiredIntelligenceForUse": 1,
+    "requiredStrengthForUse": 1,
+    "shootDistance": 0.0,
+    "shootPeriod": 30,
+    "stability": 0.0,
+    "staminaRestoration": 0.0,
+    "staminaRestorationFrames": 0,
+    "texture": "data/textures/items/blueprint.png",
+    "textureRect": {
+      "h": 18.0,
+      "w": 12.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "throwable": false,
+    "weight": 0.0
+  },
+  "Blueprint_Hook": {
+    "blueprintResult": "Weapon_Hook",
+    "bodyPartAffectors": null,
+    "bookText": "",
+    "chemDmgReductionPercent": 0.0,
+    "class": "Blueprint",
+    "composeItems": null,
+    "consumable": "Unknown",
+    "damage": {
+      "class": "Unknown",
+      "count": 0.0,
+      "flags": 0
+    },
+    "decomposeItems": null,
+    "description": "blueprintHookDesc",
+    "durability": 1.0,
+    "elecDmgReductionPercent": 0.0,
+    "fireDmgReductionPercent": 0.0,
+    "hasPhysicalBody": false,
+    "heal": 0.0,
+    "healFrames": 0,
+    "isMelee": false,
+    "name": "blueprintHook",
+    "physDmgReductionPercent": 0.0,
+    "price": 48,
+    "rareness": 10,
+    "repairItems": null,
+    "requiredDexterityForUse": 1,
+    "requiredIntelligenceForCraft": 1,
+    "requiredIntelligenceForUse": 1,
+    "requiredStrengthForUse": 1,
+    "shootDistance": 0.0,
+    "shootPeriod": 30,
+    "stability": 0.0,
+    "staminaRestoration": 0.0,
+    "staminaRestorationFrames": 0,
+    "texture": "data/textures/items/blueprint.png",
+    "textureRect": {
+      "h": 18.0,
+      "w": 12.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "throwable": false,
+    "weight": 0.0
+  },
+  "Blueprint_LightningGun": {
+    "blueprintResult": "Weapon_LightningGun",
+    "bodyPartAffectors": null,
+    "bookText": "",
+    "chemDmgReductionPercent": 0.0,
+    "class": "Blueprint",
+    "composeItems": null,
+    "consumable": "Unknown",
+    "damage": {
+      "class": "Unknown",
+      "count": 0.0,
+      "flags": 0
+    },
+    "decomposeItems": null,
+    "description": "blueprintLightningGunDesc",
+    "durability": 1.0,
+    "elecDmgReductionPercent": 0.0,
+    "fireDmgReductionPercent": 0.0,
+    "hasPhysicalBody": false,
+    "heal": 0.0,
+    "healFrames": 0,
+    "isMelee": false,
+    "name": "blueprintLightningGun",
+    "physDmgReductionPercent": 0.0,
+    "price": 1200,
+    "rareness": 10,
+    "repairItems": null,
+    "requiredDexterityForUse": 1,
+    "requiredIntelligenceForCraft": 1,
+    "requiredIntelligenceForUse": 1,
+    "requiredStrengthForUse": 1,
+    "shootDistance": 0.0,
+    "shootPeriod": 30,
+    "stability": 0.0,
+    "staminaRestoration": 0.0,
+    "staminaRestorationFrames": 0,
+    "texture": "data/textures/items/blueprint.png",
+    "textureRect": {
+      "h": 18.0,
+      "w": 12.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "throwable": false,
+    "weight": 0.0
+  },
+  "Blueprint_MetalCopper": {
+    "blueprintResult": "Metal_Copper",
+    "bodyPartAffectors": null,
+    "bookText": "",
+    "chemDmgReductionPercent": 0.0,
+    "class": "Blueprint",
+    "composeItems": null,
+    "consumable": "Unknown",
+    "damage": {
+      "class": "Unknown",
+      "count": 0.0,
+      "flags": 0
+    },
+    "decomposeItems": null,
+    "description": "blueprintMetalCopperDesc",
+    "durability": 1.0,
+    "elecDmgReductionPercent": 0.0,
+    "fireDmgReductionPercent": 0.0,
+    "hasPhysicalBody": false,
+    "heal": 0.0,
+    "healFrames": 0,
+    "isMelee": false,
+    "name": "blueprintMetalCopper",
+    "physDmgReductionPercent": 0.0,
+    "price": 6,
+    "rareness": 10,
+    "repairItems": null,
+    "requiredDexterityForUse": 1,
+    "requiredIntelligenceForCraft": 1,
+    "requiredIntelligenceForUse": 1,
+    "requiredStrengthForUse": 1,
+    "shootDistance": 0.0,
+    "shootPeriod": 30,
+    "stability": 0.0,
+    "staminaRestoration": 0.0,
+    "staminaRestorationFrames": 0,
+    "texture": "data/textures/items/blueprint.png",
+    "textureRect": {
+      "h": 18.0,
+      "w": 12.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "throwable": false,
+    "weight": 0.0
+  },
+  "Blueprint_MetalGold": {
+    "blueprintResult": "Metal_Gold",
+    "bodyPartAffectors": null,
+    "bookText": "",
+    "chemDmgReductionPercent": 0.0,
+    "class": "Blueprint",
+    "composeItems": null,
+    "consumable": "Unknown",
+    "damage": {
+      "class": "Unknown",
+      "count": 0.0,
+      "flags": 0
+    },
+    "decomposeItems": null,
+    "description": "blueprintMetalGoldDesc",
+    "durability": 1.0,
+    "elecDmgReductionPercent": 0.0,
+    "fireDmgReductionPercent": 0.0,
+    "hasPhysicalBody": false,
+    "heal": 0.0,
+    "healFrames": 0,
+    "isMelee": false,
+    "name": "blueprintMetalGold",
+    "physDmgReductionPercent": 0.0,
+    "price": 15,
+    "rareness": 10,
+    "repairItems": null,
+    "requiredDexterityForUse": 1,
+    "requiredIntelligenceForCraft": 1,
+    "requiredIntelligenceForUse": 1,
+    "requiredStrengthForUse": 1,
+    "shootDistance": 0.0,
+    "shootPeriod": 30,
+    "stability": 0.0,
+    "staminaRestoration": 0.0,
+    "staminaRestorationFrames": 0,
+    "texture": "data/textures/items/blueprint.png",
+    "textureRect": {
+      "h": 18.0,
+      "w": 12.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "throwable": false,
+    "weight": 0.0
+  },
+  "Blueprint_MetalIron": {
+    "blueprintResult": "Metal_Iron",
+    "bodyPartAffectors": null,
+    "bookText": "",
+    "chemDmgReductionPercent": 0.0,
+    "class": "Blueprint",
+    "composeItems": null,
+    "consumable": "Unknown",
+    "damage": {
+      "class": "Unknown",
+      "count": 0.0,
+      "flags": 0
+    },
+    "decomposeItems": null,
+    "description": "blueprintMetalIronDesc",
+    "durability": 1.0,
+    "elecDmgReductionPercent": 0.0,
+    "fireDmgReductionPercent": 0.0,
+    "hasPhysicalBody": false,
+    "heal": 0.0,
+    "healFrames": 0,
+    "isMelee": false,
+    "name": "blueprintMetalIron",
+    "physDmgReductionPercent": 0.0,
+    "price": 5,
+    "rareness": 10,
+    "repairItems": null,
+    "requiredDexterityForUse": 1,
+    "requiredIntelligenceForCraft": 1,
+    "requiredIntelligenceForUse": 1,
+    "requiredStrengthForUse": 1,
+    "shootDistance": 0.0,
+    "shootPeriod": 30,
+    "stability": 0.0,
+    "staminaRestoration": 0.0,
+    "staminaRestorationFrames": 0,
+    "texture": "data/textures/items/blueprint.png",
+    "textureRect": {
+      "h": 18.0,
+      "w": 12.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "throwable": false,
+    "weight": 0.0
+  },
+  "Blueprint_MetalPlatinum": {
+    "blueprintResult": "Metal_Platinum",
+    "bodyPartAffectors": null,
+    "bookText": "",
+    "chemDmgReductionPercent": 0.0,
+    "class": "Blueprint",
+    "composeItems": null,
+    "consumable": "Unknown",
+    "damage": {
+      "class": "Unknown",
+      "count": 0.0,
+      "flags": 0
+    },
+    "decomposeItems": null,
+    "description": "blueprintMetalPlatinumDesc",
+    "durability": 1.0,
+    "elecDmgReductionPercent": 0.0,
+    "fireDmgReductionPercent": 0.0,
+    "hasPhysicalBody": false,
+    "heal": 0.0,
+    "healFrames": 0,
+    "isMelee": false,
+    "name": "blueprintMetalPlatinum",
+    "physDmgReductionPercent": 0.0,
+    "price": 15,
+    "rareness": 10,
+    "repairItems": null,
+    "requiredDexterityForUse": 1,
+    "requiredIntelligenceForCraft": 1,
+    "requiredIntelligenceForUse": 1,
+    "requiredStrengthForUse": 1,
+    "shootDistance": 0.0,
+    "shootPeriod": 30,
+    "stability": 0.0,
+    "staminaRestoration": 0.0,
+    "staminaRestorationFrames": 0,
+    "texture": "data/textures/items/blueprint.png",
+    "textureRect": {
+      "h": 18.0,
+      "w": 12.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "throwable": false,
+    "weight": 0.0
+  },
+  "Blueprint_MetalSilver": {
+    "blueprintResult": "Metal_Silver",
+    "bodyPartAffectors": null,
+    "bookText": "",
+    "chemDmgReductionPercent": 0.0,
+    "class": "Blueprint",
+    "composeItems": null,
+    "consumable": "Unknown",
+    "damage": {
+      "class": "Unknown",
+      "count": 0.0,
+      "flags": 0
+    },
+    "decomposeItems": null,
+    "description": "blueprintMetalSilverDesc",
+    "durability": 1.0,
+    "elecDmgReductionPercent": 0.0,
+    "fireDmgReductionPercent": 0.0,
+    "hasPhysicalBody": false,
+    "heal": 0.0,
+    "healFrames": 0,
+    "isMelee": false,
+    "name": "blueprintMetalSilver",
+    "physDmgReductionPercent": 0.0,
+    "price": 15,
+    "rareness": 10,
+    "repairItems": null,
+    "requiredDexterityForUse": 1,
+    "requiredIntelligenceForCraft": 1,
+    "requiredIntelligenceForUse": 1,
+    "requiredStrengthForUse": 1,
+    "shootDistance": 0.0,
+    "shootPeriod": 30,
+    "stability": 0.0,
+    "staminaRestoration": 0.0,
+    "staminaRestorationFrames": 0,
+    "texture": "data/textures/items/blueprint.png",
+    "textureRect": {
+      "h": 18.0,
+      "w": 12.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "throwable": false,
+    "weight": 0.0
+  },
+  "Blueprint_MetalTin": {
+    "blueprintResult": "Metal_Tin",
+    "bodyPartAffectors": null,
+    "bookText": "",
+    "chemDmgReductionPercent": 0.0,
+    "class": "Blueprint",
+    "composeItems": null,
+    "consumable": "Unknown",
+    "damage": {
+      "class": "Unknown",
+      "count": 0.0,
+      "flags": 0
+    },
+    "decomposeItems": null,
+    "description": "blueprintMetalTinDesc",
+    "durability": 1.0,
+    "elecDmgReductionPercent": 0.0,
+    "fireDmgReductionPercent": 0.0,
+    "hasPhysicalBody": false,
+    "heal": 0.0,
+    "healFrames": 0,
+    "isMelee": false,
+    "name": "blueprintMetalTin",
+    "physDmgReductionPercent": 0.0,
+    "price": 8,
+    "rareness": 10,
+    "repairItems": null,
+    "requiredDexterityForUse": 1,
+    "requiredIntelligenceForCraft": 1,
+    "requiredIntelligenceForUse": 1,
+    "requiredStrengthForUse": 1,
+    "shootDistance": 0.0,
+    "shootPeriod": 30,
+    "stability": 0.0,
+    "staminaRestoration": 0.0,
+    "staminaRestorationFrames": 0,
+    "texture": "data/textures/items/blueprint.png",
+    "textureRect": {
+      "h": 18.0,
+      "w": 12.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "throwable": false,
+    "weight": 0.0
+  },
+  "Blueprint_MetalTungsten": {
+    "blueprintResult": "Metal_Tungsten",
+    "bodyPartAffectors": null,
+    "bookText": "",
+    "chemDmgReductionPercent": 0.0,
+    "class": "Blueprint",
+    "composeItems": null,
+    "consumable": "Unknown",
+    "damage": {
+      "class": "Unknown",
+      "count": 0.0,
+      "flags": 0
+    },
+    "decomposeItems": null,
+    "description": "blueprintMetalTungstenDesc",
+    "durability": 1.0,
+    "elecDmgReductionPercent": 0.0,
+    "fireDmgReductionPercent": 0.0,
+    "hasPhysicalBody": false,
+    "heal": 0.0,
+    "healFrames": 0,
+    "isMelee": false,
+    "name": "blueprintMetalTungsten",
+    "physDmgReductionPercent": 0.0,
+    "price": 6,
+    "rareness": 10,
+    "repairItems": null,
+    "requiredDexterityForUse": 1,
+    "requiredIntelligenceForCraft": 1,
+    "requiredIntelligenceForUse": 1,
+    "requiredStrengthForUse": 1,
+    "shootDistance": 0.0,
+    "shootPeriod": 30,
+    "stability": 0.0,
+    "staminaRestoration": 0.0,
+    "staminaRestorationFrames": 0,
+    "texture": "data/textures/items/blueprint.png",
+    "textureRect": {
+      "h": 18.0,
+      "w": 12.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "throwable": false,
+    "weight": 0.0
+  },
+  "Blueprint_Pickaxe": {
+    "blueprintResult": "Weapon_Pickaxe",
+    "bodyPartAffectors": null,
+    "bookText": "",
+    "chemDmgReductionPercent": 0.0,
+    "class": "Blueprint",
+    "composeItems": null,
+    "consumable": "Unknown",
+    "damage": {
+      "class": "Unknown",
+      "count": 0.0,
+      "flags": 0
+    },
+    "decomposeItems": null,
+    "description": "blueprintPickaxeDesc",
+    "durability": 1.0,
+    "elecDmgReductionPercent": 0.0,
+    "fireDmgReductionPercent": 0.0,
+    "hasPhysicalBody": false,
+    "heal": 0.0,
+    "healFrames": 0,
+    "isMelee": false,
+    "name": "blueprintPickaxe",
+    "physDmgReductionPercent": 0.0,
+    "price": 13,
+    "rareness": 10,
+    "repairItems": null,
+    "requiredDexterityForUse": 1,
+    "requiredIntelligenceForCraft": 1,
+    "requiredIntelligenceForUse": 1,
+    "requiredStrengthForUse": 1,
+    "shootDistance": 0.0,
+    "shootPeriod": 30,
+    "stability": 0.0,
+    "staminaRestoration": 0.0,
+    "staminaRestorationFrames": 0,
+    "texture": "data/textures/items/blueprint.png",
+    "textureRect": {
+      "h": 18.0,
+      "w": 12.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "throwable": false,
+    "weight": 0.0
+  },
+  "Blueprint_PlasmaDrill": {
+    "blueprintResult": "Weapon_PlasmaDrill",
+    "bodyPartAffectors": null,
+    "bookText": "",
+    "chemDmgReductionPercent": 0.0,
+    "class": "Blueprint",
+    "composeItems": null,
+    "consumable": "Unknown",
+    "damage": {
+      "class": "Unknown",
+      "count": 0.0,
+      "flags": 0
+    },
+    "decomposeItems": null,
+    "description": "blueprintPlasmaDrillDesc",
+    "durability": 1.0,
+    "elecDmgReductionPercent": 0.0,
+    "fireDmgReductionPercent": 0.0,
+    "hasPhysicalBody": false,
+    "heal": 0.0,
+    "healFrames": 0,
+    "isMelee": false,
+    "name": "blueprintPlasmaDrill",
+    "physDmgReductionPercent": 0.0,
+    "price": 225,
+    "rareness": 10,
+    "repairItems": null,
+    "requiredDexterityForUse": 1,
+    "requiredIntelligenceForCraft": 1,
+    "requiredIntelligenceForUse": 1,
+    "requiredStrengthForUse": 1,
+    "shootDistance": 0.0,
+    "shootPeriod": 30,
+    "stability": 0.0,
+    "staminaRestoration": 0.0,
+    "staminaRestorationFrames": 0,
+    "texture": "data/textures/items/blueprint.png",
+    "textureRect": {
+      "h": 18.0,
+      "w": 12.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "throwable": false,
+    "weight": 0.0
+  },
+  "Blueprint_Rail": {
+    "blueprintResult": "Projectile_Rail",
+    "bodyPartAffectors": null,
+    "bookText": "",
+    "chemDmgReductionPercent": 0.0,
+    "class": "Blueprint",
+    "composeItems": null,
+    "consumable": "Unknown",
+    "damage": {
+      "class": "Unknown",
+      "count": 0.0,
+      "flags": 0
+    },
+    "decomposeItems": null,
+    "description": "blueprintRailDesc",
+    "durability": 1.0,
+    "elecDmgReductionPercent": 0.0,
+    "fireDmgReductionPercent": 0.0,
+    "hasPhysicalBody": false,
+    "heal": 0.0,
+    "healFrames": 0,
+    "isMelee": false,
+    "name": "blueprintRail",
+    "physDmgReductionPercent": 0.0,
+    "price": 200,
+    "rareness": 10,
+    "repairItems": null,
+    "requiredDexterityForUse": 1,
+    "requiredIntelligenceForCraft": 1,
+    "requiredIntelligenceForUse": 1,
+    "requiredStrengthForUse": 1,
+    "shootDistance": 0.0,
+    "shootPeriod": 30,
+    "stability": 0.0,
+    "staminaRestoration": 0.0,
+    "staminaRestorationFrames": 0,
+    "texture": "data/textures/items/blueprint.png",
+    "textureRect": {
+      "h": 18.0,
+      "w": 12.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "throwable": false,
+    "weight": 0.0
+  },
+  "Blueprint_Railgun": {
+    "blueprintResult": "Weapon_RailGun",
+    "bodyPartAffectors": null,
+    "bookText": "",
+    "chemDmgReductionPercent": 0.0,
+    "class": "Blueprint",
+    "composeItems": null,
+    "consumable": "Unknown",
+    "damage": {
+      "class": "Unknown",
+      "count": 0.0,
+      "flags": 0
+    },
+    "decomposeItems": null,
+    "description": "blueprintRailgunDesc",
+    "durability": 1.0,
+    "elecDmgReductionPercent": 0.0,
+    "fireDmgReductionPercent": 0.0,
+    "hasPhysicalBody": false,
+    "heal": 0.0,
+    "healFrames": 0,
+    "isMelee": false,
+    "name": "blueprintRailgun",
+    "physDmgReductionPercent": 0.0,
+    "price": 275,
+    "rareness": 10,
+    "repairItems": null,
+    "requiredDexterityForUse": 1,
+    "requiredIntelligenceForCraft": 1,
+    "requiredIntelligenceForUse": 1,
+    "requiredStrengthForUse": 1,
+    "shootDistance": 0.0,
+    "shootPeriod": 30,
+    "stability": 0.0,
+    "staminaRestoration": 0.0,
+    "staminaRestorationFrames": 0,
+    "texture": "data/textures/items/blueprint.png",
+    "textureRect": {
+      "h": 18.0,
+      "w": 12.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "throwable": false,
+    "weight": 0.0
+  },
+  "Blueprint_RevealGun": {
+    "blueprintResult": "Weapon_RevealGun",
+    "bodyPartAffectors": null,
+    "bookText": "",
+    "chemDmgReductionPercent": 0.0,
+    "class": "Blueprint",
+    "composeItems": null,
+    "consumable": "Unknown",
+    "damage": {
+      "class": "Unknown",
+      "count": 0.0,
+      "flags": 0
+    },
+    "decomposeItems": null,
+    "description": "blueprintRevealGunDesc",
+    "durability": 1.0,
+    "elecDmgReductionPercent": 0.0,
+    "fireDmgReductionPercent": 0.0,
+    "hasPhysicalBody": false,
+    "heal": 0.0,
+    "healFrames": 0,
+    "isMelee": false,
+    "name": "blueprintRevealGun",
+    "physDmgReductionPercent": 0.0,
+    "price": 70,
+    "rareness": 10,
+    "repairItems": null,
+    "requiredDexterityForUse": 1,
+    "requiredIntelligenceForCraft": 1,
+    "requiredIntelligenceForUse": 1,
+    "requiredStrengthForUse": 1,
+    "shootDistance": 0.0,
+    "shootPeriod": 30,
+    "stability": 0.0,
+    "staminaRestoration": 0.0,
+    "staminaRestorationFrames": 0,
+    "texture": "data/textures/items/blueprint.png",
+    "textureRect": {
+      "h": 18.0,
+      "w": 12.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "throwable": false,
+    "weight": 0.0
+  },
+  "Blueprint_Rocket": {
+    "blueprintResult": "Projectile_Rocket",
+    "bodyPartAffectors": null,
+    "bookText": "",
+    "chemDmgReductionPercent": 0.0,
+    "class": "Blueprint",
+    "composeItems": null,
+    "consumable": "Unknown",
+    "damage": {
+      "class": "Unknown",
+      "count": 0.0,
+      "flags": 0
+    },
+    "decomposeItems": null,
+    "description": "blueprintRocketDesc",
+    "durability": 1.0,
+    "elecDmgReductionPercent": 0.0,
+    "fireDmgReductionPercent": 0.0,
+    "hasPhysicalBody": false,
+    "heal": 0.0,
+    "healFrames": 0,
+    "isMelee": false,
+    "name": "blueprintRocket",
+    "physDmgReductionPercent": 0.0,
+    "price": 30,
+    "rareness": 10,
+    "repairItems": null,
+    "requiredDexterityForUse": 1,
+    "requiredIntelligenceForCraft": 1,
+    "requiredIntelligenceForUse": 1,
+    "requiredStrengthForUse": 1,
+    "shootDistance": 0.0,
+    "shootPeriod": 30,
+    "stability": 0.0,
+    "staminaRestoration": 0.0,
+    "staminaRestorationFrames": 0,
+    "texture": "data/textures/items/blueprint.png",
+    "textureRect": {
+      "h": 18.0,
+      "w": 12.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "throwable": false,
+    "weight": 0.0
+  },
+  "Blueprint_RocketLauncher": {
+    "blueprintResult": "Weapon_RocketLauncher",
+    "bodyPartAffectors": null,
+    "bookText": "",
+    "chemDmgReductionPercent": 0.0,
+    "class": "Blueprint",
+    "composeItems": null,
+    "consumable": "Unknown",
+    "damage": {
+      "class": "Unknown",
+      "count": 0.0,
+      "flags": 0
+    },
+    "decomposeItems": null,
+    "description": "blueprintRocketLauncherDesc",
+    "durability": 1.0,
+    "elecDmgReductionPercent": 0.0,
+    "fireDmgReductionPercent": 0.0,
+    "hasPhysicalBody": false,
+    "heal": 0.0,
+    "healFrames": 0,
+    "isMelee": false,
+    "name": "blueprintRocketLauncher",
+    "physDmgReductionPercent": 0.0,
+    "price": 105,
+    "rareness": 10,
+    "repairItems": null,
+    "requiredDexterityForUse": 1,
+    "requiredIntelligenceForCraft": 1,
+    "requiredIntelligenceForUse": 1,
+    "requiredStrengthForUse": 1,
+    "shootDistance": 0.0,
+    "shootPeriod": 30,
+    "stability": 0.0,
+    "staminaRestoration": 0.0,
+    "staminaRestorationFrames": 0,
+    "texture": "data/textures/items/blueprint.png",
+    "textureRect": {
+      "h": 18.0,
+      "w": 12.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "throwable": false,
+    "weight": 0.0
+  },
+  "Blueprint_Shells": {
+    "blueprintResult": "Projectile_Shells",
+    "bodyPartAffectors": null,
+    "bookText": "",
+    "chemDmgReductionPercent": 0.0,
+    "class": "Blueprint",
+    "composeItems": null,
+    "consumable": "Unknown",
+    "damage": {
+      "class": "Unknown",
+      "count": 0.0,
+      "flags": 0
+    },
+    "decomposeItems": null,
+    "description": "blueprintShellsDesc",
+    "durability": 1.0,
+    "elecDmgReductionPercent": 0.0,
+    "fireDmgReductionPercent": 0.0,
+    "hasPhysicalBody": false,
+    "heal": 0.0,
+    "healFrames": 0,
+    "isMelee": false,
+    "name": "blueprintShells",
+    "physDmgReductionPercent": 0.0,
+    "price": 17,
+    "rareness": 10,
+    "repairItems": null,
+    "requiredDexterityForUse": 1,
+    "requiredIntelligenceForCraft": 1,
+    "requiredIntelligenceForUse": 1,
+    "requiredStrengthForUse": 1,
+    "shootDistance": 0.0,
+    "shootPeriod": 30,
+    "stability": 0.0,
+    "staminaRestoration": 0.0,
+    "staminaRestorationFrames": 0,
+    "texture": "data/textures/items/blueprint.png",
+    "textureRect": {
+      "h": 18.0,
+      "w": 12.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "throwable": false,
+    "weight": 0.0
+  },
+  "Blueprint_Shotgun": {
+    "blueprintResult": "Weapon_Shotgun",
+    "bodyPartAffectors": null,
+    "bookText": "",
+    "chemDmgReductionPercent": 0.0,
+    "class": "Blueprint",
+    "composeItems": null,
+    "consumable": "Unknown",
+    "damage": {
+      "class": "Unknown",
+      "count": 0.0,
+      "flags": 0
+    },
+    "decomposeItems": null,
+    "description": "blueprintShotgunDesc",
+    "durability": 1.0,
+    "elecDmgReductionPercent": 0.0,
+    "fireDmgReductionPercent": 0.0,
+    "hasPhysicalBody": false,
+    "heal": 0.0,
+    "healFrames": 0,
+    "isMelee": false,
+    "name": "blueprintShotgun",
+    "physDmgReductionPercent": 0.0,
+    "price": 60,
+    "rareness": 10,
+    "repairItems": null,
+    "requiredDexterityForUse": 1,
+    "requiredIntelligenceForCraft": 1,
+    "requiredIntelligenceForUse": 1,
+    "requiredStrengthForUse": 1,
+    "shootDistance": 0.0,
+    "shootPeriod": 30,
+    "stability": 0.0,
+    "staminaRestoration": 0.0,
+    "staminaRestorationFrames": 0,
+    "texture": "data/textures/items/blueprint.png",
+    "textureRect": {
+      "h": 18.0,
+      "w": 12.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "throwable": false,
+    "weight": 0.0
+  },
+  "Book_DiscoveryOfArkalith": {
+    "blueprintResult": "Unknown",
+    "bodyPartAffectors": null,
+    "bookText": "bookDiscoveryOfArkalithText",
+    "chemDmgReductionPercent": 0.0,
+    "class": "Book",
+    "composeItems": null,
+    "consumable": "Unknown",
+    "damage": {
+      "class": "Unknown",
+      "count": 0.0,
+      "flags": 0
+    },
+    "decomposeItems": null,
+    "description": "bookDiscoveryOfArkalithDesc",
+    "durability": 1.0,
+    "elecDmgReductionPercent": 0.0,
+    "fireDmgReductionPercent": 0.0,
+    "hasPhysicalBody": false,
+    "heal": 0.0,
+    "healFrames": 0,
+    "isMelee": false,
+    "name": "bookDiscoveryOfArkalith",
+    "physDmgReductionPercent": 0.0,
+    "price": 30,
+    "rareness": 10,
+    "repairItems": null,
+    "requiredDexterityForUse": 1,
+    "requiredIntelligenceForCraft": 1,
+    "requiredIntelligenceForUse": 1,
+    "requiredStrengthForUse": 1,
+    "shootDistance": 0.0,
+    "shootPeriod": 30,
+    "stability": 0.0,
+    "staminaRestoration": 0.0,
+    "staminaRestorationFrames": 0,
+    "texture": "data/textures/items/blueprint.png",
+    "textureRect": {
+      "h": 18.0,
+      "w": 12.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "throwable": false,
+    "weight": 1.0
+  },
+  "Book_EpochBeforeArkalith": {
+    "blueprintResult": "Unknown",
+    "bodyPartAffectors": null,
+    "bookText": "bookEpochBeforeArkalithText",
+    "chemDmgReductionPercent": 0.0,
+    "class": "Book",
+    "composeItems": null,
+    "consumable": "Unknown",
+    "damage": {
+      "class": "Unknown",
+      "count": 0.0,
+      "flags": 0
+    },
+    "decomposeItems": null,
+    "description": "bookEpochBeforeArkalithDesc",
+    "durability": 1.0,
+    "elecDmgReductionPercent": 0.0,
+    "fireDmgReductionPercent": 0.0,
+    "hasPhysicalBody": false,
+    "heal": 0.0,
+    "healFrames": 0,
+    "isMelee": false,
+    "name": "bookEpochBeforeArkalith",
+    "physDmgReductionPercent": 0.0,
+    "price": 35,
+    "rareness": 10,
+    "repairItems": null,
+    "requiredDexterityForUse": 1,
+    "requiredIntelligenceForCraft": 1,
+    "requiredIntelligenceForUse": 1,
+    "requiredStrengthForUse": 1,
+    "shootDistance": 0.0,
+    "shootPeriod": 30,
+    "stability": 0.0,
+    "staminaRestoration": 0.0,
+    "staminaRestorationFrames": 0,
+    "texture": "data/textures/items/blueprint.png",
+    "textureRect": {
+      "h": 18.0,
+      "w": 12.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "throwable": false,
+    "weight": 1.0
+  },
+  "Book_Seasons": {
+    "blueprintResult": "Unknown",
+    "bodyPartAffectors": null,
+    "bookText": "bookSeasonsText",
+    "chemDmgReductionPercent": 0.0,
+    "class": "Book",
+    "composeItems": null,
+    "consumable": "Unknown",
+    "damage": {
+      "class": "Unknown",
+      "count": 0.0,
+      "flags": 0
+    },
+    "decomposeItems": null,
+    "description": "bookSeasonsDesc",
+    "durability": 1.0,
+    "elecDmgReductionPercent": 0.0,
+    "fireDmgReductionPercent": 0.0,
+    "hasPhysicalBody": false,
+    "heal": 0.0,
+    "healFrames": 0,
+    "isMelee": false,
+    "name": "bookSeasons",
+    "physDmgReductionPercent": 0.0,
+    "price": 20,
+    "rareness": 10,
+    "repairItems": null,
+    "requiredDexterityForUse": 1,
+    "requiredIntelligenceForCraft": 1,
+    "requiredIntelligenceForUse": 1,
+    "requiredStrengthForUse": 1,
+    "shootDistance": 0.0,
+    "shootPeriod": 30,
+    "stability": 0.0,
+    "staminaRestoration": 0.0,
+    "staminaRestorationFrames": 0,
+    "texture": "data/textures/items/blueprint.png",
+    "textureRect": {
+      "h": 18.0,
+      "w": 12.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "throwable": false,
+    "weight": 1.0
+  },
+  "Crystal_Homeward": {
+    "blueprintResult": "Unknown",
+    "bodyPartAffectors": null,
+    "bookText": "",
+    "chemDmgReductionPercent": 0.0,
+    "class": "Crystal",
+    "composeItems": null,
+    "consumable": "Unknown",
+    "damage": {
+      "class": "Unknown",
+      "count": 0.0,
+      "flags": 0
+    },
+    "decomposeItems": null,
+    "description": "crystalHomewardDesc",
+    "durability": 40.0,
+    "elecDmgReductionPercent": 0.0,
+    "fireDmgReductionPercent": 0.0,
+    "hasPhysicalBody": false,
+    "heal": 0.0,
+    "healFrames": 0,
+    "isMelee": false,
+    "name": "crystalHomeward",
+    "physDmgReductionPercent": 0.0,
+    "price": 120,
+    "rareness": 30,
+    "repairItems": null,
+    "requiredDexterityForUse": 1,
+    "requiredIntelligenceForCraft": 1,
+    "requiredIntelligenceForUse": 1,
+    "requiredStrengthForUse": 1,
+    "shootDistance": 0.0,
+    "shootPeriod": 30,
+    "stability": 0.0,
+    "staminaRestoration": 0.0,
+    "staminaRestorationFrames": 0,
+    "texture": "data/textures/items/crystal_homeward.png",
+    "textureRect": {
+      "h": 7.0,
+      "w": 5.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "throwable": false,
+    "weight": 0.05000000074505806
+  },
+  "Crystal_Polycrystal": {
+    "blueprintResult": "Unknown",
+    "bodyPartAffectors": null,
+    "bookText": "",
+    "chemDmgReductionPercent": 0.0,
+    "class": "Crystal",
+    "composeItems": null,
+    "consumable": "Unknown",
+    "damage": {
+      "class": "Unknown",
+      "count": 0.0,
+      "flags": 0
+    },
+    "decomposeItems": null,
+    "description": "crystalPolycrystalDesc",
+    "durability": 40.0,
+    "elecDmgReductionPercent": 0.0,
+    "fireDmgReductionPercent": 0.0,
+    "hasPhysicalBody": false,
+    "heal": 0.0,
+    "healFrames": 0,
+    "isMelee": false,
+    "name": "crystalPolycrystal",
+    "physDmgReductionPercent": 0.0,
+    "price": 112,
+    "rareness": 50,
+    "repairItems": null,
+    "requiredDexterityForUse": 1,
+    "requiredIntelligenceForCraft": 1,
+    "requiredIntelligenceForUse": 1,
+    "requiredStrengthForUse": 1,
+    "shootDistance": 0.0,
+    "shootPeriod": 30,
+    "stability": 0.0,
+    "staminaRestoration": 0.0,
+    "staminaRestorationFrames": 0,
+    "texture": "data/textures/items/crystal_polycrystal.png",
+    "textureRect": {
+      "h": 9.0,
+      "w": 9.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "throwable": false,
+    "weight": 0.5
+  },
+  "Crystal_RareRed": {
+    "blueprintResult": "Unknown",
+    "bodyPartAffectors": null,
+    "bookText": "",
+    "chemDmgReductionPercent": 0.0,
+    "class": "Crystal",
+    "composeItems": null,
+    "consumable": "Unknown",
+    "damage": {
+      "class": "Unknown",
+      "count": 0.0,
+      "flags": 0
+    },
+    "decomposeItems": null,
+    "description": "crystalRareRedDesc",
+    "durability": 40.0,
+    "elecDmgReductionPercent": 0.0,
+    "fireDmgReductionPercent": 0.0,
+    "hasPhysicalBody": false,
+    "heal": 0.0,
+    "healFrames": 0,
+    "isMelee": false,
+    "name": "crystalRareRed",
+    "physDmgReductionPercent": 0.0,
+    "price": 650,
+    "rareness": 98,
+    "repairItems": null,
+    "requiredDexterityForUse": 1,
+    "requiredIntelligenceForCraft": 1,
+    "requiredIntelligenceForUse": 1,
+    "requiredStrengthForUse": 1,
+    "shootDistance": 0.0,
+    "shootPeriod": 30,
+    "stability": 0.0,
+    "staminaRestoration": 0.0,
+    "staminaRestorationFrames": 0,
+    "texture": "data/textures/items/crystal_rarered.png",
+    "textureRect": {
+      "h": 7.0,
+      "w": 5.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "throwable": false,
+    "weight": 0.75
+  },
+  "Crystal_SmallPower": {
+    "blueprintResult": "Unknown",
+    "bodyPartAffectors": null,
+    "bookText": "",
+    "chemDmgReductionPercent": 0.0,
+    "class": "Crystal",
+    "composeItems": null,
+    "consumable": "Unknown",
+    "damage": {
+      "class": "Unknown",
+      "count": 0.0,
+      "flags": 0
+    },
+    "decomposeItems": null,
+    "description": "crystalSmallPowerDesc",
+    "durability": 40.0,
+    "elecDmgReductionPercent": 0.0,
+    "fireDmgReductionPercent": 0.0,
+    "hasPhysicalBody": false,
+    "heal": 0.0,
+    "healFrames": 0,
+    "isMelee": false,
+    "name": "crystalSmallPower",
+    "physDmgReductionPercent": 0.0,
+    "price": 50,
+    "rareness": 10,
+    "repairItems": null,
+    "requiredDexterityForUse": 1,
+    "requiredIntelligenceForCraft": 1,
+    "requiredIntelligenceForUse": 1,
+    "requiredStrengthForUse": 1,
+    "shootDistance": 0.0,
+    "shootPeriod": 30,
+    "stability": 0.0,
+    "staminaRestoration": 0.0,
+    "staminaRestorationFrames": 0,
+    "texture": "data/textures/items/crystal_smallpower.png",
+    "textureRect": {
+      "h": 7.0,
+      "w": 5.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "throwable": false,
+    "weight": 0.12999999523162842
+  },
+  "Gloves_LeatherGloves": {
+    "blueprintResult": "Unknown",
+    "bodyPartAffectors": {
+      "LeftLowerArm": {
+        "rect": {
+          "h": 1.0,
+          "w": 1.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        "texture": "data/textures/body_parts/lowerarm_leather.png"
+      },
+      "LeftUpperArm": {
+        "rect": {
+          "h": 1.0,
+          "w": 1.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        "texture": "data/textures/body_parts/upperarm_leather.png"
+      },
+      "RightLowerArm": {
+        "rect": {
+          "h": 1.0,
+          "w": 1.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        "texture": "data/textures/body_parts/lowerarm_leather.png"
+      },
+      "RightUpperArm": {
+        "rect": {
+          "h": 1.0,
+          "w": 1.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        "texture": "data/textures/body_parts/upperarm_leather.png"
+      }
+    },
+    "bookText": "",
+    "chemDmgReductionPercent": 3.0,
+    "class": "Gloves",
+    "composeItems": {
+      "Ingredient_Fabric": 1,
+      "Ingredient_Leather": 2,
+      "Metal_Iron": 1
+    },
+    "consumable": "Unknown",
+    "damage": {
+      "class": "Unknown",
+      "count": 0.0,
+      "flags": 0
+    },
+    "decomposeItems": {
+      "Ingredient_Leather": 1,
+      "Rubbish": 1
+    },
+    "description": "glovesLeatherDesc",
+    "durability": 200.0,
+    "elecDmgReductionPercent": 6.5,
+    "fireDmgReductionPercent": 5.0,
+    "hasPhysicalBody": false,
+    "heal": 0.0,
+    "healFrames": 0,
+    "isMelee": false,
+    "name": "glovesLeather",
+    "physDmgReductionPercent": 4.5,
+    "price": 143,
+    "rareness": 10,
+    "repairItems": {
+      "High": {
+        "Ingredient_Fabric": 1
+      },
+      "Low": {
+        "Ingredient_Leather": 1
+      },
+      "Medium": {
+        "Metal_Iron": 1
+      }
+    },
+    "requiredDexterityForUse": 1,
+    "requiredIntelligenceForCraft": 1,
+    "requiredIntelligenceForUse": 3,
+    "requiredStrengthForUse": 1,
+    "shootDistance": 0.0,
+    "shootPeriod": 30,
+    "stability": 0.0,
+    "staminaRestoration": 0.0,
+    "staminaRestorationFrames": 0,
+    "texture": "data/textures/items/armor_set.png",
+    "textureRect": {
+      "h": 64.0,
+      "w": 64.0,
+      "x": 128.0,
+      "y": 128.0
+    },
+    "throwable": false,
+    "weight": 1.25
+  },
+  "Gloves_LightLeatherGloves": {
+    "blueprintResult": "Unknown",
+    "bodyPartAffectors": {
+      "LeftLowerArm": {
+        "rect": {
+          "h": 1.0,
+          "w": 1.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        "texture": "data/textures/body_parts/lowerarm_light_leather.png"
+      },
+      "LeftUpperArm": {
+        "rect": {
+          "h": 1.0,
+          "w": 1.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        "texture": "data/textures/body_parts/upperarm_light_leather.png"
+      },
+      "RightLowerArm": {
+        "rect": {
+          "h": 1.0,
+          "w": 1.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        "texture": "data/textures/body_parts/lowerarm_light_leather.png"
+      },
+      "RightUpperArm": {
+        "rect": {
+          "h": 1.0,
+          "w": 1.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        "texture": "data/textures/body_parts/upperarm_light_leather.png"
+      }
+    },
+    "bookText": "",
+    "chemDmgReductionPercent": 2.5,
+    "class": "Gloves",
+    "composeItems": {
+      "Ingredient_Fabric": 1,
+      "Ingredient_Leather": 2
+    },
+    "consumable": "Unknown",
+    "damage": {
+      "class": "Unknown",
+      "count": 0.0,
+      "flags": 0
+    },
+    "decomposeItems": {
+      "Ingredient_Leather": 1,
+      "Rubbish": 1
+    },
+    "description": "glovesLightLeatherDesc",
+    "durability": 80.0,
+    "elecDmgReductionPercent": 6.0,
+    "fireDmgReductionPercent": 4.5,
+    "hasPhysicalBody": false,
+    "heal": 0.0,
+    "healFrames": 0,
+    "isMelee": false,
+    "name": "glovesLightLeather",
+    "physDmgReductionPercent": 4.0,
+    "price": 75,
+    "rareness": 10,
+    "repairItems": {
+      "High": {
+        "Ingredient_Fabric": 1
+      },
+      "Low": {
+        "Ingredient_Leather": 1
+      },
+      "Medium": {
+        "Ingredient_Leather": 1
+      }
+    },
+    "requiredDexterityForUse": 1,
+    "requiredIntelligenceForCraft": 1,
+    "requiredIntelligenceForUse": 3,
+    "requiredStrengthForUse": 1,
+    "shootDistance": 0.0,
+    "shootPeriod": 30,
+    "stability": 0.0,
+    "staminaRestoration": 0.0,
+    "staminaRestorationFrames": 0,
+    "texture": "data/textures/items/armor_set.png",
+    "textureRect": {
+      "h": 64.0,
+      "w": 64.0,
+      "x": 128.0,
+      "y": 128.0
+    },
+    "throwable": false,
+    "weight": 0.75
+  },
+  "Gloves_SteelGloves": {
+    "blueprintResult": "Unknown",
+    "bodyPartAffectors": {
+      "LeftLowerArm": {
+        "rect": {
+          "h": 1.0,
+          "w": 1.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        "texture": "data/textures/body_parts/lowerarm_steel.png"
+      },
+      "LeftUpperArm": {
+        "rect": {
+          "h": 1.0,
+          "w": 1.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        "texture": "data/textures/body_parts/upperarm_steel.png"
+      },
+      "RightLowerArm": {
+        "rect": {
+          "h": 1.0,
+          "w": 1.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        "texture": "data/textures/body_parts/lowerarm_steel.png"
+      },
+      "RightUpperArm": {
+        "rect": {
+          "h": 1.0,
+          "w": 1.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        "texture": "data/textures/body_parts/upperarm_steel.png"
+      }
+    },
+    "bookText": "",
+    "chemDmgReductionPercent": 2.0,
+    "class": "Gloves",
+    "composeItems": {
+      "Ingredient_Fabric": 1,
+      "Metal_Iron": 2
+    },
+    "consumable": "Unknown",
+    "damage": {
+      "class": "Unknown",
+      "count": 0.0,
+      "flags": 0
+    },
+    "decomposeItems": {
+      "Metal_Iron": 1,
+      "Rubbish": 1
+    },
+    "description": "glovesSteelDesc",
+    "durability": 250.0,
+    "elecDmgReductionPercent": 1.0,
+    "fireDmgReductionPercent": 3.0,
+    "hasPhysicalBody": false,
+    "heal": 0.0,
+    "healFrames": 0,
+    "isMelee": false,
+    "name": "glovesSteel",
+    "physDmgReductionPercent": 6.0,
+    "price": 236,
+    "rareness": 10,
+    "repairItems": {
+      "High": {
+        "Ingredient_Fabric": 1
+      },
+      "Low": {
+        "Metal_Iron": 1
+      },
+      "Medium": {
+        "Metal_Iron": 1
+      }
+    },
+    "requiredDexterityForUse": 1,
+    "requiredIntelligenceForCraft": 1,
+    "requiredIntelligenceForUse": 4,
+    "requiredStrengthForUse": 1,
+    "shootDistance": 0.0,
+    "shootPeriod": 30,
+    "stability": 0.0,
+    "staminaRestoration": 0.0,
+    "staminaRestorationFrames": 0,
+    "texture": "data/textures/items/armor_set.png",
+    "textureRect": {
+      "h": 64.0,
+      "w": 64.0,
+      "x": 128.0,
+      "y": 128.0
+    },
+    "throwable": false,
+    "weight": 2.25
+  },
+  "Helmet_IronHelmet": {
+    "blueprintResult": "Unknown",
+    "bodyPartAffectors": {
+      "Hair": {
+        "rect": {
+          "h": 1.0,
+          "w": 1.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        "texture": "data/textures/body_parts/helmet_steel.png"
+      }
+    },
+    "bookText": "",
+    "chemDmgReductionPercent": 10.0,
+    "class": "Helmet",
+    "composeItems": {
+      "Ingredient_Fabric": 1,
+      "Metal_Iron": 2
+    },
+    "consumable": "Unknown",
+    "damage": {
+      "class": "Unknown",
+      "count": 0.0,
+      "flags": 0
+    },
+    "decomposeItems": {
+      "Metal_Iron": 1,
+      "Rubbish": 1
+    },
+    "description": "helmetIronDesc",
+    "durability": 120.0,
+    "elecDmgReductionPercent": 0.10000000149011612,
+    "fireDmgReductionPercent": 4.5,
+    "hasPhysicalBody": false,
+    "heal": 0.0,
+    "healFrames": 0,
+    "isMelee": false,
+    "name": "helmetIron",
+    "physDmgReductionPercent": 3.5,
+    "price": 55,
+    "rareness": 10,
+    "repairItems": {
+      "High": {
+        "Ingredient_Fabric": 1
+      },
+      "Low": {
+        "Metal_Iron": 1
+      },
+      "Medium": {
+        "Metal_Iron": 1
+      }
+    },
+    "requiredDexterityForUse": 1,
+    "requiredIntelligenceForCraft": 1,
+    "requiredIntelligenceForUse": 1,
+    "requiredStrengthForUse": 1,
+    "shootDistance": 0.0,
+    "shootPeriod": 30,
+    "stability": 0.0,
+    "staminaRestoration": 0.0,
+    "staminaRestorationFrames": 0,
+    "texture": "data/textures/items/armor_set.png",
+    "textureRect": {
+      "h": 64.0,
+      "w": 64.0,
+      "x": 0.0,
+      "y": 256.0
+    },
+    "throwable": false,
+    "weight": 1.4500000476837158
+  },
+  "Helmet_SteelHelmet": {
+    "blueprintResult": "Unknown",
+    "bodyPartAffectors": {
+      "Hair": {
+        "rect": {
+          "h": 1.0,
+          "w": 1.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        "texture": "data/textures/body_parts/helmet_steel.png"
+      }
+    },
+    "bookText": "",
+    "chemDmgReductionPercent": 1.5,
+    "class": "Helmet",
+    "composeItems": {
+      "Ingredient_Fabric": 3,
+      "Metal_Iron": 3
+    },
+    "consumable": "Unknown",
+    "damage": {
+      "class": "Unknown",
+      "count": 0.0,
+      "flags": 0
+    },
+    "decomposeItems": {
+      "Metal_Iron": 1,
+      "Rubbish": 1
+    },
+    "description": "helmetSteelDesc",
+    "durability": 240.0,
+    "elecDmgReductionPercent": 1.0,
+    "fireDmgReductionPercent": 3.5,
+    "hasPhysicalBody": false,
+    "heal": 0.0,
+    "healFrames": 0,
+    "isMelee": false,
+    "name": "helmetSteel",
+    "physDmgReductionPercent": 5.0,
+    "price": 95,
+    "rareness": 10,
+    "repairItems": {
+      "High": {
+        "Metal_Iron": 1
+      },
+      "Low": {
+        "Metal_Iron": 1
+      },
+      "Medium": {
+        "Metal_Iron": 1
+      }
+    },
+    "requiredDexterityForUse": 1,
+    "requiredIntelligenceForCraft": 1,
+    "requiredIntelligenceForUse": 1,
+    "requiredStrengthForUse": 1,
+    "shootDistance": 0.0,
+    "shootPeriod": 30,
+    "stability": 0.0,
+    "staminaRestoration": 0.0,
+    "staminaRestorationFrames": 0,
+    "texture": "data/textures/items/armor_set.png",
+    "textureRect": {
+      "h": 64.0,
+      "w": 64.0,
+      "x": 0.0,
+      "y": 256.0
+    },
+    "throwable": false,
+    "weight": 1.75
+  },
+  "Ingredient_Fabric": {
+    "blueprintResult": "Unknown",
+    "bodyPartAffectors": null,
+    "bookText": "",
+    "chemDmgReductionPercent": 0.0,
+    "class": "Ingredient",
+    "composeItems": null,
+    "consumable": "Unknown",
+    "damage": {
+      "class": "Unknown",
+      "count": 0.0,
+      "flags": 0
+    },
+    "decomposeItems": null,
+    "description": "ingredientFabricDesc",
+    "durability": 1.0,
+    "elecDmgReductionPercent": 0.0,
+    "fireDmgReductionPercent": 0.0,
+    "hasPhysicalBody": false,
+    "heal": 0.0,
+    "healFrames": 0,
+    "isMelee": false,
+    "name": "ingredientFabric",
+    "physDmgReductionPercent": 0.0,
+    "price": 15,
+    "rareness": 10,
+    "repairItems": null,
+    "requiredDexterityForUse": 1,
+    "requiredIntelligenceForCraft": 1,
+    "requiredIntelligenceForUse": 1,
+    "requiredStrengthForUse": 1,
+    "shootDistance": 0.0,
+    "shootPeriod": 30,
+    "stability": 0.0,
+    "staminaRestoration": 0.0,
+    "staminaRestorationFrames": 0,
+    "texture": "data/textures/items/fabric.png",
+    "textureRect": {
+      "h": 13.0,
+      "w": 11.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "throwable": false,
+    "weight": 2.0
+  },
+  "Ingredient_Fur": {
+    "blueprintResult": "Unknown",
+    "bodyPartAffectors": null,
+    "bookText": "",
+    "chemDmgReductionPercent": 0.0,
+    "class": "Ingredient",
+    "composeItems": null,
+    "consumable": "Unknown",
+    "damage": {
+      "class": "Unknown",
+      "count": 0.0,
+      "flags": 0
+    },
+    "decomposeItems": null,
+    "description": "ingredientFurDesc",
+    "durability": 1.0,
+    "elecDmgReductionPercent": 0.0,
+    "fireDmgReductionPercent": 0.0,
+    "hasPhysicalBody": false,
+    "heal": 0.0,
+    "healFrames": 0,
+    "isMelee": false,
+    "name": "ingredientFur",
+    "physDmgReductionPercent": 0.0,
+    "price": 50,
+    "rareness": 10,
+    "repairItems": null,
+    "requiredDexterityForUse": 1,
+    "requiredIntelligenceForCraft": 1,
+    "requiredIntelligenceForUse": 1,
+    "requiredStrengthForUse": 1,
+    "shootDistance": 0.0,
+    "shootPeriod": 30,
+    "stability": 0.0,
+    "staminaRestoration": 0.0,
+    "staminaRestorationFrames": 0,
+    "texture": "data/textures/items/fur.png",
+    "textureRect": {
+      "h": 7.0,
+      "w": 19.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "throwable": false,
+    "weight": 0.5
+  },
+  "Ingredient_GunPowder": {
+    "blueprintResult": "Unknown",
+    "bodyPartAffectors": null,
+    "bookText": "",
+    "chemDmgReductionPercent": 0.0,
+    "class": "Ingredient",
+    "composeItems": null,
+    "consumable": "Unknown",
+    "damage": {
+      "class": "Unknown",
+      "count": 0.0,
+      "flags": 0
+    },
+    "decomposeItems": null,
+    "description": "ingredientGunPowderDesc",
+    "durability": 1.0,
+    "elecDmgReductionPercent": 0.0,
+    "fireDmgReductionPercent": 0.0,
+    "hasPhysicalBody": false,
+    "heal": 0.0,
+    "healFrames": 0,
+    "isMelee": false,
+    "name": "ingredientGunPowder",
+    "physDmgReductionPercent": 0.0,
+    "price": 6,
+    "rareness": 10,
+    "repairItems": null,
+    "requiredDexterityForUse": 1,
+    "requiredIntelligenceForCraft": 1,
+    "requiredIntelligenceForUse": 1,
+    "requiredStrengthForUse": 1,
+    "shootDistance": 0.0,
+    "shootPeriod": 30,
+    "stability": 0.0,
+    "staminaRestoration": 0.0,
+    "staminaRestorationFrames": 0,
+    "texture": "data/textures/items/gunpowder.png",
+    "textureRect": {
+      "h": 10.0,
+      "w": 6.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "throwable": false,
+    "weight": 0.10000000149011612
+  },
+  "Ingredient_Leather": {
+    "blueprintResult": "Unknown",
+    "bodyPartAffectors": null,
+    "bookText": "",
+    "chemDmgReductionPercent": 0.0,
+    "class": "Ingredient",
+    "composeItems": null,
+    "consumable": "Unknown",
+    "damage": {
+      "class": "Unknown",
+      "count": 0.0,
+      "flags": 0
+    },
+    "decomposeItems": null,
+    "description": "ingredientLeatherDesc",
+    "durability": 1.0,
+    "elecDmgReductionPercent": 0.0,
+    "fireDmgReductionPercent": 0.0,
+    "hasPhysicalBody": false,
+    "heal": 0.0,
+    "healFrames": 0,
+    "isMelee": false,
+    "name": "ingredientLeather",
+    "physDmgReductionPercent": 0.0,
+    "price": 35,
+    "rareness": 10,
+    "repairItems": null,
+    "requiredDexterityForUse": 1,
+    "requiredIntelligenceForCraft": 1,
+    "requiredIntelligenceForUse": 1,
+    "requiredStrengthForUse": 1,
+    "shootDistance": 0.0,
+    "shootPeriod": 30,
+    "stability": 0.0,
+    "staminaRestoration": 0.0,
+    "staminaRestorationFrames": 0,
+    "texture": "data/textures/items/leather.png",
+    "textureRect": {
+      "h": 11.0,
+      "w": 5.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "throwable": false,
+    "weight": 1.0
+  },
+  "Ingredient_Wood": {
+    "blueprintResult": "Unknown",
+    "bodyPartAffectors": null,
+    "bookText": "",
+    "chemDmgReductionPercent": 0.0,
+    "class": "Ingredient",
+    "composeItems": null,
+    "consumable": "Unknown",
+    "damage": {
+      "class": "Unknown",
+      "count": 0.0,
+      "flags": 0
+    },
+    "decomposeItems": null,
+    "description": "ingredientWoodDesc",
+    "durability": 1.0,
+    "elecDmgReductionPercent": 0.0,
+    "fireDmgReductionPercent": 0.0,
+    "hasPhysicalBody": false,
+    "heal": 0.0,
+    "healFrames": 0,
+    "isMelee": false,
+    "name": "ingredientWood",
+    "physDmgReductionPercent": 0.0,
+    "price": 5,
+    "rareness": 10,
+    "repairItems": null,
+    "requiredDexterityForUse": 1,
+    "requiredIntelligenceForCraft": 1,
+    "requiredIntelligenceForUse": 1,
+    "requiredStrengthForUse": 1,
+    "shootDistance": 0.0,
+    "shootPeriod": 30,
+    "stability": 0.0,
+    "staminaRestoration": 0.0,
+    "staminaRestorationFrames": 0,
+    "texture": "data/textures/items/wood.png",
+    "textureRect": {
+      "h": 6.0,
+      "w": 20.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "throwable": false,
+    "weight": 1.0
+  },
+  "Key_Rusty": {
+    "blueprintResult": "Unknown",
+    "bodyPartAffectors": null,
+    "bookText": "",
+    "chemDmgReductionPercent": 0.0,
+    "class": "Key",
+    "composeItems": null,
+    "consumable": "Unknown",
+    "damage": {
+      "class": "Unknown",
+      "count": 0.0,
+      "flags": 0
+    },
+    "decomposeItems": null,
+    "description": "keyRustyDesc",
+    "durability": 1.0,
+    "elecDmgReductionPercent": 0.0,
+    "fireDmgReductionPercent": 0.0,
+    "hasPhysicalBody": false,
+    "heal": 0.0,
+    "healFrames": 0,
+    "isMelee": false,
+    "name": "keyRusty",
+    "physDmgReductionPercent": 0.0,
+    "price": 0,
+    "rareness": 10,
+    "repairItems": null,
+    "requiredDexterityForUse": 1,
+    "requiredIntelligenceForCraft": 1,
+    "requiredIntelligenceForUse": 1,
+    "requiredStrengthForUse": 1,
+    "shootDistance": 0.0,
+    "shootPeriod": 30,
+    "stability": 0.0,
+    "staminaRestoration": 0.0,
+    "staminaRestorationFrames": 0,
+    "texture": "data/textures/items/keyrusty.png",
+    "textureRect": {
+      "h": 5.0,
+      "w": 10.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "throwable": false,
+    "weight": 1.0
+  },
+  "Metal_Copper": {
+    "blueprintResult": "Unknown",
+    "bodyPartAffectors": null,
+    "bookText": "",
+    "chemDmgReductionPercent": 0.0,
+    "class": "Metal",
+    "composeItems": {
+      "Ore_Copper": 1
+    },
+    "consumable": "Unknown",
+    "damage": {
+      "class": "Unknown",
+      "count": 0.0,
+      "flags": 0
+    },
+    "decomposeItems": null,
+    "description": "itemCopperIngotDesc",
+    "durability": 1.0,
+    "elecDmgReductionPercent": 0.0,
+    "fireDmgReductionPercent": 0.0,
+    "hasPhysicalBody": false,
+    "heal": 0.0,
+    "healFrames": 0,
+    "isMelee": false,
+    "name": "itemCopperIngot",
+    "physDmgReductionPercent": 0.0,
+    "price": 65,
+    "rareness": 20,
+    "repairItems": null,
+    "requiredDexterityForUse": 1,
+    "requiredIntelligenceForCraft": 1,
+    "requiredIntelligenceForUse": 1,
+    "requiredStrengthForUse": 1,
+    "shootDistance": 0.0,
+    "shootPeriod": 30,
+    "stability": 0.0,
+    "staminaRestoration": 0.0,
+    "staminaRestorationFrames": 0,
+    "texture": "data/textures/items/ingot_copper.png",
+    "textureRect": {
+      "h": 7.0,
+      "w": 21.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "throwable": false,
+    "weight": 1.0
+  },
+  "Metal_Gold": {
+    "blueprintResult": "Unknown",
+    "bodyPartAffectors": null,
+    "bookText": "",
+    "chemDmgReductionPercent": 0.0,
+    "class": "Metal",
+    "composeItems": {
+      "Ore_Gold": 2
+    },
+    "consumable": "Unknown",
+    "damage": {
+      "class": "Unknown",
+      "count": 0.0,
+      "flags": 0
+    },
+    "decomposeItems": null,
+    "description": "itemGoldIngotDesc",
+    "durability": 1.0,
+    "elecDmgReductionPercent": 0.0,
+    "fireDmgReductionPercent": 0.0,
+    "hasPhysicalBody": false,
+    "heal": 0.0,
+    "healFrames": 0,
+    "isMelee": false,
+    "name": "itemGoldIngot",
+    "physDmgReductionPercent": 0.0,
+    "price": 320,
+    "rareness": 80,
+    "repairItems": null,
+    "requiredDexterityForUse": 1,
+    "requiredIntelligenceForCraft": 1,
+    "requiredIntelligenceForUse": 1,
+    "requiredStrengthForUse": 1,
+    "shootDistance": 0.0,
+    "shootPeriod": 30,
+    "stability": 0.0,
+    "staminaRestoration": 0.0,
+    "staminaRestorationFrames": 0,
+    "texture": "data/textures/items/ingot_gold.png",
+    "textureRect": {
+      "h": 7.0,
+      "w": 21.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "throwable": false,
+    "weight": 0.4000000059604645
+  },
+  "Metal_Iron": {
+    "blueprintResult": "Unknown",
+    "bodyPartAffectors": null,
+    "bookText": "",
+    "chemDmgReductionPercent": 0.0,
+    "class": "Metal",
+    "composeItems": {
+      "Ore_Iron": 3
+    },
+    "consumable": "Unknown",
+    "damage": {
+      "class": "Unknown",
+      "count": 0.0,
+      "flags": 0
+    },
+    "decomposeItems": null,
+    "description": "itemIronIngotDesc",
+    "durability": 1.0,
+    "elecDmgReductionPercent": 0.0,
+    "fireDmgReductionPercent": 0.0,
+    "hasPhysicalBody": false,
+    "heal": 0.0,
+    "healFrames": 0,
+    "isMelee": false,
+    "name": "itemIronIngot",
+    "physDmgReductionPercent": 0.0,
+    "price": 12,
+    "rareness": 2,
+    "repairItems": null,
+    "requiredDexterityForUse": 1,
+    "requiredIntelligenceForCraft": 1,
+    "requiredIntelligenceForUse": 1,
+    "requiredStrengthForUse": 1,
+    "shootDistance": 0.0,
+    "shootPeriod": 30,
+    "stability": 0.0,
+    "staminaRestoration": 0.0,
+    "staminaRestorationFrames": 0,
+    "texture": "data/textures/items/ingot_iron.png",
+    "textureRect": {
+      "h": 7.0,
+      "w": 21.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "throwable": false,
+    "weight": 2.0
+  },
+  "Metal_Platinum": {
+    "blueprintResult": "Unknown",
+    "bodyPartAffectors": null,
+    "bookText": "",
+    "chemDmgReductionPercent": 0.0,
+    "class": "Metal",
+    "composeItems": {
+      "Ore_Platinum": 2
+    },
+    "consumable": "Unknown",
+    "damage": {
+      "class": "Unknown",
+      "count": 0.0,
+      "flags": 0
+    },
+    "decomposeItems": null,
+    "description": "itemPlatinumIngotDesc",
+    "durability": 1.0,
+    "elecDmgReductionPercent": 0.0,
+    "fireDmgReductionPercent": 0.0,
+    "hasPhysicalBody": false,
+    "heal": 0.0,
+    "healFrames": 0,
+    "isMelee": false,
+    "name": "itemPlatinumIngot",
+    "physDmgReductionPercent": 0.0,
+    "price": 540,
+    "rareness": 90,
+    "repairItems": null,
+    "requiredDexterityForUse": 1,
+    "requiredIntelligenceForCraft": 1,
+    "requiredIntelligenceForUse": 1,
+    "requiredStrengthForUse": 1,
+    "shootDistance": 0.0,
+    "shootPeriod": 30,
+    "stability": 0.0,
+    "staminaRestoration": 0.0,
+    "staminaRestorationFrames": 0,
+    "texture": "data/textures/items/ingot_platinum.png",
+    "textureRect": {
+      "h": 7.0,
+      "w": 21.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "throwable": false,
+    "weight": 0.949999988079071
+  },
+  "Metal_Silver": {
+    "blueprintResult": "Unknown",
+    "bodyPartAffectors": null,
+    "bookText": "",
+    "chemDmgReductionPercent": 0.0,
+    "class": "Metal",
+    "composeItems": {
+      "Ore_Silver": 2
+    },
+    "consumable": "Unknown",
+    "damage": {
+      "class": "Unknown",
+      "count": 0.0,
+      "flags": 0
+    },
+    "decomposeItems": null,
+    "description": "itemSilverIngotDesc",
+    "durability": 1.0,
+    "elecDmgReductionPercent": 0.0,
+    "fireDmgReductionPercent": 0.0,
+    "hasPhysicalBody": false,
+    "heal": 0.0,
+    "healFrames": 0,
+    "isMelee": false,
+    "name": "itemSilverIngot",
+    "physDmgReductionPercent": 0.0,
+    "price": 120,
+    "rareness": 70,
+    "repairItems": null,
+    "requiredDexterityForUse": 1,
+    "requiredIntelligenceForCraft": 1,
+    "requiredIntelligenceForUse": 1,
+    "requiredStrengthForUse": 1,
+    "shootDistance": 0.0,
+    "shootPeriod": 30,
+    "stability": 0.0,
+    "staminaRestoration": 0.0,
+    "staminaRestorationFrames": 0,
+    "texture": "data/textures/items/ingot_silver.png",
+    "textureRect": {
+      "h": 7.0,
+      "w": 21.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "throwable": false,
+    "weight": 0.4000000059604645
+  },
+  "Metal_Tin": {
+    "blueprintResult": "Unknown",
+    "bodyPartAffectors": null,
+    "bookText": "",
+    "chemDmgReductionPercent": 0.0,
+    "class": "Metal",
+    "composeItems": {
+      "Ore_Tin": 3
+    },
+    "consumable": "Unknown",
+    "damage": {
+      "class": "Unknown",
+      "count": 0.0,
+      "flags": 0
+    },
+    "decomposeItems": null,
+    "description": "itemTinIngotDesc",
+    "durability": 1.0,
+    "elecDmgReductionPercent": 0.0,
+    "fireDmgReductionPercent": 0.0,
+    "hasPhysicalBody": false,
+    "heal": 0.0,
+    "healFrames": 0,
+    "isMelee": false,
+    "name": "itemTinIngot",
+    "physDmgReductionPercent": 0.0,
+    "price": 70,
+    "rareness": 40,
+    "repairItems": null,
+    "requiredDexterityForUse": 1,
+    "requiredIntelligenceForCraft": 1,
+    "requiredIntelligenceForUse": 1,
+    "requiredStrengthForUse": 1,
+    "shootDistance": 0.0,
+    "shootPeriod": 30,
+    "stability": 0.0,
+    "staminaRestoration": 0.0,
+    "staminaRestorationFrames": 0,
+    "texture": "data/textures/items/ingot_tin.png",
+    "textureRect": {
+      "h": 7.0,
+      "w": 21.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "throwable": false,
+    "weight": 0.5
+  },
+  "Metal_Tungsten": {
+    "blueprintResult": "Unknown",
+    "bodyPartAffectors": null,
+    "bookText": "",
+    "chemDmgReductionPercent": 0.0,
+    "class": "Metal",
+    "composeItems": {
+      "Ore_Tungsten": 3
+    },
+    "consumable": "Unknown",
+    "damage": {
+      "class": "Unknown",
+      "count": 0.0,
+      "flags": 0
+    },
+    "decomposeItems": null,
+    "description": "itemTungstenIngotDesc",
+    "durability": 1.0,
+    "elecDmgReductionPercent": 0.0,
+    "fireDmgReductionPercent": 0.0,
+    "hasPhysicalBody": false,
+    "heal": 0.0,
+    "healFrames": 0,
+    "isMelee": false,
+    "name": "itemTungstenIngot",
+    "physDmgReductionPercent": 0.0,
+    "price": 110,
+    "rareness": 50,
+    "repairItems": null,
+    "requiredDexterityForUse": 1,
+    "requiredIntelligenceForCraft": 1,
+    "requiredIntelligenceForUse": 1,
+    "requiredStrengthForUse": 1,
+    "shootDistance": 0.0,
+    "shootPeriod": 30,
+    "stability": 0.0,
+    "staminaRestoration": 0.0,
+    "staminaRestorationFrames": 0,
+    "texture": "data/textures/items/ingot_tungsten.png",
+    "textureRect": {
+      "h": 7.0,
+      "w": 21.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "throwable": false,
+    "weight": 4.0
+  },
+  "Ore_Copper": {
+    "blueprintResult": "Unknown",
+    "bodyPartAffectors": null,
+    "bookText": "",
+    "chemDmgReductionPercent": 0.0,
+    "class": "Ore",
+    "composeItems": null,
+    "consumable": "Unknown",
+    "damage": {
+      "class": "Unknown",
+      "count": 0.0,
+      "flags": 0
+    },
+    "decomposeItems": null,
+    "description": "itemCopperOreDesc",
+    "durability": 1.0,
+    "elecDmgReductionPercent": 0.0,
+    "fireDmgReductionPercent": 0.0,
+    "hasPhysicalBody": false,
+    "heal": 0.0,
+    "healFrames": 0,
+    "isMelee": false,
+    "name": "itemCopperOre",
+    "physDmgReductionPercent": 0.0,
+    "price": 23,
+    "rareness": 20,
+    "repairItems": null,
+    "requiredDexterityForUse": 1,
+    "requiredIntelligenceForCraft": 1,
+    "requiredIntelligenceForUse": 1,
+    "requiredStrengthForUse": 1,
+    "shootDistance": 0.0,
+    "shootPeriod": 30,
+    "stability": 0.0,
+    "staminaRestoration": 0.0,
+    "staminaRestorationFrames": 0,
+    "texture": "data/textures/items/ore_copper.png",
+    "textureRect": {
+      "h": 19.0,
+      "w": 24.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "throwable": false,
+    "weight": 1.600000023841858
+  },
+  "Ore_Gold": {
+    "blueprintResult": "Unknown",
+    "bodyPartAffectors": null,
+    "bookText": "",
+    "chemDmgReductionPercent": 0.0,
+    "class": "Ore",
+    "composeItems": null,
+    "consumable": "Unknown",
+    "damage": {
+      "class": "Unknown",
+      "count": 0.0,
+      "flags": 0
+    },
+    "decomposeItems": null,
+    "description": "itemGoldOreDesc",
+    "durability": 1.0,
+    "elecDmgReductionPercent": 0.0,
+    "fireDmgReductionPercent": 0.0,
+    "hasPhysicalBody": false,
+    "heal": 0.0,
+    "healFrames": 0,
+    "isMelee": false,
+    "name": "itemGoldOre",
+    "physDmgReductionPercent": 0.0,
+    "price": 110,
+    "rareness": 80,
+    "repairItems": null,
+    "requiredDexterityForUse": 1,
+    "requiredIntelligenceForCraft": 1,
+    "requiredIntelligenceForUse": 1,
+    "requiredStrengthForUse": 1,
+    "shootDistance": 0.0,
+    "shootPeriod": 30,
+    "stability": 0.0,
+    "staminaRestoration": 0.0,
+    "staminaRestorationFrames": 0,
+    "texture": "data/textures/items/ore_gold.png",
+    "textureRect": {
+      "h": 19.0,
+      "w": 24.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "throwable": false,
+    "weight": 1.399999976158142
+  },
+  "Ore_Iron": {
+    "blueprintResult": "Unknown",
+    "bodyPartAffectors": null,
+    "bookText": "",
+    "chemDmgReductionPercent": 0.0,
+    "class": "Ore",
+    "composeItems": null,
+    "consumable": "Unknown",
+    "damage": {
+      "class": "Unknown",
+      "count": 0.0,
+      "flags": 0
+    },
+    "decomposeItems": null,
+    "description": "itemIronOreDesc",
+    "durability": 1.0,
+    "elecDmgReductionPercent": 0.0,
+    "fireDmgReductionPercent": 0.0,
+    "hasPhysicalBody": false,
+    "heal": 0.0,
+    "healFrames": 0,
+    "isMelee": false,
+    "name": "itemIronOre",
+    "physDmgReductionPercent": 0.0,
+    "price": 2,
+    "rareness": 1,
+    "repairItems": null,
+    "requiredDexterityForUse": 1,
+    "requiredIntelligenceForCraft": 1,
+    "requiredIntelligenceForUse": 1,
+    "requiredStrengthForUse": 1,
+    "shootDistance": 0.0,
+    "shootPeriod": 30,
+    "stability": 0.0,
+    "staminaRestoration": 0.0,
+    "staminaRestorationFrames": 0,
+    "texture": "data/textures/items/ore_iron.png",
+    "textureRect": {
+      "h": 19.0,
+      "w": 24.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "throwable": false,
+    "weight": 2.0
+  },
+  "Ore_Platinum": {
+    "blueprintResult": "Unknown",
+    "bodyPartAffectors": null,
+    "bookText": "",
+    "chemDmgReductionPercent": 0.0,
+    "class": "Ore",
+    "composeItems": null,
+    "consumable": "Unknown",
+    "damage": {
+      "class": "Unknown",
+      "count": 0.0,
+      "flags": 0
+    },
+    "decomposeItems": null,
+    "description": "itemPlatinumOreDesc",
+    "durability": 1.0,
+    "elecDmgReductionPercent": 0.0,
+    "fireDmgReductionPercent": 0.0,
+    "hasPhysicalBody": false,
+    "heal": 0.0,
+    "healFrames": 0,
+    "isMelee": false,
+    "name": "itemPlatinumOre",
+    "physDmgReductionPercent": 0.0,
+    "price": 200,
+    "rareness": 90,
+    "repairItems": null,
+    "requiredDexterityForUse": 1,
+    "requiredIntelligenceForCraft": 1,
+    "requiredIntelligenceForUse": 1,
+    "requiredStrengthForUse": 1,
+    "shootDistance": 0.0,
+    "shootPeriod": 30,
+    "stability": 0.0,
+    "staminaRestoration": 0.0,
+    "staminaRestorationFrames": 0,
+    "texture": "data/textures/items/ore_platinum.png",
+    "textureRect": {
+      "h": 19.0,
+      "w": 24.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "throwable": false,
+    "weight": 1.100000023841858
+  },
+  "Ore_Silver": {
+    "blueprintResult": "Unknown",
+    "bodyPartAffectors": null,
+    "bookText": "",
+    "chemDmgReductionPercent": 0.0,
+    "class": "Ore",
+    "composeItems": null,
+    "consumable": "Unknown",
+    "damage": {
+      "class": "Unknown",
+      "count": 0.0,
+      "flags": 0
+    },
+    "decomposeItems": null,
+    "description": "itemSilverOreDesc",
+    "durability": 1.0,
+    "elecDmgReductionPercent": 0.0,
+    "fireDmgReductionPercent": 0.0,
+    "hasPhysicalBody": false,
+    "heal": 0.0,
+    "healFrames": 0,
+    "isMelee": false,
+    "name": "itemSilverOre",
+    "physDmgReductionPercent": 0.0,
+    "price": 60,
+    "rareness": 70,
+    "repairItems": null,
+    "requiredDexterityForUse": 1,
+    "requiredIntelligenceForCraft": 1,
+    "requiredIntelligenceForUse": 1,
+    "requiredStrengthForUse": 1,
+    "shootDistance": 0.0,
+    "shootPeriod": 30,
+    "stability": 0.0,
+    "staminaRestoration": 0.0,
+    "staminaRestorationFrames": 0,
+    "texture": "data/textures/items/ore_silver.png",
+    "textureRect": {
+      "h": 19.0,
+      "w": 24.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "throwable": false,
+    "weight": 1.2999999523162842
+  },
+  "Ore_Tin": {
+    "blueprintResult": "Unknown",
+    "bodyPartAffectors": null,
+    "bookText": "",
+    "chemDmgReductionPercent": 0.0,
+    "class": "Ore",
+    "composeItems": null,
+    "consumable": "Unknown",
+    "damage": {
+      "class": "Unknown",
+      "count": 0.0,
+      "flags": 0
+    },
+    "decomposeItems": null,
+    "description": "itemTinOreDesc",
+    "durability": 1.0,
+    "elecDmgReductionPercent": 0.0,
+    "fireDmgReductionPercent": 0.0,
+    "hasPhysicalBody": false,
+    "heal": 0.0,
+    "healFrames": 0,
+    "isMelee": false,
+    "name": "itemTinOre",
+    "physDmgReductionPercent": 0.0,
+    "price": 12,
+    "rareness": 40,
+    "repairItems": null,
+    "requiredDexterityForUse": 1,
+    "requiredIntelligenceForCraft": 1,
+    "requiredIntelligenceForUse": 1,
+    "requiredStrengthForUse": 1,
+    "shootDistance": 0.0,
+    "shootPeriod": 30,
+    "stability": 0.0,
+    "staminaRestoration": 0.0,
+    "staminaRestorationFrames": 0,
+    "texture": "data/textures/items/ore_tin.png",
+    "textureRect": {
+      "h": 19.0,
+      "w": 24.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "throwable": false,
+    "weight": 1.100000023841858
+  },
+  "Ore_Tungsten": {
+    "blueprintResult": "Unknown",
+    "bodyPartAffectors": null,
+    "bookText": "",
+    "chemDmgReductionPercent": 0.0,
+    "class": "Ore",
+    "composeItems": null,
+    "consumable": "Unknown",
+    "damage": {
+      "class": "Unknown",
+      "count": 0.0,
+      "flags": 0
+    },
+    "decomposeItems": null,
+    "description": "itemTungstenOreDesc",
+    "durability": 1.0,
+    "elecDmgReductionPercent": 0.0,
+    "fireDmgReductionPercent": 0.0,
+    "hasPhysicalBody": false,
+    "heal": 0.0,
+    "healFrames": 0,
+    "isMelee": false,
+    "name": "itemTungstenOre",
+    "physDmgReductionPercent": 0.0,
+    "price": 55,
+    "rareness": 50,
+    "repairItems": null,
+    "requiredDexterityForUse": 1,
+    "requiredIntelligenceForCraft": 1,
+    "requiredIntelligenceForUse": 1,
+    "requiredStrengthForUse": 1,
+    "shootDistance": 0.0,
+    "shootPeriod": 30,
+    "stability": 0.0,
+    "staminaRestoration": 0.0,
+    "staminaRestorationFrames": 0,
+    "texture": "data/textures/items/ore_tungsten.png",
+    "textureRect": {
+      "h": 19.0,
+      "w": 24.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "throwable": false,
+    "weight": 2.4000000953674316
+  },
+  "Potion_MediumHeal": {
+    "blueprintResult": "Unknown",
+    "bodyPartAffectors": null,
+    "bookText": "",
+    "chemDmgReductionPercent": 0.0,
+    "class": "Potion",
+    "composeItems": null,
+    "consumable": "Unknown",
+    "damage": {
+      "class": "Unknown",
+      "count": 0.0,
+      "flags": 0
+    },
+    "decomposeItems": null,
+    "description": "potionMediumHealDesc",
+    "durability": 1.0,
+    "elecDmgReductionPercent": 0.0,
+    "fireDmgReductionPercent": 0.0,
+    "hasPhysicalBody": false,
+    "heal": 220.0,
+    "healFrames": 300,
+    "isMelee": false,
+    "name": "potionMediumHeal",
+    "physDmgReductionPercent": 0.0,
+    "price": 35,
+    "rareness": 40,
+    "repairItems": null,
+    "requiredDexterityForUse": 1,
+    "requiredIntelligenceForCraft": 1,
+    "requiredIntelligenceForUse": 1,
+    "requiredStrengthForUse": 1,
+    "shootDistance": 0.0,
+    "shootPeriod": 30,
+    "stability": 0.0,
+    "staminaRestoration": 0.0,
+    "staminaRestorationFrames": 0,
+    "texture": "data/textures/items/potions.png",
+    "textureRect": {
+      "h": 16.0,
+      "w": 16.0,
+      "x": 32.0,
+      "y": 0.0
+    },
+    "throwable": false,
+    "weight": 0.07000000029802322
+  },
+  "Potion_MediumStaminaRestoration": {
+    "blueprintResult": "Unknown",
+    "bodyPartAffectors": null,
+    "bookText": "",
+    "chemDmgReductionPercent": 0.0,
+    "class": "Potion",
+    "composeItems": null,
+    "consumable": "Unknown",
+    "damage": {
+      "class": "Unknown",
+      "count": 0.0,
+      "flags": 0
+    },
+    "decomposeItems": null,
+    "description": "potionMediumStaminaRestorationDesc",
+    "durability": 1.0,
+    "elecDmgReductionPercent": 0.0,
+    "fireDmgReductionPercent": 0.0,
+    "hasPhysicalBody": false,
+    "heal": 0.0,
+    "healFrames": 0,
+    "isMelee": false,
+    "name": "potionMediumStaminaRestoration",
+    "physDmgReductionPercent": 0.0,
+    "price": 32,
+    "rareness": 40,
+    "repairItems": null,
+    "requiredDexterityForUse": 1,
+    "requiredIntelligenceForCraft": 1,
+    "requiredIntelligenceForUse": 1,
+    "requiredStrengthForUse": 1,
+    "shootDistance": 0.0,
+    "shootPeriod": 30,
+    "stability": 0.0,
+    "staminaRestoration": 80.0,
+    "staminaRestorationFrames": 240,
+    "texture": "data/textures/items/potions.png",
+    "textureRect": {
+      "h": 16.0,
+      "w": 16.0,
+      "x": 16.0,
+      "y": 48.0
+    },
+    "throwable": false,
+    "weight": 0.09700000286102295
+  },
+  "Potion_StrongHeal": {
+    "blueprintResult": "Unknown",
+    "bodyPartAffectors": null,
+    "bookText": "",
+    "chemDmgReductionPercent": 0.0,
+    "class": "Potion",
+    "composeItems": null,
+    "consumable": "Unknown",
+    "damage": {
+      "class": "Unknown",
+      "count": 0.0,
+      "flags": 0
+    },
+    "decomposeItems": null,
+    "description": "potionStrongHealDesc",
+    "durability": 1.0,
+    "elecDmgReductionPercent": 0.0,
+    "fireDmgReductionPercent": 0.0,
+    "hasPhysicalBody": false,
+    "heal": 500.0,
+    "healFrames": 0,
+    "isMelee": false,
+    "name": "potionStrongHeal",
+    "physDmgReductionPercent": 0.0,
+    "price": 45,
+    "rareness": 80,
+    "repairItems": null,
+    "requiredDexterityForUse": 1,
+    "requiredIntelligenceForCraft": 1,
+    "requiredIntelligenceForUse": 1,
+    "requiredStrengthForUse": 1,
+    "shootDistance": 0.0,
+    "shootPeriod": 30,
+    "stability": 0.0,
+    "staminaRestoration": 0.0,
+    "staminaRestorationFrames": 0,
+    "texture": "data/textures/items/potions.png",
+    "textureRect": {
+      "h": 16.0,
+      "w": 16.0,
+      "x": 48.0,
+      "y": 0.0
+    },
+    "throwable": false,
+    "weight": 0.09000000357627869
+  },
+  "Potion_StrongStaminaRestoration": {
+    "blueprintResult": "Unknown",
+    "bodyPartAffectors": null,
+    "bookText": "",
+    "chemDmgReductionPercent": 0.0,
+    "class": "Potion",
+    "composeItems": null,
+    "consumable": "Unknown",
+    "damage": {
+      "class": "Unknown",
+      "count": 0.0,
+      "flags": 0
+    },
+    "decomposeItems": null,
+    "description": "potionStrongStaminaRestorationDesc",
+    "durability": 1.0,
+    "elecDmgReductionPercent": 0.0,
+    "fireDmgReductionPercent": 0.0,
+    "hasPhysicalBody": false,
+    "heal": 0.0,
+    "healFrames": 0,
+    "isMelee": false,
+    "name": "potionStrongStaminaRestoration",
+    "physDmgReductionPercent": 0.0,
+    "price": 45,
+    "rareness": 80,
+    "repairItems": null,
+    "requiredDexterityForUse": 1,
+    "requiredIntelligenceForCraft": 1,
+    "requiredIntelligenceForUse": 1,
+    "requiredStrengthForUse": 1,
+    "shootDistance": 0.0,
+    "shootPeriod": 30,
+    "stability": 0.0,
+    "staminaRestoration": 200.0,
+    "staminaRestorationFrames": 0,
+    "texture": "data/textures/items/potions.png",
+    "textureRect": {
+      "h": 16.0,
+      "w": 16.0,
+      "x": 32.0,
+      "y": 48.0
+    },
+    "throwable": false,
+    "weight": 1.0
+  },
+  "Potion_WeakHeal": {
+    "blueprintResult": "Unknown",
+    "bodyPartAffectors": null,
+    "bookText": "",
+    "chemDmgReductionPercent": 0.0,
+    "class": "Potion",
+    "composeItems": null,
+    "consumable": "Unknown",
+    "damage": {
+      "class": "Unknown",
+      "count": 0.0,
+      "flags": 0
+    },
+    "decomposeItems": null,
+    "description": "potionWeakHealDesc",
+    "durability": 1.0,
+    "elecDmgReductionPercent": 0.0,
+    "fireDmgReductionPercent": 0.0,
+    "hasPhysicalBody": false,
+    "heal": 120.0,
+    "healFrames": 900,
+    "isMelee": false,
+    "name": "potionWeakHeal",
+    "physDmgReductionPercent": 0.0,
+    "price": 25,
+    "rareness": 10,
+    "repairItems": null,
+    "requiredDexterityForUse": 1,
+    "requiredIntelligenceForCraft": 1,
+    "requiredIntelligenceForUse": 1,
+    "requiredStrengthForUse": 1,
+    "shootDistance": 0.0,
+    "shootPeriod": 30,
+    "stability": 0.0,
+    "staminaRestoration": 0.0,
+    "staminaRestorationFrames": 0,
+    "texture": "data/textures/items/potions.png",
+    "textureRect": {
+      "h": 16.0,
+      "w": 16.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "throwable": false,
+    "weight": 0.05000000074505806
+  },
+  "Potion_WeakStaminaRestoration": {
+    "blueprintResult": "Unknown",
+    "bodyPartAffectors": null,
+    "bookText": "",
+    "chemDmgReductionPercent": 0.0,
+    "class": "Potion",
+    "composeItems": null,
+    "consumable": "Unknown",
+    "damage": {
+      "class": "Unknown",
+      "count": 0.0,
+      "flags": 0
+    },
+    "decomposeItems": null,
+    "description": "potionWeakStaminaRestorationDesc",
+    "durability": 1.0,
+    "elecDmgReductionPercent": 0.0,
+    "fireDmgReductionPercent": 0.0,
+    "hasPhysicalBody": false,
+    "heal": 0.0,
+    "healFrames": 0,
+    "isMelee": false,
+    "name": "potionWeakStaminaRestoration",
+    "physDmgReductionPercent": 0.0,
+    "price": 26,
+    "rareness": 10,
+    "repairItems": null,
+    "requiredDexterityForUse": 1,
+    "requiredIntelligenceForCraft": 1,
+    "requiredIntelligenceForUse": 1,
+    "requiredStrengthForUse": 1,
+    "shootDistance": 0.0,
+    "shootPeriod": 30,
+    "stability": 0.0,
+    "staminaRestoration": 40.0,
+    "staminaRestorationFrames": 480,
+    "texture": "data/textures/items/potions.png",
+    "textureRect": {
+      "h": 16.0,
+      "w": 16.0,
+      "x": 0.0,
+      "y": 48.0
+    },
+    "throwable": false,
+    "weight": 0.09000000357627869
+  },
+  "Projectile_AcidBlob": {
+    "blueprintResult": "Unknown",
+    "bodyPartAffectors": null,
+    "bookText": "",
+    "chemDmgReductionPercent": 0.0,
+    "class": "Projectile",
+    "composeItems": {
+      "Metal_Iron": 1
+    },
+    "consumable": "Unknown",
+    "damage": {
+      "class": "Chemical",
+      "count": 60.0,
+      "flags": 0
+    },
+    "decomposeItems": {
+      "Rubbish": 1
+    },
+    "description": "prjAcidBlobDesc",
+    "durability": 1.0,
+    "elecDmgReductionPercent": 0.0,
+    "fireDmgReductionPercent": 0.0,
+    "hasPhysicalBody": false,
+    "heal": 0.0,
+    "healFrames": 0,
+    "isMelee": false,
+    "name": "prjAcidBlob",
+    "physDmgReductionPercent": 0.0,
+    "price": 45,
+    "rareness": 10,
+    "repairItems": null,
+    "requiredDexterityForUse": 1,
+    "requiredIntelligenceForCraft": 1,
+    "requiredIntelligenceForUse": 1,
+    "requiredStrengthForUse": 1,
+    "shootDistance": 0.0,
+    "shootPeriod": 30,
+    "stability": 0.0,
+    "staminaRestoration": 0.0,
+    "staminaRestorationFrames": 0,
+    "texture": "data/textures/weapons/acid_blob.png",
+    "textureRect": {
+      "h": 10.0,
+      "w": 10.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "throwable": false,
+    "weight": 0.3499999940395355
+  },
+  "Projectile_ConstructionBlock": {
+    "blueprintResult": "Unknown",
+    "bodyPartAffectors": null,
+    "bookText": "",
+    "chemDmgReductionPercent": 0.0,
+    "class": "Projectile",
+    "composeItems": null,
+    "consumable": "Unknown",
+    "damage": {
+      "class": "Physical",
+      "count": 0.0,
+      "flags": 0
+    },
+    "decomposeItems": null,
+    "description": "prjConstructionBlockDesc",
+    "durability": 1.0,
+    "elecDmgReductionPercent": 0.0,
+    "fireDmgReductionPercent": 0.0,
+    "hasPhysicalBody": false,
+    "heal": 0.0,
+    "healFrames": 0,
+    "isMelee": false,
+    "name": "prjConstructionBlock",
+    "physDmgReductionPercent": 0.0,
+    "price": 0,
+    "rareness": 10,
+    "repairItems": null,
+    "requiredDexterityForUse": 1,
+    "requiredIntelligenceForCraft": 1,
+    "requiredIntelligenceForUse": 1,
+    "requiredStrengthForUse": 1,
+    "shootDistance": 0.0,
+    "shootPeriod": 30,
+    "stability": 0.0,
+    "staminaRestoration": 0.0,
+    "staminaRestorationFrames": 0,
+    "texture": "data/textures/weapons/fireball.png",
+    "textureRect": {
+      "h": 10.0,
+      "w": 10.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "throwable": false,
+    "weight": 0.0
+  },
+  "Projectile_Dynamite": {
+    "blueprintResult": "Unknown",
+    "bodyPartAffectors": null,
+    "bookText": "",
+    "chemDmgReductionPercent": 0.0,
+    "class": "Projectile",
+    "composeItems": {
+      "Ingredient_GunPowder": 3,
+      "Metal_Iron": 1
+    },
+    "consumable": "Unknown",
+    "damage": {
+      "class": "Physical",
+      "count": 150.0,
+      "flags": 0
+    },
+    "decomposeItems": {
+      "Rubbish": 1
+    },
+    "description": "prjDynamiteDesc",
+    "durability": 1.0,
+    "elecDmgReductionPercent": 0.0,
+    "fireDmgReductionPercent": 0.0,
+    "hasPhysicalBody": false,
+    "heal": 0.0,
+    "healFrames": 0,
+    "isMelee": false,
+    "name": "prjDynamite",
+    "physDmgReductionPercent": 0.0,
+    "price": 40,
+    "rareness": 3,
+    "repairItems": null,
+    "requiredDexterityForUse": 1,
+    "requiredIntelligenceForCraft": 1,
+    "requiredIntelligenceForUse": 1,
+    "requiredStrengthForUse": 1,
+    "shootDistance": 0.0,
+    "shootPeriod": 30,
+    "stability": 0.0,
+    "staminaRestoration": 0.0,
+    "staminaRestorationFrames": 0,
+    "texture": "data/textures/weapons/dynamite.png",
+    "textureRect": {
+      "h": 16.0,
+      "w": 4.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "throwable": true,
+    "weight": 0.20000000298023224
+  },
+  "Projectile_Fireball": {
+    "blueprintResult": "Unknown",
+    "bodyPartAffectors": null,
+    "bookText": "",
+    "chemDmgReductionPercent": 0.0,
+    "class": "Projectile",
+    "composeItems": null,
+    "consumable": "Unknown",
+    "damage": {
+      "class": "Fire",
+      "count": 140.0,
+      "flags": 0
+    },
+    "decomposeItems": null,
+    "description": "fireball",
+    "durability": 1.0,
+    "elecDmgReductionPercent": 0.0,
+    "fireDmgReductionPercent": 0.0,
+    "hasPhysicalBody": false,
+    "heal": 0.0,
+    "healFrames": 0,
+    "isMelee": false,
+    "name": "fireball",
+    "physDmgReductionPercent": 0.0,
+    "price": 0,
+    "rareness": 0,
+    "repairItems": null,
+    "requiredDexterityForUse": 1,
+    "requiredIntelligenceForCraft": 1,
+    "requiredIntelligenceForUse": 1,
+    "requiredStrengthForUse": 1,
+    "shootDistance": 0.0,
+    "shootPeriod": 30,
+    "stability": 0.0,
+    "staminaRestoration": 0.0,
+    "staminaRestorationFrames": 0,
+    "texture": "data/textures/weapons/fireball.png",
+    "textureRect": {
+      "h": 10.0,
+      "w": 10.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "throwable": false,
+    "weight": 0.0
+  },
+  "Projectile_Grenade": {
+    "blueprintResult": "Unknown",
+    "bodyPartAffectors": null,
+    "bookText": "",
+    "chemDmgReductionPercent": 0.0,
+    "class": "Projectile",
+    "composeItems": {
+      "Ingredient_GunPowder": 1,
+      "Metal_Iron": 1
+    },
+    "consumable": "Unknown",
+    "damage": {
+      "class": "Physical",
+      "count": 120.0,
+      "flags": 0
+    },
+    "decomposeItems": {
+      "Rubbish": 1
+    },
+    "description": "prjGrenadeDesc",
+    "durability": 1.0,
+    "elecDmgReductionPercent": 0.0,
+    "fireDmgReductionPercent": 0.0,
+    "hasPhysicalBody": false,
+    "heal": 0.0,
+    "healFrames": 0,
+    "isMelee": false,
+    "name": "prjGrenade",
+    "physDmgReductionPercent": 0.0,
+    "price": 16,
+    "rareness": 15,
+    "repairItems": null,
+    "requiredDexterityForUse": 1,
+    "requiredIntelligenceForCraft": 1,
+    "requiredIntelligenceForUse": 1,
+    "requiredStrengthForUse": 1,
+    "shootDistance": 0.0,
+    "shootPeriod": 30,
+    "stability": 0.0,
+    "staminaRestoration": 0.0,
+    "staminaRestorationFrames": 0,
+    "texture": "data/textures/weapons/grenade.png",
+    "textureRect": {
+      "h": 12.0,
+      "w": 12.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "throwable": false,
+    "weight": 0.3499999940395355
+  },
+  "Projectile_Harpoon": {
+    "blueprintResult": "Unknown",
+    "bodyPartAffectors": null,
+    "bookText": "",
+    "chemDmgReductionPercent": 0.0,
+    "class": "Projectile",
+    "composeItems": {
+      "Metal_Iron": 1
+    },
+    "consumable": "Unknown",
+    "damage": {
+      "class": "Physical",
+      "count": 100.0,
+      "flags": 0
+    },
+    "decomposeItems": {
+      "Rubbish": 1
+    },
+    "description": "prjHarpoonDesc",
+    "durability": 1.0,
+    "elecDmgReductionPercent": 0.0,
+    "fireDmgReductionPercent": 0.0,
+    "hasPhysicalBody": false,
+    "heal": 0.0,
+    "healFrames": 0,
+    "isMelee": false,
+    "name": "prjHarpoon",
+    "physDmgReductionPercent": 0.0,
+    "price": 25,
+    "rareness": 20,
+    "repairItems": null,
+    "requiredDexterityForUse": 1,
+    "requiredIntelligenceForCraft": 1,
+    "requiredIntelligenceForUse": 1,
+    "requiredStrengthForUse": 1,
+    "shootDistance": 0.0,
+    "shootPeriod": 30,
+    "stability": 0.0,
+    "staminaRestoration": 0.0,
+    "staminaRestorationFrames": 0,
+    "texture": "data/textures/weapons/harpoon.png",
+    "textureRect": {
+      "h": 5.0,
+      "w": 22.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "throwable": false,
+    "weight": 0.4000000059604645
+  },
+  "Projectile_Rail": {
+    "blueprintResult": "Unknown",
+    "bodyPartAffectors": null,
+    "bookText": "",
+    "chemDmgReductionPercent": 0.0,
+    "class": "Projectile",
+    "composeItems": {
+      "Metal_Iron": 1,
+      "Metal_Tungsten": 1
+    },
+    "consumable": "Unknown",
+    "damage": {
+      "class": "Physical",
+      "count": 2000.0,
+      "flags": 0
+    },
+    "decomposeItems": {
+      "Rubbish": 1
+    },
+    "description": "prjRailDesc",
+    "durability": 1.0,
+    "elecDmgReductionPercent": 0.0,
+    "fireDmgReductionPercent": 0.0,
+    "hasPhysicalBody": false,
+    "heal": 0.0,
+    "healFrames": 0,
+    "isMelee": false,
+    "name": "prjRail",
+    "physDmgReductionPercent": 0.0,
+    "price": 120,
+    "rareness": 99,
+    "repairItems": null,
+    "requiredDexterityForUse": 1,
+    "requiredIntelligenceForCraft": 1,
+    "requiredIntelligenceForUse": 1,
+    "requiredStrengthForUse": 1,
+    "shootDistance": 0.0,
+    "shootPeriod": 30,
+    "stability": 0.0,
+    "staminaRestoration": 0.0,
+    "staminaRestorationFrames": 0,
+    "texture": "data/textures/items/railslug.png",
+    "textureRect": {
+      "h": 12.0,
+      "w": 7.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "throwable": false,
+    "weight": 0.75
+  },
+  "Projectile_Rocket": {
+    "blueprintResult": "Unknown",
+    "bodyPartAffectors": null,
+    "bookText": "",
+    "chemDmgReductionPercent": 0.0,
+    "class": "Projectile",
+    "composeItems": {
+      "Ingredient_GunPowder": 1,
+      "Metal_Iron": 1
+    },
+    "consumable": "Unknown",
+    "damage": {
+      "class": "Physical",
+      "count": 100.0,
+      "flags": 0
+    },
+    "decomposeItems": {
+      "Rubbish": 1
+    },
+    "description": "prjRocketDesc",
+    "durability": 1.0,
+    "elecDmgReductionPercent": 0.0,
+    "fireDmgReductionPercent": 0.0,
+    "hasPhysicalBody": false,
+    "heal": 0.0,
+    "healFrames": 0,
+    "isMelee": false,
+    "name": "prjRocket",
+    "physDmgReductionPercent": 0.0,
+    "price": 18,
+    "rareness": 30,
+    "repairItems": null,
+    "requiredDexterityForUse": 1,
+    "requiredIntelligenceForCraft": 1,
+    "requiredIntelligenceForUse": 1,
+    "requiredStrengthForUse": 1,
+    "shootDistance": 0.0,
+    "shootPeriod": 30,
+    "stability": 0.0,
+    "staminaRestoration": 0.0,
+    "staminaRestorationFrames": 0,
+    "texture": "data/textures/weapons/rocket.png",
+    "textureRect": {
+      "h": 7.0,
+      "w": 22.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "throwable": false,
+    "weight": 0.44999998807907104
+  },
+  "Projectile_Shells": {
+    "blueprintResult": "Unknown",
+    "bodyPartAffectors": null,
+    "bookText": "",
+    "chemDmgReductionPercent": 0.0,
+    "class": "Projectile",
+    "composeItems": {
+      "Ingredient_GunPowder": 1
+    },
+    "consumable": "Unknown",
+    "damage": {
+      "class": "Physical",
+      "count": 20.0,
+      "flags": 0
+    },
+    "decomposeItems": {
+      "Rubbish": 1
+    },
+    "description": "prjShellsDesc",
+    "durability": 1.0,
+    "elecDmgReductionPercent": 0.0,
+    "fireDmgReductionPercent": 0.0,
+    "hasPhysicalBody": false,
+    "heal": 0.0,
+    "healFrames": 0,
+    "isMelee": false,
+    "name": "prjShells",
+    "physDmgReductionPercent": 0.0,
+    "price": 5,
+    "rareness": 4,
+    "repairItems": null,
+    "requiredDexterityForUse": 1,
+    "requiredIntelligenceForCraft": 1,
+    "requiredIntelligenceForUse": 1,
+    "requiredStrengthForUse": 1,
+    "shootDistance": 0.0,
+    "shootPeriod": 30,
+    "stability": 0.0,
+    "staminaRestoration": 0.0,
+    "staminaRestorationFrames": 0,
+    "texture": "data/textures/items/shells.png",
+    "textureRect": {
+      "h": 8.0,
+      "w": 11.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "throwable": false,
+    "weight": 0.05000000074505806
+  },
+  "Ring_RingOfFireResistance": {
+    "blueprintResult": "Unknown",
+    "bodyPartAffectors": null,
+    "bookText": "",
+    "chemDmgReductionPercent": 0.0,
+    "class": "Ring",
+    "composeItems": null,
+    "consumable": "Unknown",
+    "damage": {
+      "class": "Unknown",
+      "count": 0.0,
+      "flags": 0
+    },
+    "decomposeItems": null,
+    "description": "ringFireResistanceDesc",
+    "durability": 1.0,
+    "elecDmgReductionPercent": 0.0,
+    "fireDmgReductionPercent": 20.0,
+    "hasPhysicalBody": false,
+    "heal": 0.0,
+    "healFrames": 0,
+    "isMelee": false,
+    "name": "ringFireResistance",
+    "physDmgReductionPercent": 0.0,
+    "price": 450,
+    "rareness": 40,
+    "repairItems": null,
+    "requiredDexterityForUse": 1,
+    "requiredIntelligenceForCraft": 1,
+    "requiredIntelligenceForUse": 1,
+    "requiredStrengthForUse": 1,
+    "shootDistance": 0.0,
+    "shootPeriod": 30,
+    "stability": 0.0,
+    "staminaRestoration": 0.0,
+    "staminaRestorationFrames": 0,
+    "texture": "data/textures/items/rings.png",
+    "textureRect": {
+      "h": 48.0,
+      "w": 48.0,
+      "x": 96.0,
+      "y": 0.0
+    },
+    "throwable": false,
+    "weight": 0.4000000059604645
+  },
+  "Ring_RingOfLife": {
+    "blueprintResult": "Unknown",
+    "bodyPartAffectors": null,
+    "bookText": "",
+    "chemDmgReductionPercent": 0.0,
+    "class": "Ring",
+    "composeItems": null,
+    "consumable": "Unknown",
+    "damage": {
+      "class": "Unknown",
+      "count": 0.0,
+      "flags": 0
+    },
+    "decomposeItems": null,
+    "description": "ringLifeDesc",
+    "durability": 1.0,
+    "elecDmgReductionPercent": 0.0,
+    "fireDmgReductionPercent": 0.0,
+    "hasPhysicalBody": false,
+    "heal": 0.0,
+    "healFrames": 0,
+    "isMelee": false,
+    "name": "ringLife",
+    "physDmgReductionPercent": 0.0,
+    "price": 700,
+    "rareness": 30,
+    "repairItems": null,
+    "requiredDexterityForUse": 1,
+    "requiredIntelligenceForCraft": 1,
+    "requiredIntelligenceForUse": 1,
+    "requiredStrengthForUse": 1,
+    "shootDistance": 0.0,
+    "shootPeriod": 30,
+    "stability": 0.0,
+    "staminaRestoration": 0.0,
+    "staminaRestorationFrames": 0,
+    "texture": "data/textures/items/rings.png",
+    "textureRect": {
+      "h": 48.0,
+      "w": 48.0,
+      "x": 48.0,
+      "y": 0.0
+    },
+    "throwable": false,
+    "weight": 0.15000000596046448
+  },
+  "Ring_RingOfSteelProtection": {
+    "blueprintResult": "Unknown",
+    "bodyPartAffectors": null,
+    "bookText": "",
+    "chemDmgReductionPercent": 0.0,
+    "class": "Ring",
+    "composeItems": null,
+    "consumable": "Unknown",
+    "damage": {
+      "class": "Unknown",
+      "count": 0.0,
+      "flags": 0
+    },
+    "decomposeItems": null,
+    "description": "ringOfSteelProtectionDesc",
+    "durability": 1.0,
+    "elecDmgReductionPercent": 0.0,
+    "fireDmgReductionPercent": 0.0,
+    "hasPhysicalBody": false,
+    "heal": 0.0,
+    "healFrames": 0,
+    "isMelee": false,
+    "name": "ringOfSteelProtection",
+    "physDmgReductionPercent": 20.0,
+    "price": 600,
+    "rareness": 70,
+    "repairItems": null,
+    "requiredDexterityForUse": 1,
+    "requiredIntelligenceForCraft": 1,
+    "requiredIntelligenceForUse": 1,
+    "requiredStrengthForUse": 1,
+    "shootDistance": 0.0,
+    "shootPeriod": 30,
+    "stability": 0.0,
+    "staminaRestoration": 0.0,
+    "staminaRestorationFrames": 0,
+    "texture": "data/textures/items/rings.png",
+    "textureRect": {
+      "h": 48.0,
+      "w": 48.0,
+      "x": 96.0,
+      "y": 0.0
+    },
+    "throwable": false,
+    "weight": 1.0
+  },
+  "Ring_RingWithGreenGemstone": {
+    "blueprintResult": "Unknown",
+    "bodyPartAffectors": null,
+    "bookText": "",
+    "chemDmgReductionPercent": 0.0,
+    "class": "Ring",
+    "composeItems": null,
+    "consumable": "Unknown",
+    "damage": {
+      "class": "Unknown",
+      "count": 0.0,
+      "flags": 0
+    },
+    "decomposeItems": null,
+    "description": "ringWithGreenGemstoneDesc",
+    "durability": 1.0,
+    "elecDmgReductionPercent": 0.0,
+    "fireDmgReductionPercent": 0.0,
+    "hasPhysicalBody": false,
+    "heal": 0.0,
+    "healFrames": 0,
+    "isMelee": false,
+    "name": "ringWithGreenGemstone",
+    "physDmgReductionPercent": 0.0,
+    "price": 500,
+    "rareness": 70,
+    "repairItems": null,
+    "requiredDexterityForUse": 1,
+    "requiredIntelligenceForCraft": 1,
+    "requiredIntelligenceForUse": 1,
+    "requiredStrengthForUse": 1,
+    "shootDistance": 0.0,
+    "shootPeriod": 30,
+    "stability": 0.0,
+    "staminaRestoration": 0.0,
+    "staminaRestorationFrames": 0,
+    "texture": "data/textures/items/rings.png",
+    "textureRect": {
+      "h": 48.0,
+      "w": 48.0,
+      "x": 96.0,
+      "y": 0.0
+    },
+    "throwable": false,
+    "weight": 0.10999999940395355
+  },
+  "Rubbish": {
+    "blueprintResult": "Unknown",
+    "bodyPartAffectors": null,
+    "bookText": "",
+    "chemDmgReductionPercent": 0.0,
+    "class": "Rubbish",
+    "composeItems": null,
+    "consumable": "Unknown",
+    "damage": {
+      "class": "Unknown",
+      "count": 0.0,
+      "flags": 0
+    },
+    "decomposeItems": null,
+    "description": "itemRubbishDesc",
+    "durability": 1.0,
+    "elecDmgReductionPercent": 0.0,
+    "fireDmgReductionPercent": 0.0,
+    "hasPhysicalBody": false,
+    "heal": 0.0,
+    "healFrames": 0,
+    "isMelee": false,
+    "name": "itemRubbish",
+    "physDmgReductionPercent": 0.0,
+    "price": 0,
+    "rareness": 0,
+    "repairItems": null,
+    "requiredDexterityForUse": 1,
+    "requiredIntelligenceForCraft": 1,
+    "requiredIntelligenceForUse": 1,
+    "requiredStrengthForUse": 1,
+    "shootDistance": 0.0,
+    "shootPeriod": 30,
+    "stability": 0.0,
+    "staminaRestoration": 0.0,
+    "staminaRestorationFrames": 0,
+    "texture": "data/textures/items/rubbish.png",
+    "textureRect": {
+      "h": 17.0,
+      "w": 21.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "throwable": false,
+    "weight": 1.0
+  },
+  "Shield_Steel": {
+    "blueprintResult": "Unknown",
+    "bodyPartAffectors": null,
+    "bookText": "",
+    "chemDmgReductionPercent": 12.0,
+    "class": "Shield",
+    "composeItems": {
+      "Ingredient_Leather": 2,
+      "Metal_Iron": 3
+    },
+    "consumable": "Unknown",
+    "damage": {
+      "class": "Unknown",
+      "count": 0.0,
+      "flags": 0
+    },
+    "decomposeItems": {
+      "Ingredient_Leather": 1,
+      "Metal_Iron": 1,
+      "Rubbish": 1
+    },
+    "description": "steelShieldDesc",
+    "durability": 100.0,
+    "elecDmgReductionPercent": 10.0,
+    "fireDmgReductionPercent": 40.0,
+    "hasPhysicalBody": false,
+    "heal": 0.0,
+    "healFrames": 0,
+    "isMelee": false,
+    "name": "steelShield",
+    "physDmgReductionPercent": 100.0,
+    "price": 135,
+    "rareness": 8,
+    "repairItems": {
+      "High": {
+        "Ingredient_Leather": 1
+      },
+      "Low": {
+        "Metal_Iron": 1
+      },
+      "Medium": {
+        "Metal_Iron": 1
+      }
+    },
+    "requiredDexterityForUse": 1,
+    "requiredIntelligenceForCraft": 1,
+    "requiredIntelligenceForUse": 4,
+    "requiredStrengthForUse": 1,
+    "shootDistance": 0.0,
+    "shootPeriod": 30,
+    "stability": 3.99999987306209e-19,
+    "staminaRestoration": 0.0,
+    "staminaRestorationFrames": 0,
+    "texture": "data/textures/items/steel_shield.png",
+    "textureRect": {
+      "h": 16.0,
+      "w": 17.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "throwable": false,
+    "weight": 10.0
+  },
+  "Toolset_HeavyDuty": {
+    "blueprintResult": "Unknown",
+    "bodyPartAffectors": null,
+    "bookText": "",
+    "chemDmgReductionPercent": 0.0,
+    "class": "Toolset",
+    "composeItems": null,
+    "consumable": "Unknown",
+    "damage": {
+      "class": "Unknown",
+      "count": 0.0,
+      "flags": 0
+    },
+    "decomposeItems": null,
+    "description": "toolsetHeavyDutyDesc",
+    "durability": 285.0,
+    "elecDmgReductionPercent": 0.0,
+    "fireDmgReductionPercent": 0.0,
+    "hasPhysicalBody": false,
+    "heal": 0.0,
+    "healFrames": 0,
+    "isMelee": false,
+    "name": "toolsetHeavyDuty",
+    "physDmgReductionPercent": 0.0,
+    "price": 120,
+    "rareness": 30,
+    "repairItems": null,
+    "requiredDexterityForUse": 1,
+    "requiredIntelligenceForCraft": 1,
+    "requiredIntelligenceForUse": 1,
+    "requiredStrengthForUse": 1,
+    "shootDistance": 0.0,
+    "shootPeriod": 30,
+    "stability": 0.0,
+    "staminaRestoration": 0.0,
+    "staminaRestorationFrames": 0,
+    "texture": "data/textures/items/toolset.png",
+    "textureRect": {
+      "h": 9.0,
+      "w": 30.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "throwable": false,
+    "weight": 2.5
+  },
+  "Toolset_Small": {
+    "blueprintResult": "Unknown",
+    "bodyPartAffectors": null,
+    "bookText": "",
+    "chemDmgReductionPercent": 0.0,
+    "class": "Toolset",
+    "composeItems": null,
+    "consumable": "Unknown",
+    "damage": {
+      "class": "Unknown",
+      "count": 0.0,
+      "flags": 0
+    },
+    "decomposeItems": null,
+    "description": "toolsetSmallDesc",
+    "durability": 90.0,
+    "elecDmgReductionPercent": 0.0,
+    "fireDmgReductionPercent": 0.0,
+    "hasPhysicalBody": false,
+    "heal": 0.0,
+    "healFrames": 0,
+    "isMelee": false,
+    "name": "toolsetSmall",
+    "physDmgReductionPercent": 0.0,
+    "price": 30,
+    "rareness": 5,
+    "repairItems": null,
+    "requiredDexterityForUse": 1,
+    "requiredIntelligenceForCraft": 1,
+    "requiredIntelligenceForUse": 1,
+    "requiredStrengthForUse": 1,
+    "shootDistance": 0.0,
+    "shootPeriod": 30,
+    "stability": 0.0,
+    "staminaRestoration": 0.0,
+    "staminaRestorationFrames": 0,
+    "texture": "data/textures/items/toolset.png",
+    "textureRect": {
+      "h": 9.0,
+      "w": 30.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "throwable": false,
+    "weight": 1.0
+  },
+  "Toolset_Tungsten": {
+    "blueprintResult": "Unknown",
+    "bodyPartAffectors": null,
+    "bookText": "",
+    "chemDmgReductionPercent": 0.0,
+    "class": "Toolset",
+    "composeItems": null,
+    "consumable": "Unknown",
+    "damage": {
+      "class": "Unknown",
+      "count": 0.0,
+      "flags": 0
+    },
+    "decomposeItems": null,
+    "description": "toolsetTungstenDesc",
+    "durability": 99999.0,
+    "elecDmgReductionPercent": 0.0,
+    "fireDmgReductionPercent": 0.0,
+    "hasPhysicalBody": false,
+    "heal": 0.0,
+    "healFrames": 0,
+    "isMelee": false,
+    "name": "toolsetTungsten",
+    "physDmgReductionPercent": 0.0,
+    "price": 850,
+    "rareness": 70,
+    "repairItems": null,
+    "requiredDexterityForUse": 1,
+    "requiredIntelligenceForCraft": 1,
+    "requiredIntelligenceForUse": 1,
+    "requiredStrengthForUse": 1,
+    "shootDistance": 0.0,
+    "shootPeriod": 30,
+    "stability": 0.0,
+    "staminaRestoration": 0.0,
+    "staminaRestorationFrames": 0,
+    "texture": "data/textures/items/toolset.png",
+    "textureRect": {
+      "h": 9.0,
+      "w": 30.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "throwable": false,
+    "weight": 3.5
+  },
+  "Trousers_LeatherTrousers": {
+    "blueprintResult": "Unknown",
+    "bodyPartAffectors": {
+      "LeftLowerLeg": {
+        "rect": {
+          "h": 1.0,
+          "w": 1.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        "texture": "data/textures/body_parts/lowerleg_leather.png"
+      },
+      "LeftUpperLeg": {
+        "rect": {
+          "h": 1.0,
+          "w": 1.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        "texture": "data/textures/body_parts/upperleg_leather.png"
+      },
+      "RightLowerLeg": {
+        "rect": {
+          "h": 1.0,
+          "w": 1.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        "texture": "data/textures/body_parts/lowerleg_leather.png"
+      },
+      "RightUpperLeg": {
+        "rect": {
+          "h": 1.0,
+          "w": 1.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        "texture": "data/textures/body_parts/upperleg_leather.png"
+      }
+    },
+    "bookText": "",
+    "chemDmgReductionPercent": 3.5,
+    "class": "Trousers",
+    "composeItems": {
+      "Ingredient_Fabric": 1,
+      "Ingredient_Leather": 2,
+      "Metal_Iron": 1
+    },
+    "consumable": "Unknown",
+    "damage": {
+      "class": "Unknown",
+      "count": 0.0,
+      "flags": 0
+    },
+    "decomposeItems": {
+      "Ingredient_Leather": 1,
+      "Rubbish": 1
+    },
+    "description": "trousersLeatherDesc",
+    "durability": 300.0,
+    "elecDmgReductionPercent": 7.0,
+    "fireDmgReductionPercent": 7.500000476837158,
+    "hasPhysicalBody": false,
+    "heal": 0.0,
+    "healFrames": 0,
+    "isMelee": false,
+    "name": "trousersLeather",
+    "physDmgReductionPercent": 7.0,
+    "price": 209,
+    "rareness": 6,
+    "repairItems": {
+      "High": {
+        "Ingredient_Fabric": 1
+      },
+      "Low": {
+        "Metal_Iron": 1
+      },
+      "Medium": {
+        "Ingredient_Leather": 1
+      }
+    },
+    "requiredDexterityForUse": 1,
+    "requiredIntelligenceForCraft": 1,
+    "requiredIntelligenceForUse": 3,
+    "requiredStrengthForUse": 1,
+    "shootDistance": 0.0,
+    "shootPeriod": 30,
+    "stability": 0.0,
+    "staminaRestoration": 0.0,
+    "staminaRestorationFrames": 0,
+    "texture": "data/textures/items/armor_set.png",
+    "textureRect": {
+      "h": 64.0,
+      "w": 64.0,
+      "x": 192.0,
+      "y": 128.0
+    },
+    "throwable": false,
+    "weight": 2.8499999046325684
+  },
+  "Trousers_LightLeatherTrousers": {
+    "blueprintResult": "Unknown",
+    "bodyPartAffectors": {
+      "LeftLowerLeg": {
+        "rect": {
+          "h": 1.0,
+          "w": 1.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        "texture": "data/textures/body_parts/lowerleg_light_leather.png"
+      },
+      "LeftUpperLeg": {
+        "rect": {
+          "h": 1.0,
+          "w": 1.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        "texture": "data/textures/body_parts/upperleg_light_leather.png"
+      },
+      "RightLowerLeg": {
+        "rect": {
+          "h": 1.0,
+          "w": 1.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        "texture": "data/textures/body_parts/lowerleg_light_leather.png"
+      },
+      "RightUpperLeg": {
+        "rect": {
+          "h": 1.0,
+          "w": 1.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        "texture": "data/textures/body_parts/upperleg_light_leather.png"
+      }
+    },
+    "bookText": "",
+    "chemDmgReductionPercent": 3.0,
+    "class": "Trousers",
+    "composeItems": {
+      "Ingredient_Fabric": 1,
+      "Ingredient_Leather": 2
+    },
+    "consumable": "Unknown",
+    "damage": {
+      "class": "Unknown",
+      "count": 0.0,
+      "flags": 0
+    },
+    "decomposeItems": {
+      "Ingredient_Leather": 1,
+      "Rubbish": 1
+    },
+    "description": "trousersLightLeatherDesc",
+    "durability": 180.0,
+    "elecDmgReductionPercent": 6.5,
+    "fireDmgReductionPercent": 6.5,
+    "hasPhysicalBody": false,
+    "heal": 0.0,
+    "healFrames": 0,
+    "isMelee": false,
+    "name": "trousersLightLeather",
+    "physDmgReductionPercent": 6.0,
+    "price": 160,
+    "rareness": 4,
+    "repairItems": {
+      "High": {
+        "Ingredient_Fabric": 1
+      },
+      "Low": {
+        "Ingredient_Leather": 1
+      },
+      "Medium": {
+        "Ingredient_Leather": 1
+      }
+    },
+    "requiredDexterityForUse": 1,
+    "requiredIntelligenceForCraft": 1,
+    "requiredIntelligenceForUse": 3,
+    "requiredStrengthForUse": 1,
+    "shootDistance": 0.0,
+    "shootPeriod": 30,
+    "stability": 0.0,
+    "staminaRestoration": 0.0,
+    "staminaRestorationFrames": 0,
+    "texture": "data/textures/items/armor_set.png",
+    "textureRect": {
+      "h": 64.0,
+      "w": 64.0,
+      "x": 192.0,
+      "y": 128.0
+    },
+    "throwable": false,
+    "weight": 2.25
+  },
+  "Trousers_SteelTrousers": {
+    "blueprintResult": "Unknown",
+    "bodyPartAffectors": {
+      "LeftLowerLeg": {
+        "rect": {
+          "h": 1.0,
+          "w": 1.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        "texture": "data/textures/body_parts/lowerleg_steel.png"
+      },
+      "LeftUpperLeg": {
+        "rect": {
+          "h": 1.0,
+          "w": 1.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        "texture": "data/textures/body_parts/upperleg_steel.png"
+      },
+      "RightLowerLeg": {
+        "rect": {
+          "h": 1.0,
+          "w": 1.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        "texture": "data/textures/body_parts/lowerleg_steel.png"
+      },
+      "RightUpperLeg": {
+        "rect": {
+          "h": 1.0,
+          "w": 1.0,
+          "x": 0.0,
+          "y": 0.0
+        },
+        "texture": "data/textures/body_parts/upperleg_steel.png"
+      }
+    },
+    "bookText": "",
+    "chemDmgReductionPercent": 2.5,
+    "class": "Trousers",
+    "composeItems": {
+      "Ingredient_Fabric": 1,
+      "Ingredient_Leather": 2,
+      "Metal_Iron": 3
+    },
+    "consumable": "Unknown",
+    "damage": {
+      "class": "Unknown",
+      "count": 0.0,
+      "flags": 0
+    },
+    "decomposeItems": {
+      "Ingredient_Leather": 1,
+      "Metal_Iron": 1,
+      "Rubbish": 1
+    },
+    "description": "trousersSteelDesc",
+    "durability": 400.0,
+    "elecDmgReductionPercent": 1.0,
+    "fireDmgReductionPercent": 5.0,
+    "hasPhysicalBody": false,
+    "heal": 0.0,
+    "healFrames": 0,
+    "isMelee": false,
+    "name": "trousersSteel",
+    "physDmgReductionPercent": 8.5,
+    "price": 333,
+    "rareness": 8,
+    "repairItems": {
+      "High": {
+        "Ingredient_Fabric": 1
+      },
+      "Low": {
+        "Metal_Iron": 1
+      },
+      "Medium": {
+        "Metal_Iron": 1
+      }
+    },
+    "requiredDexterityForUse": 1,
+    "requiredIntelligenceForCraft": 1,
+    "requiredIntelligenceForUse": 3,
+    "requiredStrengthForUse": 1,
+    "shootDistance": 0.0,
+    "shootPeriod": 30,
+    "stability": 0.0,
+    "staminaRestoration": 0.0,
+    "staminaRestorationFrames": 0,
+    "texture": "data/textures/items/armor_set.png",
+    "textureRect": {
+      "h": 64.0,
+      "w": 64.0,
+      "x": 192.0,
+      "y": 128.0
+    },
+    "throwable": false,
+    "weight": 3.8499999046325684
+  },
+  "Weapon_AcidGun": {
+    "blueprintResult": "Unknown",
+    "bodyPartAffectors": null,
+    "bookText": "",
+    "chemDmgReductionPercent": 0.0,
+    "class": "Weapon",
+    "composeItems": {
+      "Metal_Copper": 1,
+      "Metal_Iron": 3,
+      "Metal_Silver": 1
+    },
+    "consumable": "Projectile_AcidBlob",
+    "damage": {
+      "class": "Unknown",
+      "count": 0.0,
+      "flags": 0
+    },
+    "decomposeItems": {
+      "Metal_Iron": 1,
+      "Rubbish": 1
+    },
+    "description": "wpnAcidGunDesc",
+    "durability": 270.0,
+    "elecDmgReductionPercent": 0.0,
+    "fireDmgReductionPercent": 0.0,
+    "hasPhysicalBody": false,
+    "heal": 0.0,
+    "healFrames": 0,
+    "isMelee": false,
+    "name": "wpnAcidGun",
+    "physDmgReductionPercent": 0.0,
+    "price": 1000,
+    "rareness": 55,
+    "repairItems": {
+      "High": {
+        "Metal_Copper": 1
+      },
+      "Low": {
+        "Metal_Iron": 1
+      },
+      "Medium": {
+        "Metal_Iron": 1
+      }
+    },
+    "requiredDexterityForUse": 1,
+    "requiredIntelligenceForCraft": 1,
+    "requiredIntelligenceForUse": 22,
+    "requiredStrengthForUse": 1,
+    "shootDistance": 200.0,
+    "shootPeriod": 30,
+    "stability": 0.0,
+    "staminaRestoration": 0.0,
+    "staminaRestorationFrames": 0,
+    "texture": "data/textures/weapons/acid_gun.png",
+    "textureRect": {
+      "h": 12.0,
+      "w": 24.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "throwable": false,
+    "weight": 15.0
+  },
+  "Weapon_ConstructionGun": {
+    "blueprintResult": "Unknown",
+    "bodyPartAffectors": null,
+    "bookText": "",
+    "chemDmgReductionPercent": 0.0,
+    "class": "Weapon",
+    "composeItems": {
+      "Metal_Iron": 1
+    },
+    "consumable": "Projectile_ConstructionBlock",
+    "damage": {
+      "class": "Fire",
+      "count": 5.0,
+      "flags": 0
+    },
+    "decomposeItems": {
+      "Rubbish": 1
+    },
+    "description": "wpnConstructionGunDesc",
+    "durability": 999.0,
+    "elecDmgReductionPercent": 0.0,
+    "fireDmgReductionPercent": 0.0,
+    "hasPhysicalBody": false,
+    "heal": 0.0,
+    "healFrames": 0,
+    "isMelee": false,
+    "name": "wpnConstructionGun",
+    "physDmgReductionPercent": 0.0,
+    "price": 30,
+    "rareness": 1,
+    "repairItems": {
+      "High": {
+        "Metal_Iron": 1
+      },
+      "Low": {
+        "Metal_Iron": 1
+      },
+      "Medium": {
+        "Metal_Iron": 1
+      }
+    },
+    "requiredDexterityForUse": 1,
+    "requiredIntelligenceForCraft": 1,
+    "requiredIntelligenceForUse": 1,
+    "requiredStrengthForUse": 1,
+    "shootDistance": 100.0,
+    "shootPeriod": 60,
+    "stability": 0.0,
+    "staminaRestoration": 0.0,
+    "staminaRestorationFrames": 0,
+    "texture": "data/textures/weapons/shotgun.png",
+    "textureRect": {
+      "h": 15.0,
+      "w": 56.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "throwable": false,
+    "weight": 2.0
+  },
+  "Weapon_Drill": {
+    "blueprintResult": "Unknown",
+    "bodyPartAffectors": null,
+    "bookText": "",
+    "chemDmgReductionPercent": 0.0,
+    "class": "Weapon",
+    "composeItems": {
+      "Metal_Copper": 1,
+      "Metal_Iron": 4,
+      "Metal_Tungsten": 1
+    },
+    "consumable": "Crystal_SmallPower",
+    "damage": {
+      "class": "Physical",
+      "count": 1.0,
+      "flags": 0
+    },
+    "decomposeItems": {
+      "Metal_Iron": 2,
+      "Rubbish": 1
+    },
+    "description": "wpnDrillDesc",
+    "durability": 440.0,
+    "elecDmgReductionPercent": 0.0,
+    "fireDmgReductionPercent": 0.0,
+    "hasPhysicalBody": false,
+    "heal": 0.0,
+    "healFrames": 0,
+    "isMelee": false,
+    "name": "wpnDrill",
+    "physDmgReductionPercent": 0.0,
+    "price": 100,
+    "rareness": 8,
+    "repairItems": {
+      "High": {
+        "Metal_Tungsten": 1
+      },
+      "Low": {
+        "Metal_Iron": 1
+      },
+      "Medium": {
+        "Metal_Copper": 1
+      }
+    },
+    "requiredDexterityForUse": 1,
+    "requiredIntelligenceForCraft": 1,
+    "requiredIntelligenceForUse": 7,
+    "requiredStrengthForUse": 1,
+    "shootDistance": 30.0,
+    "shootPeriod": 0,
+    "stability": 0.0,
+    "staminaRestoration": 0.0,
+    "staminaRestorationFrames": 0,
+    "texture": "data/textures/weapons/drill.png",
+    "textureRect": {
+      "h": 32.0,
+      "w": 64.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "throwable": false,
+    "weight": 5.0
+  },
+  "Weapon_ForceGun": {
+    "blueprintResult": "Unknown",
+    "bodyPartAffectors": null,
+    "bookText": "",
+    "chemDmgReductionPercent": 0.0,
+    "class": "Weapon",
+    "composeItems": {
+      "Metal_Copper": 1,
+      "Metal_Iron": 3,
+      "Metal_Silver": 1
+    },
+    "consumable": "Crystal_SmallPower",
+    "damage": {
+      "class": "Physical",
+      "count": 100.0,
+      "flags": 0
+    },
+    "decomposeItems": {
+      "Metal_Iron": 1,
+      "Rubbish": 1
+    },
+    "description": "wpnForceGunDesc",
+    "durability": 420.0,
+    "elecDmgReductionPercent": 0.0,
+    "fireDmgReductionPercent": 0.0,
+    "hasPhysicalBody": false,
+    "heal": 0.0,
+    "healFrames": 0,
+    "isMelee": false,
+    "name": "wpnForceGun",
+    "physDmgReductionPercent": 0.0,
+    "price": 1000,
+    "rareness": 60,
+    "repairItems": {
+      "High": {
+        "Metal_Copper": 1
+      },
+      "Low": {
+        "Metal_Iron": 1
+      },
+      "Medium": {
+        "Metal_Iron": 1
+      }
+    },
+    "requiredDexterityForUse": 1,
+    "requiredIntelligenceForCraft": 1,
+    "requiredIntelligenceForUse": 50,
+    "requiredStrengthForUse": 1,
+    "shootDistance": 80.0,
+    "shootPeriod": 100,
+    "stability": 0.0,
+    "staminaRestoration": 0.0,
+    "staminaRestorationFrames": 0,
+    "texture": "data/textures/weapons/acid_gun.png",
+    "textureRect": {
+      "h": 12.0,
+      "w": 24.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "throwable": false,
+    "weight": 31.0
+  },
+  "Weapon_GravityGun": {
+    "blueprintResult": "Unknown",
+    "bodyPartAffectors": null,
+    "bookText": "",
+    "chemDmgReductionPercent": 0.0,
+    "class": "Weapon",
+    "composeItems": {
+      "Metal_Copper": 1,
+      "Metal_Iron": 3,
+      "Metal_Silver": 1
+    },
+    "consumable": "Crystal_SmallPower",
+    "damage": {
+      "class": "Unknown",
+      "count": 0.0,
+      "flags": 0
+    },
+    "decomposeItems": {
+      "Metal_Iron": 1,
+      "Rubbish": 1
+    },
+    "description": "wpnGravityGunDesc",
+    "durability": 1400.0,
+    "elecDmgReductionPercent": 0.0,
+    "fireDmgReductionPercent": 0.0,
+    "hasPhysicalBody": false,
+    "heal": 0.0,
+    "healFrames": 0,
+    "isMelee": false,
+    "name": "wpnGravityGun",
+    "physDmgReductionPercent": 0.0,
+    "price": 8600,
+    "rareness": 100,
+    "repairItems": {
+      "High": {
+        "Metal_Copper": 1
+      },
+      "Low": {
+        "Metal_Iron": 1
+      },
+      "Medium": {
+        "Metal_Iron": 1
+      }
+    },
+    "requiredDexterityForUse": 1,
+    "requiredIntelligenceForCraft": 1,
+    "requiredIntelligenceForUse": 50,
+    "requiredStrengthForUse": 1,
+    "shootDistance": 100.0,
+    "shootPeriod": 0,
+    "stability": 0.0,
+    "staminaRestoration": 0.0,
+    "staminaRestorationFrames": 0,
+    "texture": "data/textures/weapons/acid_gun.png",
+    "textureRect": {
+      "h": 12.0,
+      "w": 24.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "throwable": false,
+    "weight": 24.0
+  },
+  "Weapon_GrenadeLauncher": {
+    "blueprintResult": "Unknown",
+    "bodyPartAffectors": null,
+    "bookText": "",
+    "chemDmgReductionPercent": 0.0,
+    "class": "Weapon",
+    "composeItems": {
+      "Metal_Copper": 1,
+      "Metal_Iron": 4
+    },
+    "consumable": "Projectile_Grenade",
+    "damage": {
+      "class": "Unknown",
+      "count": 0.0,
+      "flags": 0
+    },
+    "decomposeItems": {
+      "Metal_Iron": 2,
+      "Rubbish": 1
+    },
+    "description": "wpnGrenadeLauncherDesc",
+    "durability": 140.0,
+    "elecDmgReductionPercent": 0.0,
+    "fireDmgReductionPercent": 0.0,
+    "hasPhysicalBody": false,
+    "heal": 0.0,
+    "healFrames": 0,
+    "isMelee": false,
+    "name": "wpnGrenadeLauncher",
+    "physDmgReductionPercent": 0.0,
+    "price": 600,
+    "rareness": 36,
+    "repairItems": {
+      "High": {
+        "Metal_Copper": 1
+      },
+      "Low": {
+        "Metal_Iron": 1
+      },
+      "Medium": {
+        "Metal_Iron": 1
+      }
+    },
+    "requiredDexterityForUse": 1,
+    "requiredIntelligenceForCraft": 1,
+    "requiredIntelligenceForUse": 13,
+    "requiredStrengthForUse": 1,
+    "shootDistance": 250.0,
+    "shootPeriod": 120,
+    "stability": 0.0,
+    "staminaRestoration": 0.0,
+    "staminaRestorationFrames": 0,
+    "texture": "data/textures/weapons/grenadeLauncher.png",
+    "textureRect": {
+      "h": 32.0,
+      "w": 64.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "throwable": false,
+    "weight": 7.0
+  },
+  "Weapon_Harpoon": {
+    "blueprintResult": "Unknown",
+    "bodyPartAffectors": null,
+    "bookText": "",
+    "chemDmgReductionPercent": 0.0,
+    "class": "Weapon",
+    "composeItems": {
+      "Metal_Copper": 1,
+      "Metal_Iron": 3,
+      "Metal_Silver": 1
+    },
+    "consumable": "Projectile_Harpoon",
+    "damage": {
+      "class": "Unknown",
+      "count": 0.0,
+      "flags": 0
+    },
+    "decomposeItems": {
+      "Metal_Iron": 1,
+      "Rubbish": 1
+    },
+    "description": "wpnHarpoonLauncherDesc",
+    "durability": 330.0,
+    "elecDmgReductionPercent": 0.0,
+    "fireDmgReductionPercent": 0.0,
+    "hasPhysicalBody": false,
+    "heal": 0.0,
+    "healFrames": 0,
+    "isMelee": false,
+    "name": "wpnHarpoonLauncher",
+    "physDmgReductionPercent": 0.0,
+    "price": 400,
+    "rareness": 24,
+    "repairItems": {
+      "High": {
+        "Metal_Copper": 1
+      },
+      "Low": {
+        "Metal_Iron": 1
+      },
+      "Medium": {
+        "Metal_Iron": 1
+      }
+    },
+    "requiredDexterityForUse": 1,
+    "requiredIntelligenceForCraft": 1,
+    "requiredIntelligenceForUse": 14,
+    "requiredStrengthForUse": 1,
+    "shootDistance": 1000.0,
+    "shootPeriod": 30,
+    "stability": 0.0,
+    "staminaRestoration": 0.0,
+    "staminaRestorationFrames": 0,
+    "texture": "data/textures/weapons/harpoon_launcher.png",
+    "textureRect": {
+      "h": 10.0,
+      "w": 24.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "throwable": false,
+    "weight": 10.0
+  },
+  "Weapon_Hook": {
+    "blueprintResult": "Unknown",
+    "bodyPartAffectors": null,
+    "bookText": "",
+    "chemDmgReductionPercent": 0.0,
+    "class": "Weapon",
+    "composeItems": {
+      "Metal_Copper": 2,
+      "Metal_Iron": 3,
+      "Metal_Silver": 1
+    },
+    "consumable": "Crystal_SmallPower",
+    "damage": {
+      "class": "Physical",
+      "count": 40.0,
+      "flags": 0
+    },
+    "decomposeItems": {
+      "Metal_Copper": 1,
+      "Metal_Iron": 1,
+      "Rubbish": 1
+    },
+    "description": "wpnHookDesc",
+    "durability": 160.0,
+    "elecDmgReductionPercent": 0.0,
+    "fireDmgReductionPercent": 0.0,
+    "hasPhysicalBody": false,
+    "heal": 0.0,
+    "healFrames": 0,
+    "isMelee": false,
+    "name": "wpnHook",
+    "physDmgReductionPercent": 0.0,
+    "price": 50,
+    "rareness": 12,
+    "repairItems": {
+      "High": {
+        "Metal_Silver": 1
+      },
+      "Low": {
+        "Metal_Iron": 1
+      },
+      "Medium": {
+        "Metal_Copper": 1
+      }
+    },
+    "requiredDexterityForUse": 1,
+    "requiredIntelligenceForCraft": 1,
+    "requiredIntelligenceForUse": 9,
+    "requiredStrengthForUse": 1,
+    "shootDistance": 250.0,
+    "shootPeriod": 40,
+    "stability": 0.0,
+    "staminaRestoration": 0.0,
+    "staminaRestorationFrames": 0,
+    "texture": "data/textures/weapons/hookLauncher.png",
+    "textureRect": {
+      "h": 10.0,
+      "w": 24.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "throwable": false,
+    "weight": 4.5
+  },
+  "Weapon_LightningGun": {
+    "blueprintResult": "Unknown",
+    "bodyPartAffectors": null,
+    "bookText": "",
+    "chemDmgReductionPercent": 0.0,
+    "class": "Weapon",
+    "composeItems": {
+      "Metal_Copper": 1,
+      "Metal_Iron": 3,
+      "Metal_Silver": 1
+    },
+    "consumable": "Crystal_SmallPower",
+    "damage": {
+      "class": "Electrical",
+      "count": 3.0,
+      "flags": 0
+    },
+    "decomposeItems": {
+      "Metal_Iron": 1,
+      "Rubbish": 1
+    },
+    "description": "wpnLightningGunDesc",
+    "durability": 200.0,
+    "elecDmgReductionPercent": 0.0,
+    "fireDmgReductionPercent": 0.0,
+    "hasPhysicalBody": false,
+    "heal": 0.0,
+    "healFrames": 0,
+    "isMelee": false,
+    "name": "wpnLightningGun",
+    "physDmgReductionPercent": 0.0,
+    "price": 1900,
+    "rareness": 70,
+    "repairItems": {
+      "High": {
+        "Metal_Copper": 1
+      },
+      "Low": {
+        "Metal_Iron": 1
+      },
+      "Medium": {
+        "Metal_Iron": 1
+      }
+    },
+    "requiredDexterityForUse": 1,
+    "requiredIntelligenceForCraft": 1,
+    "requiredIntelligenceForUse": 40,
+    "requiredStrengthForUse": 1,
+    "shootDistance": 80.0,
+    "shootPeriod": 100,
+    "stability": 0.0,
+    "staminaRestoration": 0.0,
+    "staminaRestorationFrames": 0,
+    "texture": "data/textures/weapons/acid_gun.png",
+    "textureRect": {
+      "h": 12.0,
+      "w": 24.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "throwable": false,
+    "weight": 14.0
+  },
+  "Weapon_Pickaxe": {
+    "blueprintResult": "Unknown",
+    "bodyPartAffectors": null,
+    "bookText": "",
+    "chemDmgReductionPercent": 0.0,
+    "class": "Weapon",
+    "composeItems": {
+      "Ingredient_Wood": 1,
+      "Metal_Iron": 2
+    },
+    "consumable": "Unknown",
+    "damage": {
+      "class": "Physical",
+      "count": 10.0,
+      "flags": 0
+    },
+    "decomposeItems": {
+      "Rubbish": 1
+    },
+    "description": "wpnPickaxeDesc",
+    "durability": 600.0,
+    "elecDmgReductionPercent": 0.0,
+    "fireDmgReductionPercent": 0.0,
+    "hasPhysicalBody": false,
+    "heal": 0.0,
+    "healFrames": 0,
+    "isMelee": true,
+    "name": "wpnPickaxe",
+    "physDmgReductionPercent": 0.0,
+    "price": 10,
+    "rareness": 1,
+    "repairItems": {
+      "High": {
+        "Ingredient_Wood": 1
+      },
+      "Low": {
+        "Metal_Iron": 1
+      },
+      "Medium": {
+        "Metal_Iron": 1
+      }
+    },
+    "requiredDexterityForUse": 1,
+    "requiredIntelligenceForCraft": 1,
+    "requiredIntelligenceForUse": 1,
+    "requiredStrengthForUse": 1,
+    "shootDistance": 60.0,
+    "shootPeriod": 70,
+    "stability": 0.0,
+    "staminaRestoration": 0.0,
+    "staminaRestorationFrames": 0,
+    "texture": "data/textures/weapons/pickaxe.png",
+    "textureRect": {
+      "h": 20.0,
+      "w": 32.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "throwable": false,
+    "weight": 3.0
+  },
+  "Weapon_PlasmaDrill": {
+    "blueprintResult": "Unknown",
+    "bodyPartAffectors": null,
+    "bookText": "",
+    "chemDmgReductionPercent": 0.0,
+    "class": "Weapon",
+    "composeItems": {
+      "Metal_Copper": 2,
+      "Metal_Gold": 1,
+      "Metal_Iron": 6,
+      "Metal_Tungsten": 2
+    },
+    "consumable": "Crystal_SmallPower",
+    "damage": {
+      "class": "Physical",
+      "count": 4.199999809265137,
+      "flags": 0
+    },
+    "decomposeItems": {
+      "Metal_Iron": 3,
+      "Metal_Tungsten": 1,
+      "Rubbish": 1
+    },
+    "description": "wpnPlasmaDesc",
+    "durability": 230.0,
+    "elecDmgReductionPercent": 0.0,
+    "fireDmgReductionPercent": 0.0,
+    "hasPhysicalBody": false,
+    "heal": 0.0,
+    "healFrames": 0,
+    "isMelee": false,
+    "name": "wpnPlasmaDrill",
+    "physDmgReductionPercent": 0.0,
+    "price": 800,
+    "rareness": 80,
+    "repairItems": {
+      "High": {
+        "Metal_Tungsten": 1
+      },
+      "Low": {
+        "Metal_Iron": 1
+      },
+      "Medium": {
+        "Metal_Copper": 1
+      }
+    },
+    "requiredDexterityForUse": 1,
+    "requiredIntelligenceForCraft": 1,
+    "requiredIntelligenceForUse": 27,
+    "requiredStrengthForUse": 1,
+    "shootDistance": 80.0,
+    "shootPeriod": 0,
+    "stability": 0.0,
+    "staminaRestoration": 0.0,
+    "staminaRestorationFrames": 0,
+    "texture": "data/textures/weapons/plasmaDrill.png",
+    "textureRect": {
+      "h": 32.0,
+      "w": 64.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "throwable": false,
+    "weight": 4.0
+  },
+  "Weapon_RailGun": {
+    "blueprintResult": "Unknown",
+    "bodyPartAffectors": null,
+    "bookText": "",
+    "chemDmgReductionPercent": 0.0,
+    "class": "Weapon",
+    "composeItems": {
+      "Crystal_Polycrystal": 1,
+      "Crystal_SmallPower": 4,
+      "Metal_Copper": 6,
+      "Metal_Gold": 2,
+      "Metal_Platinum": 2,
+      "Metal_Tin": 1,
+      "Metal_Tungsten": 10
+    },
+    "consumable": "Projectile_Rail",
+    "damage": {
+      "class": "Unknown",
+      "count": 0.0,
+      "flags": 0
+    },
+    "decomposeItems": {
+      "Metal_Copper": 3,
+      "Metal_Gold": 1,
+      "Metal_Platinum": 1,
+      "Metal_Tungsten": 5
+    },
+    "description": "wpnRailGunDesc",
+    "durability": 40.0,
+    "elecDmgReductionPercent": 0.0,
+    "fireDmgReductionPercent": 0.0,
+    "hasPhysicalBody": false,
+    "heal": 0.0,
+    "healFrames": 0,
+    "isMelee": false,
+    "name": "wpnRailGun",
+    "physDmgReductionPercent": 0.0,
+    "price": 3000,
+    "rareness": 100,
+    "repairItems": {
+      "High": {
+        "Metal_Tungsten": 4
+      },
+      "Low": {
+        "Metal_Copper": 3
+      },
+      "Medium": {
+        "Metal_Platinum": 2
+      }
+    },
+    "requiredDexterityForUse": 1,
+    "requiredIntelligenceForCraft": 1,
+    "requiredIntelligenceForUse": 30,
+    "requiredStrengthForUse": 30,
+    "shootDistance": 4000.0,
+    "shootPeriod": 180,
+    "stability": 0.0,
+    "staminaRestoration": 0.0,
+    "staminaRestorationFrames": 0,
+    "texture": "data/textures/weapons/rail_gun.png",
+    "textureRect": {
+      "h": 12.0,
+      "w": 32.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "throwable": false,
+    "weight": 35.0
+  },
+  "Weapon_RevealGun": {
+    "blueprintResult": "Unknown",
+    "bodyPartAffectors": null,
+    "bookText": "",
+    "chemDmgReductionPercent": 0.0,
+    "class": "Weapon",
+    "composeItems": {
+      "Metal_Copper": 1,
+      "Metal_Iron": 3,
+      "Metal_Silver": 1
+    },
+    "consumable": "Crystal_SmallPower",
+    "damage": {
+      "class": "Unknown",
+      "count": 0.0,
+      "flags": 0
+    },
+    "decomposeItems": {
+      "Metal_Iron": 1,
+      "Rubbish": 1
+    },
+    "description": "wpnRevealGunDesc",
+    "durability": 800.0,
+    "elecDmgReductionPercent": 0.0,
+    "fireDmgReductionPercent": 0.0,
+    "hasPhysicalBody": false,
+    "heal": 0.0,
+    "healFrames": 0,
+    "isMelee": false,
+    "name": "wpnRevealGun",
+    "physDmgReductionPercent": 0.0,
+    "price": 70,
+    "rareness": 3,
+    "repairItems": {
+      "High": {
+        "Metal_Copper": 1
+      },
+      "Low": {
+        "Metal_Iron": 1
+      },
+      "Medium": {
+        "Metal_Iron": 1
+      }
+    },
+    "requiredDexterityForUse": 1,
+    "requiredIntelligenceForCraft": 1,
+    "requiredIntelligenceForUse": 14,
+    "requiredStrengthForUse": 1,
+    "shootDistance": 500.0,
+    "shootPeriod": 30,
+    "stability": 0.0,
+    "staminaRestoration": 0.0,
+    "staminaRestorationFrames": 0,
+    "texture": "data/textures/weapons/reveal_gun.png",
+    "textureRect": {
+      "h": 12.0,
+      "w": 24.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "throwable": false,
+    "weight": 6.0
+  },
+  "Weapon_RocketLauncher": {
+    "blueprintResult": "Unknown",
+    "bodyPartAffectors": null,
+    "bookText": "",
+    "chemDmgReductionPercent": 0.0,
+    "class": "Weapon",
+    "composeItems": {
+      "Metal_Copper": 1,
+      "Metal_Iron": 3,
+      "Metal_Silver": 1
+    },
+    "consumable": "Projectile_Rocket",
+    "damage": {
+      "class": "Unknown",
+      "count": 0.0,
+      "flags": 0
+    },
+    "decomposeItems": {
+      "Metal_Iron": 1,
+      "Rubbish": 1
+    },
+    "description": "wpnRocketLauncherDesc",
+    "durability": 150.0,
+    "elecDmgReductionPercent": 0.0,
+    "fireDmgReductionPercent": 0.0,
+    "hasPhysicalBody": false,
+    "heal": 0.0,
+    "healFrames": 0,
+    "isMelee": false,
+    "name": "wpnRocketLauncher",
+    "physDmgReductionPercent": 0.0,
+    "price": 700,
+    "rareness": 40,
+    "repairItems": {
+      "High": {
+        "Metal_Copper": 1
+      },
+      "Low": {
+        "Metal_Iron": 1
+      },
+      "Medium": {
+        "Metal_Iron": 1
+      }
+    },
+    "requiredDexterityForUse": 1,
+    "requiredIntelligenceForCraft": 1,
+    "requiredIntelligenceForUse": 14,
+    "requiredStrengthForUse": 1,
+    "shootDistance": 1000.0,
+    "shootPeriod": 30,
+    "stability": 0.0,
+    "staminaRestoration": 0.0,
+    "staminaRestorationFrames": 0,
+    "texture": "data/textures/weapons/rocketLauncher.png",
+    "textureRect": {
+      "h": 10.0,
+      "w": 29.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "throwable": false,
+    "weight": 7.5
+  },
+  "Weapon_Shotgun": {
+    "blueprintResult": "Unknown",
+    "bodyPartAffectors": null,
+    "bookText": "",
+    "chemDmgReductionPercent": 0.0,
+    "class": "Weapon",
+    "composeItems": {
+      "Ingredient_Wood": 1,
+      "Metal_Iron": 3
+    },
+    "consumable": "Projectile_Shells",
+    "damage": {
+      "class": "Unknown",
+      "count": 0.0,
+      "flags": 0
+    },
+    "decomposeItems": {
+      "Metal_Iron": 1,
+      "Rubbish": 1
+    },
+    "description": "wpnShotgunDesc",
+    "durability": 170.0,
+    "elecDmgReductionPercent": 0.0,
+    "fireDmgReductionPercent": 0.0,
+    "hasPhysicalBody": false,
+    "heal": 0.0,
+    "healFrames": 0,
+    "isMelee": false,
+    "name": "wpnShotgun",
+    "physDmgReductionPercent": 0.0,
+    "price": 200,
+    "rareness": 10,
+    "repairItems": {
+      "High": {
+        "Ingredient_Wood": 1
+      },
+      "Low": {
+        "Metal_Iron": 1
+      },
+      "Medium": {
+        "Metal_Iron": 1
+      }
+    },
+    "requiredDexterityForUse": 1,
+    "requiredIntelligenceForCraft": 1,
+    "requiredIntelligenceForUse": 5,
+    "requiredStrengthForUse": 1,
+    "shootDistance": 1000.0,
+    "shootPeriod": 70,
+    "stability": 0.0,
+    "staminaRestoration": 0.0,
+    "staminaRestorationFrames": 0,
+    "texture": "data/textures/weapons/shotgun.png",
+    "textureRect": {
+      "h": 15.0,
+      "w": 56.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "throwable": false,
+    "weight": 2.0
+  },
+  "Weapon_SoilGun": {
+    "blueprintResult": "Unknown",
+    "bodyPartAffectors": null,
+    "bookText": "",
+    "chemDmgReductionPercent": 0.0,
+    "class": "Weapon",
+    "composeItems": {
+      "Metal_Iron": 1
+    },
+    "consumable": "Crystal_SmallPower",
+    "damage": {
+      "class": "Unknown",
+      "count": 0.0,
+      "flags": 0
+    },
+    "decomposeItems": {
+      "Metal_Iron": 1,
+      "Rubbish": 1
+    },
+    "description": "wpnSoilgunDesc",
+    "durability": 666.0,
+    "elecDmgReductionPercent": 0.0,
+    "fireDmgReductionPercent": 0.0,
+    "hasPhysicalBody": false,
+    "heal": 0.0,
+    "healFrames": 0,
+    "isMelee": false,
+    "name": "wpnSoilgun",
+    "physDmgReductionPercent": 0.0,
+    "price": 666,
+    "rareness": 100,
+    "repairItems": {
+      "High": {
+        "Metal_Iron": 1
+      },
+      "Low": {
+        "Metal_Iron": 1
+      },
+      "Medium": {
+        "Metal_Iron": 1
+      }
+    },
+    "requiredDexterityForUse": 1,
+    "requiredIntelligenceForCraft": 1,
+    "requiredIntelligenceForUse": 1,
+    "requiredStrengthForUse": 1,
+    "shootDistance": 200.0,
+    "shootPeriod": 0,
+    "stability": 0.0,
+    "staminaRestoration": 0.0,
+    "staminaRestorationFrames": 0,
+    "texture": "data/textures/weapons/shotgun.png",
+    "textureRect": {
+      "h": 15.0,
+      "w": 56.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "throwable": false,
+    "weight": 6.659999847412109
+  },
+  "Weapon_Torch": {
+    "blueprintResult": "Unknown",
+    "bodyPartAffectors": null,
+    "bookText": "",
+    "chemDmgReductionPercent": 0.0,
+    "class": "Weapon",
+    "composeItems": {
+      "Ingredient_Fabric": 1,
+      "Ingredient_Wood": 1,
+      "Metal_Iron": 1
+    },
+    "consumable": "Unknown",
+    "damage": {
+      "class": "Fire",
+      "count": 5.0,
+      "flags": 0
+    },
+    "decomposeItems": {
+      "Rubbish": 1
+    },
+    "description": "torchSimpleDesc",
+    "durability": 600.0,
+    "elecDmgReductionPercent": 0.0,
+    "fireDmgReductionPercent": 0.0,
+    "hasPhysicalBody": false,
+    "heal": 0.0,
+    "healFrames": 0,
+    "isMelee": true,
+    "name": "torchSimple",
+    "physDmgReductionPercent": 0.0,
+    "price": 15,
+    "rareness": 1,
+    "repairItems": {
+      "High": {
+        "Ingredient_Wood": 1
+      },
+      "Low": {
+        "Metal_Iron": 1
+      },
+      "Medium": {
+        "Ingredient_Fabric": 1
+      }
+    },
+    "requiredDexterityForUse": 1,
+    "requiredIntelligenceForCraft": 1,
+    "requiredIntelligenceForUse": 1,
+    "requiredStrengthForUse": 1,
+    "shootDistance": 60.0,
+    "shootPeriod": 0,
+    "stability": 0.0,
+    "staminaRestoration": 0.0,
+    "staminaRestorationFrames": 0,
+    "texture": "data/textures/items/torch.png",
+    "textureRect": {
+      "h": 48.0,
+      "w": 16.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "throwable": false,
+    "weight": 3.0
+  }
+}

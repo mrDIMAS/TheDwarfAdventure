@@ -1,0 +1,820 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RNoInline|Win32">
+      <Configuration>RNoInline</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RNoInline|x64">
+      <Configuration>RNoInline</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RNonIncr|Win32">
+      <Configuration>RNonIncr</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RNonIncr|x64">
+      <Configuration>RNonIncr</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{25A08129-50DE-4862-A48F-655F4EFB3863}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>DwarfDig</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140_xp</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140_xp</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RNonIncr|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140_xp</PlatformToolset>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RNoInline|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140_xp</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RNonIncr|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RNoInline|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='RNonIncr|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='RNoInline|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='RNonIncr|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='RNoInline|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>../bin/</OutDir>
+    <TargetName>DwarfDig</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>../bin/</OutDir>
+    <TargetName>DwarfDig</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RNonIncr|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>../bin/</OutDir>
+    <TargetName>DwarfDig</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RNoInline|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>../bin/</OutDir>
+    <TargetName>DwarfDig</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RNonIncr|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RNoInline|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>SFML_STATIC;WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\external\SFML\include;..\external\glew\include;..\src\imgui;..\src\astar\;..\external\;..\external\LuaIntf\;..\external\lua\include\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeaderFile>Precompiled.h</PrecompiledHeaderFile>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <AssemblerOutput>NoListing</AssemblerOutput>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ForcedIncludeFiles>
+      </ForcedIncludeFiles>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <DisableLanguageExtensions>false</DisableLanguageExtensions>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <MinimalRebuild>false</MinimalRebuild>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>..\external\SFML\lib;..\external\glew\lib\Release\Win32;..\external\vld\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>sfml-graphics-s-d.lib;sfml-window-s-d.lib;sfml-audio-s-d.lib;sfml-system-s-d.lib;opengl32.lib;freetype.lib;jpeg.lib;winmm.lib;gdi32.lib;openal32.lib;flac.lib;vorbisenc.lib;vorbisfile.lib;vorbis.lib;ogg.lib;glew32s.lib;DbgHelp.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <EnableCOMDATFolding>false</EnableCOMDATFolding>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>SFML_STATIC;WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\external\SFML\include;..\external\glew\include;..\src\imgui;..\src\astar\;..\external\;..\external\LuaIntf\;..\external\lua\include\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeaderFile>Precompiled.h</PrecompiledHeaderFile>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <AssemblerOutput>NoListing</AssemblerOutput>
+      <MinimalRebuild>false</MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <DisableLanguageExtensions>false</DisableLanguageExtensions>
+      <EnforceTypeConversionRules>true</EnforceTypeConversionRules>
+      <SDLCheck>false</SDLCheck>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <UseUnicodeForAssemblerListing>
+      </UseUnicodeForAssemblerListing>
+      <ForcedIncludeFiles>
+      </ForcedIncludeFiles>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ControlFlowGuard>false</ControlFlowGuard>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <TreatWarningAsError>true</TreatWarningAsError>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>..\external\SFML\lib;..\external\glew\lib\Release\Win32;..\external\vld\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>glew32s.lib;sfml-graphics-s.lib;sfml-window-s.lib;sfml-audio-s.lib;sfml-system-s.lib;opengl32.lib;freetype.lib;jpeg.lib;winmm.lib;gdi32.lib;openal32.lib;flac.lib;vorbisenc.lib;vorbisfile.lib;vorbis.lib;ogg.lib;DbgHelp.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <LinkTimeCodeGeneration>UseFastLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RNonIncr|Win32'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>SFML_STATIC;WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\external\SFML\include;..\external\glew\include;..\src\imgui;..\src\astar\;..\external\;..\external\LuaIntf\;..\external\lua\include\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeaderFile>Precompiled.h</PrecompiledHeaderFile>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <AssemblerOutput>NoListing</AssemblerOutput>
+      <MinimalRebuild>false</MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <DisableLanguageExtensions>false</DisableLanguageExtensions>
+      <EnforceTypeConversionRules>true</EnforceTypeConversionRules>
+      <SDLCheck>false</SDLCheck>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <UseUnicodeForAssemblerListing>
+      </UseUnicodeForAssemblerListing>
+      <ForcedIncludeFiles>
+      </ForcedIncludeFiles>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ControlFlowGuard>false</ControlFlowGuard>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <TreatWarningAsError>true</TreatWarningAsError>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>..\external\SFML\lib;..\external\glew\lib\Release\Win32;..\external\vld\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>glew32s.lib;sfml-graphics-s.lib;sfml-window-s.lib;sfml-audio-s.lib;sfml-system-s.lib;opengl32.lib;freetype.lib;jpeg.lib;winmm.lib;gdi32.lib;openal32.lib;flac.lib;vorbisenc.lib;vorbisfile.lib;vorbis.lib;ogg.lib;DbgHelp.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <LinkTimeCodeGeneration>Default</LinkTimeCodeGeneration>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RNoInline|Win32'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>SFML_STATIC;WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\external\SFML\include;..\external\glew\include;..\src\imgui;..\src\astar\;..\external\;..\external\LuaIntf\;..\external\lua\include\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeaderFile>Precompiled.h</PrecompiledHeaderFile>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <AssemblerOutput>NoListing</AssemblerOutput>
+      <MinimalRebuild>false</MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <DisableLanguageExtensions>false</DisableLanguageExtensions>
+      <EnforceTypeConversionRules>true</EnforceTypeConversionRules>
+      <SDLCheck>false</SDLCheck>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <UseUnicodeForAssemblerListing>
+      </UseUnicodeForAssemblerListing>
+      <ForcedIncludeFiles>
+      </ForcedIncludeFiles>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ControlFlowGuard>false</ControlFlowGuard>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <TreatWarningAsError>true</TreatWarningAsError>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>DebugFastLink</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>..\external\SFML\lib;..\external\glew\lib\Release\Win32;..\external\vld\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>glew32s.lib;sfml-graphics-s.lib;sfml-window-s.lib;sfml-audio-s.lib;sfml-system-s.lib;opengl32.lib;freetype.lib;jpeg.lib;winmm.lib;gdi32.lib;openal32.lib;flac.lib;vorbisenc.lib;vorbisfile.lib;vorbis.lib;ogg.lib;DbgHelp.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <LinkTimeCodeGeneration>UseFastLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RNonIncr|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RNoInline|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\AcidGun.cpp" />
+    <ClCompile Include="..\src\Actor.cpp" />
+    <ClCompile Include="..\src\AddAnimationTrackCommand.cpp" />
+    <ClCompile Include="..\src\Animation.cpp" />
+    <ClCompile Include="..\src\AnimationTrack.cpp" />
+    <ClCompile Include="..\src\ArbitraryRectangle.cpp" />
+    <ClCompile Include="..\src\Arena.cpp" />
+    <ClCompile Include="..\src\Asset.cpp" />
+    <ClCompile Include="..\src\AStar.cpp" />
+    <ClCompile Include="..\src\AttachCommand.cpp" />
+    <ClCompile Include="..\src\BankGenerator.cpp" />
+    <ClCompile Include="..\src\Bar.cpp" />
+    <ClCompile Include="..\src\BarterWindow.cpp" />
+    <ClCompile Include="..\src\BehaviourTree.cpp" />
+    <ClCompile Include="..\src\Bench.cpp" />
+    <ClCompile Include="..\src\BookReader.cpp" />
+    <ClCompile Include="..\src\Boss.cpp" />
+    <ClCompile Include="..\src\BossAreaGenerator.cpp" />
+    <ClCompile Include="..\src\BossBeast.cpp" />
+    <ClCompile Include="..\src\BossCrystal.cpp" />
+    <ClCompile Include="..\src\BossGolem.cpp" />
+    <ClCompile Include="..\src\Button.cpp" />
+    <ClCompile Include="..\src\CaveGenerator.cpp" />
+    <ClCompile Include="..\src\Cell.cpp" />
+    <ClCompile Include="..\src\CellPixel.cpp" />
+    <ClCompile Include="..\src\Checkbox.cpp" />
+    <ClCompile Include="..\src\Chest.cpp" />
+    <ClCompile Include="..\src\ChestGenerator.cpp" />
+    <ClCompile Include="..\src\Cloud.cpp" />
+    <ClCompile Include="..\src\Collision.cpp" />
+    <ClCompile Include="..\src\Command.cpp" />
+    <ClCompile Include="..\src\CommandStack.cpp" />
+    <ClCompile Include="..\src\Config.cpp" />
+    <ClCompile Include="..\src\Console.cpp" />
+    <ClCompile Include="..\src\ConstructionGun.cpp" />
+    <ClCompile Include="..\src\Controls.cpp" />
+    <ClCompile Include="..\src\CreateAnimationCommand.cpp" />
+    <ClCompile Include="..\src\CreateNodeCommand.cpp" />
+    <ClCompile Include="..\src\CreateSpriteCommand.cpp" />
+    <ClCompile Include="..\src\Damage.cpp" />
+    <ClCompile Include="..\src\Debris.cpp" />
+    <ClCompile Include="..\src\DebrisAtlas.cpp" />
+    <ClCompile Include="..\src\Dialog.cpp" />
+    <ClCompile Include="..\src\DialogEditor.cpp" />
+    <ClCompile Include="..\src\Door.cpp" />
+    <ClCompile Include="..\src\Drill.cpp" />
+    <ClCompile Include="..\src\Dwarf.cpp" />
+    <ClCompile Include="..\src\Editor.cpp" />
+    <ClCompile Include="..\src\EditorCommand.cpp" />
+    <ClCompile Include="..\src\Encyclopedia.cpp" />
+    <ClCompile Include="..\src\Event.cpp" />
+    <ClCompile Include="..\src\Exception.cpp" />
+    <ClCompile Include="..\src\FlyingIslandsGenerator.cpp" />
+    <ClCompile Include="..\src\FogGate.cpp" />
+    <ClCompile Include="..\src\FogOfWar.cpp" />
+    <ClCompile Include="..\src\ForceGun.cpp" />
+    <ClCompile Include="..\src\Frame.cpp" />
+    <ClCompile Include="..\src\FrameAnimation.cpp" />
+    <ClCompile Include="..\src\Game.cpp" />
+    <ClCompile Include="..\src\Canvas.cpp" />
+    <ClCompile Include="..\src\GravityGun.cpp" />
+    <ClCompile Include="..\src\GrenadeLauncher.cpp" />
+    <ClCompile Include="..\src\Guid.cpp" />
+    <ClCompile Include="..\src\Harpoon.cpp" />
+    <ClCompile Include="..\src\Hitbox.cpp" />
+    <ClCompile Include="..\src\Hook.cpp" />
+    <ClCompile Include="..\src\HouseGenerator.cpp" />
+    <ClCompile Include="..\src\HubGenerator.cpp" />
+    <ClCompile Include="..\src\HUD.cpp" />
+    <ClCompile Include="..\src\IK.cpp" />
+    <ClCompile Include="..\src\Image.cpp" />
+    <ClCompile Include="..\src\ImageSelector.cpp" />
+    <ClCompile Include="..\src\imgui\imgui.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\src\imgui\imgui_demo.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\src\imgui\imgui_draw.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\src\imgui\imgui_widgets.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\src\Input.cpp" />
+    <ClCompile Include="..\src\InteractionMenu.cpp" />
+    <ClCompile Include="..\src\InteractionMode.cpp" />
+    <ClCompile Include="..\src\Inventory.cpp" />
+    <ClCompile Include="..\src\InventoryGUI.cpp" />
+    <ClCompile Include="..\src\Island.cpp" />
+    <ClCompile Include="..\src\Item.cpp" />
+    <ClCompile Include="..\src\ItemDatabase.cpp" />
+    <ClCompile Include="..\src\ItemDefinitionEditor.cpp" />
+    <ClCompile Include="..\src\Journal.cpp" />
+    <ClCompile Include="..\src\JsonConverters.cpp" />
+    <ClCompile Include="..\src\Keyframe.cpp" />
+    <ClCompile Include="..\src\Label.cpp" />
+    <ClCompile Include="..\src\Ladder.cpp" />
+    <ClCompile Include="..\src\Layout.cpp" />
+    <ClCompile Include="..\src\Level.cpp" />
+    <ClCompile Include="..\src\Light.cpp" />
+    <ClCompile Include="..\src\LightningGun.cpp" />
+    <ClCompile Include="..\src\LineSet.cpp" />
+    <ClCompile Include="..\src\LiquidParticle.cpp" />
+    <ClCompile Include="..\src\ListBox.cpp" />
+    <ClCompile Include="..\src\Location.cpp" />
+    <ClCompile Include="..\src\LocationGenerator.cpp" />
+    <ClCompile Include="..\src\LocationMap.cpp" />
+    <ClCompile Include="..\src\Log.cpp" />
+    <ClCompile Include="..\src\LootList.cpp" />
+    <ClCompile Include="..\src\MapWindow.cpp" />
+    <ClCompile Include="..\src\MaskOperation.cpp" />
+    <ClCompile Include="..\src\Menu.cpp" />
+    <ClCompile Include="..\src\miniz\miniz.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RNoInline|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RNonIncr|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\src\ModifyTerrainCommand.cpp" />
+    <ClCompile Include="..\src\Monster.cpp" />
+    <ClCompile Include="..\src\MonsterGenerator.cpp" />
+    <ClCompile Include="..\src\MotherCrystal.cpp" />
+    <ClCompile Include="..\src\MoveInteractionMode.cpp" />
+    <ClCompile Include="..\src\MoveOriginInteractionMode.cpp" />
+    <ClCompile Include="..\src\NameDatabase.cpp" />
+    <ClCompile Include="..\src\NaturalCaveGenerator.cpp" />
+    <ClCompile Include="..\src\Node.cpp" />
+    <ClCompile Include="..\src\NPC.cpp" />
+    <ClCompile Include="..\src\NumericUpDown.cpp" />
+    <ClCompile Include="..\src\PaintTerrainInteractionMode.cpp" />
+    <ClCompile Include="..\src\ParticleSystem.cpp" />
+    <ClCompile Include="..\src\Passage.cpp" />
+    <ClCompile Include="..\src\PassageGenerator.cpp" />
+    <ClCompile Include="..\src\PerlinNoise.cpp" />
+    <ClCompile Include="..\src\Pickaxe.cpp" />
+    <ClCompile Include="..\src\PlasmaDrill.cpp" />
+    <ClCompile Include="..\src\Player.cpp" />
+    <ClCompile Include="..\src\PolyLine.cpp" />
+    <ClCompile Include="..\src\Precompiled.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RNonIncr|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RNoInline|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\src\Projectile.cpp" />
+    <ClCompile Include="..\src\QuadTree.cpp" />
+    <ClCompile Include="..\src\QuestBase.cpp" />
+    <ClCompile Include="..\src\RailGun.cpp" />
+    <ClCompile Include="..\src\Remains.cpp" />
+    <ClCompile Include="..\src\Renderer.cpp" />
+    <ClCompile Include="..\src\ResourceDatabase.cpp" />
+    <ClCompile Include="..\src\RevealGun.cpp" />
+    <ClCompile Include="..\src\Reward.cpp" />
+    <ClCompile Include="..\src\RocketLauncher.cpp" />
+    <ClCompile Include="..\src\Room.cpp" />
+    <ClCompile Include="..\src\RoomGenerator.cpp" />
+    <ClCompile Include="..\src\RotateInteractionMode.cpp" />
+    <ClCompile Include="..\src\Router.cpp" />
+    <ClCompile Include="..\src\ScaleInteractionMode.cpp" />
+    <ClCompile Include="..\src\Scene.cpp" />
+    <ClCompile Include="..\src\ScrollableArea.cpp" />
+    <ClCompile Include="..\src\SelectInteractionMode.cpp" />
+    <ClCompile Include="..\src\Selection.cpp" />
+    <ClCompile Include="..\src\Serializer.cpp" />
+    <ClCompile Include="..\src\SetNodeNameCommand.cpp" />
+    <ClCompile Include="..\src\SetNodeOriginCommand.cpp" />
+    <ClCompile Include="..\src\SetNodePositionCommand.cpp" />
+    <ClCompile Include="..\src\SetNodeRotationCommand.cpp" />
+    <ClCompile Include="..\src\SetNodeScaleCommand.cpp" />
+    <ClCompile Include="..\src\SetSelectedCommand.cpp" />
+    <ClCompile Include="..\src\SetSpriteColorCommand.cpp" />
+    <ClCompile Include="..\src\SetSpriteSizeCommand.cpp" />
+    <ClCompile Include="..\src\SetSpriteTextureCommand.cpp" />
+    <ClCompile Include="..\src\SetSpriteTextureRectangleCommand.cpp" />
+    <ClCompile Include="..\src\SettlementGenerator.cpp" />
+    <ClCompile Include="..\src\SetTrackKeyframeCommand.cpp" />
+    <ClCompile Include="..\src\Shield.cpp" />
+    <ClCompile Include="..\src\Shotgun.cpp" />
+    <ClCompile Include="..\src\SlideList.cpp" />
+    <ClCompile Include="..\src\Slot.cpp" />
+    <ClCompile Include="..\src\Smoke.cpp" />
+    <ClCompile Include="..\src\SoilGun.cpp" />
+    <ClCompile Include="..\src\Sound.cpp" />
+    <ClCompile Include="..\src\SpinLock.cpp" />
+    <ClCompile Include="..\src\Sprite.cpp" />
+    <ClCompile Include="..\src\Stats.cpp" />
+    <ClCompile Include="..\src\StatWindow.cpp" />
+    <ClCompile Include="..\src\Table.cpp" />
+    <ClCompile Include="..\src\Terrain.cpp" />
+    <ClCompile Include="..\src\Text.cpp" />
+    <ClCompile Include="..\src\TextLine.cpp" />
+    <ClCompile Include="..\src\Texture.cpp" />
+    <ClCompile Include="..\src\TextureStack.cpp" />
+    <ClCompile Include="..\src\Theme.cpp" />
+    <ClCompile Include="..\src\Timeline.cpp" />
+    <ClCompile Include="..\src\TonnelVertex.cpp" />
+    <ClCompile Include="..\src\Tooltip.cpp" />
+    <ClCompile Include="..\src\Torch.cpp" />
+    <ClCompile Include="..\src\TranslatedStringEditor.cpp" />
+    <ClCompile Include="..\src\Trigger.cpp" />
+    <ClCompile Include="..\src\UIHelpers.cpp" />
+    <ClCompile Include="..\src\UndergroundSettlementGenerator.cpp" />
+    <ClCompile Include="..\src\ViewTriangle.cpp" />
+    <ClCompile Include="..\src\AttributeGrid.cpp" />
+    <ClCompile Include="..\src\VisualEffect.cpp" />
+    <ClCompile Include="..\src\WarehouseGenerator.cpp" />
+    <ClCompile Include="..\src\WaterBlob.cpp" />
+    <ClCompile Include="..\src\Weapon.cpp" />
+    <ClCompile Include="..\src\Widget.cpp" />
+    <ClCompile Include="..\src\Window.cpp" />
+    <ClCompile Include="..\src\Workbench.cpp" />
+    <ClCompile Include="..\src\WorldGenerator.cpp" />
+    <ClCompile Include="..\src\WorldOutliner.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\Arena.h" />
+    <ClInclude Include="..\src\AttachCommand.h" />
+    <ClInclude Include="..\src\BankGenerator.h" />
+    <ClInclude Include="..\src\BossBeast.h" />
+    <ClInclude Include="..\src\ChestGenerator.h" />
+    <ClInclude Include="..\src\Cloud.h" />
+    <ClInclude Include="..\src\Color.h" />
+    <ClInclude Include="..\src\CommandStack.h" />
+    <ClInclude Include="..\src\DialogEditor.h" />
+    <ClInclude Include="..\src\FogOfWar.h" />
+    <ClInclude Include="..\src\Guid.h" />
+    <ClInclude Include="..\src\HouseGenerator.h" />
+    <ClInclude Include="..\src\HubGenerator.h" />
+    <ClInclude Include="..\src\ImageSelector.h" />
+    <ClInclude Include="..\src\imgui\imgui.h" />
+    <ClInclude Include="..\src\imgui\imgui_internal.h" />
+    <ClInclude Include="..\src\imgui\imstb_rectpack.h" />
+    <ClInclude Include="..\src\imgui\imstb_textedit.h" />
+    <ClInclude Include="..\src\imgui\imstb_truetype.h" />
+    <ClInclude Include="..\src\InteractionMode.h" />
+    <ClInclude Include="..\src\Island.h" />
+    <ClInclude Include="..\src\ItemDefinitionEditor.h" />
+    <ClInclude Include="..\src\ItemType.h" />
+    <ClInclude Include="..\src\JsonConverters.h" />
+    <ClInclude Include="..\src\LocationGenerator.h" />
+    <ClInclude Include="..\src\AcidGun.h" />
+    <ClInclude Include="..\src\Actor.h" />
+    <ClInclude Include="..\src\AddAnimationTrackCommand.h" />
+    <ClInclude Include="..\src\Animation.h" />
+    <ClInclude Include="..\src\AnimationTrack.h" />
+    <ClInclude Include="..\src\ArbitraryRectangle.h" />
+    <ClInclude Include="..\src\Asset.h" />
+    <ClInclude Include="..\src\AStar.h" />
+    <ClInclude Include="..\src\Bar.h" />
+    <ClInclude Include="..\src\BarterWindow.h" />
+    <ClInclude Include="..\src\BehaviourTree.h" />
+    <ClInclude Include="..\src\Bench.h" />
+    <ClInclude Include="..\src\BookReader.h" />
+    <ClInclude Include="..\src\Boss.h" />
+    <ClInclude Include="..\src\BossAreaGenerator.h" />
+    <ClInclude Include="..\src\BossCrystal.h" />
+    <ClInclude Include="..\src\BossGolem.h" />
+    <ClInclude Include="..\src\Bundle.h" />
+    <ClInclude Include="..\src\Button.h" />
+    <ClInclude Include="..\src\CaveGenerator.h" />
+    <ClInclude Include="..\src\Cell.h" />
+    <ClInclude Include="..\src\CellPixel.h" />
+    <ClInclude Include="..\src\Checkbox.h" />
+    <ClInclude Include="..\src\Chest.h" />
+    <ClInclude Include="..\src\Collision.h" />
+    <ClInclude Include="..\src\Command.h" />
+    <ClInclude Include="..\src\Config.h" />
+    <ClInclude Include="..\src\Console.h" />
+    <ClInclude Include="..\src\ConstructionGun.h" />
+    <ClInclude Include="..\src\Controls.h" />
+    <ClInclude Include="..\src\CreateAnimationCommand.h" />
+    <ClInclude Include="..\src\CreateNodeCommand.h" />
+    <ClInclude Include="..\src\CreateSpriteCommand.h" />
+    <ClInclude Include="..\src\Damage.h" />
+    <ClInclude Include="..\src\Debris.h" />
+    <ClInclude Include="..\src\DebrisAtlas.h" />
+    <ClInclude Include="..\src\Dialog.h" />
+    <ClInclude Include="..\src\Door.h" />
+    <ClInclude Include="..\src\Drill.h" />
+    <ClInclude Include="..\src\Dwarf.h" />
+    <ClInclude Include="..\src\ItemDatabase.h" />
+    <ClInclude Include="..\src\Editor.h" />
+    <ClInclude Include="..\src\EditorCommand.h" />
+    <ClInclude Include="..\src\Encyclopedia.h" />
+    <ClInclude Include="..\src\Enum.h" />
+    <ClInclude Include="..\src\Event.h" />
+    <ClInclude Include="..\src\Exception.h" />
+    <ClInclude Include="..\src\FlyingIslandsGenerator.h" />
+    <ClInclude Include="..\src\FogGate.h" />
+    <ClInclude Include="..\src\ForceGun.h" />
+    <ClInclude Include="..\src\Frame.h" />
+    <ClInclude Include="..\src\FrameAnimation.h" />
+    <ClInclude Include="..\src\Game.h" />
+    <ClInclude Include="..\src\Canvas.h" />
+    <ClInclude Include="..\src\GravityGun.h" />
+    <ClInclude Include="..\src\GrenadeLauncher.h" />
+    <ClInclude Include="..\src\Harpoon.h" />
+    <ClInclude Include="..\src\Hitbox.h" />
+    <ClInclude Include="..\src\Hook.h" />
+    <ClInclude Include="..\src\HUD.h" />
+    <ClInclude Include="..\src\IK.h" />
+    <ClInclude Include="..\src\Image.h" />
+    <ClInclude Include="..\src\imgui\imconfig.h" />
+    <ClInclude Include="..\src\Input.h" />
+    <ClInclude Include="..\src\InteractionMenu.h" />
+    <ClInclude Include="..\src\Inventory.h" />
+    <ClInclude Include="..\src\InventoryGUI.h" />
+    <ClInclude Include="..\src\Item.h" />
+    <ClInclude Include="..\src\Journal.h" />
+    <ClInclude Include="..\src\Keyframe.h" />
+    <ClInclude Include="..\src\Label.h" />
+    <ClInclude Include="..\src\Ladder.h" />
+    <ClInclude Include="..\src\Layout.h" />
+    <ClInclude Include="..\src\Level.h" />
+    <ClInclude Include="..\src\Light.h" />
+    <ClInclude Include="..\src\LightningGun.h" />
+    <ClInclude Include="..\src\LineSet.h" />
+    <ClInclude Include="..\src\LiquidParticle.h" />
+    <ClInclude Include="..\src\ListBox.h" />
+    <ClInclude Include="..\src\Location.h" />
+    <ClInclude Include="..\src\LocationMap.h" />
+    <ClInclude Include="..\src\LocationType.h" />
+    <ClInclude Include="..\src\Log.h" />
+    <ClInclude Include="..\src\LootList.h" />
+    <ClInclude Include="..\src\MapWindow.h" />
+    <ClInclude Include="..\src\MaskOperation.h" />
+    <ClInclude Include="..\src\MathLib.h" />
+    <ClInclude Include="..\src\Menu.h" />
+    <ClInclude Include="..\src\miniz\miniz.h" />
+    <ClInclude Include="..\src\ModifyTerrainCommand.h" />
+    <ClInclude Include="..\src\Monster.h" />
+    <ClInclude Include="..\src\MonsterGenerator.h" />
+    <ClInclude Include="..\src\MotherCrystal.h" />
+    <ClInclude Include="..\src\MoveInteractionMode.h" />
+    <ClInclude Include="..\src\MoveOriginInteractionMode.h" />
+    <ClInclude Include="..\src\NameDatabase.h" />
+    <ClInclude Include="..\src\NaturalCaveGenerator.h" />
+    <ClInclude Include="..\src\Node.h" />
+    <ClInclude Include="..\src\NodeType.h" />
+    <ClInclude Include="..\src\NPC.h" />
+    <ClInclude Include="..\src\NumericUpDown.h" />
+    <ClInclude Include="..\src\PaintTerrainInteractionMode.h" />
+    <ClInclude Include="..\src\ParticleSystem.h" />
+    <ClInclude Include="..\src\Passage.h" />
+    <ClInclude Include="..\src\PassageGenerator.h" />
+    <ClInclude Include="..\src\PerlinNoise.h" />
+    <ClInclude Include="..\src\Pickaxe.h" />
+    <ClInclude Include="..\src\PixelAttribute.h" />
+    <ClInclude Include="..\src\PlasmaDrill.h" />
+    <ClInclude Include="..\src\Player.h" />
+    <ClInclude Include="..\src\PolyLine.h" />
+    <ClInclude Include="..\src\Precompiled.h" />
+    <ClInclude Include="..\src\Projectile.h" />
+    <ClInclude Include="..\src\QuadTree.h" />
+    <ClInclude Include="..\src\QuestBase.h" />
+    <ClInclude Include="..\src\RailGun.h" />
+    <ClInclude Include="..\src\Remains.h" />
+    <ClInclude Include="..\src\Renderer.h" />
+    <ClInclude Include="..\src\ResourceDatabase.h" />
+    <ClInclude Include="..\src\RevealGun.h" />
+    <ClInclude Include="..\src\Reward.h" />
+    <ClInclude Include="..\src\RocketLauncher.h" />
+    <ClInclude Include="..\src\Room.h" />
+    <ClInclude Include="..\src\RoomGenerator.h" />
+    <ClInclude Include="..\src\RotateInteractionMode.h" />
+    <ClInclude Include="..\src\Router.h" />
+    <ClInclude Include="..\src\ScaleInteractionMode.h" />
+    <ClInclude Include="..\src\Scene.h" />
+    <ClInclude Include="..\src\ScrollableArea.h" />
+    <ClInclude Include="..\src\SelectInteractionMode.h" />
+    <ClInclude Include="..\src\Selection.h" />
+    <ClInclude Include="..\src\Serializer.h" />
+    <ClInclude Include="..\src\SetNodeNameCommand.h" />
+    <ClInclude Include="..\src\SetNodeOriginCommand.h" />
+    <ClInclude Include="..\src\SetNodePositionCommand.h" />
+    <ClInclude Include="..\src\SetNodeRotationCommand.h" />
+    <ClInclude Include="..\src\SetNodeScaleCommand.h" />
+    <ClInclude Include="..\src\SetSelectedCommand.h" />
+    <ClInclude Include="..\src\SetSpriteColorCommand.h" />
+    <ClInclude Include="..\src\SetSpriteSizeCommand.h" />
+    <ClInclude Include="..\src\SetSpriteTextureCommand.h" />
+    <ClInclude Include="..\src\SetSpriteTextureRectangleCommand.h" />
+    <ClInclude Include="..\src\SettlementGenerator.h" />
+    <ClInclude Include="..\src\SetTrackKeyframeCommand.h" />
+    <ClInclude Include="..\src\Shield.h" />
+    <ClInclude Include="..\src\Shotgun.h" />
+    <ClInclude Include="..\src\SlideList.h" />
+    <ClInclude Include="..\src\Slot.h" />
+    <ClInclude Include="..\src\Smoke.h" />
+    <ClInclude Include="..\src\SoilGun.h" />
+    <ClInclude Include="..\src\Sound.h" />
+    <ClInclude Include="..\src\SpinLock.h" />
+    <ClInclude Include="..\src\Sprite.h" />
+    <ClInclude Include="..\src\Stats.h" />
+    <ClInclude Include="..\src\StatWindow.h" />
+    <ClInclude Include="..\src\StringBuilder.h" />
+    <ClInclude Include="..\src\Table.h" />
+    <ClInclude Include="..\src\Terrain.h" />
+    <ClInclude Include="..\src\Text.h" />
+    <ClInclude Include="..\src\TextAlignment.h" />
+    <ClInclude Include="..\src\TextLine.h" />
+    <ClInclude Include="..\src\Texture.h" />
+    <ClInclude Include="..\src\TextureStack.h" />
+    <ClInclude Include="..\src\Theme.h" />
+    <ClInclude Include="..\src\Timeline.h" />
+    <ClInclude Include="..\src\TonnelVertex.h" />
+    <ClInclude Include="..\src\Tooltip.h" />
+    <ClInclude Include="..\src\Torch.h" />
+    <ClInclude Include="..\src\TranslatedStringEditor.h" />
+    <ClInclude Include="..\src\Trigger.h" />
+    <ClInclude Include="..\src\UIHelpers.h" />
+    <ClInclude Include="..\src\UndergroundSettlementGenerator.h" />
+    <ClInclude Include="..\src\ViewTriangle.h" />
+    <ClInclude Include="..\src\AttributeGrid.h" />
+    <ClInclude Include="..\src\VisualEffect.h" />
+    <ClInclude Include="..\src\WarehouseGenerator.h" />
+    <ClInclude Include="..\src\WaterBlob.h" />
+    <ClInclude Include="..\src\Weapon.h" />
+    <ClInclude Include="..\src\Widget.h" />
+    <ClInclude Include="..\src\Window.h" />
+    <ClInclude Include="..\src\Workbench.h" />
+    <ClInclude Include="..\src\WorldGenerator.h" />
+    <ClInclude Include="..\src\WorldOutliner.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DwarfDig.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\bin\data\strings\ru\db.str" />
+    <None Include="ClassDiagram.cd" />
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

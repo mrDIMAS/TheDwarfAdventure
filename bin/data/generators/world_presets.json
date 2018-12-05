@@ -1,0 +1,43 @@
+{
+	"VerySmall" :
+	{
+		"minWidth": 5,
+		"minHeight": 5,
+		"sublocationCount": 0
+	},
+	
+	"Small" : 
+	{
+		"minWidth": 9,
+		"minHeight": 9,
+		"sublocationCount": 5
+	},
+	
+	"Medium" : 
+	{
+		"minWidth": 11,
+		"minHeight": 11,
+		"sublocationCount": 6
+	},
+	
+	"Large" : 
+	{
+		"minWidth": 13,
+		"minHeight": 13,
+		"sublocationCount": 7
+	},
+	
+	"VeryLarge" : 
+	{
+		"minWidth": 15,
+		"minHeight": 15,
+		"sublocationCount": 8
+	},
+	
+	"Huge" : 
+	{
+		"minWidth": 20,
+		"minHeight": 20,
+		"sublocationCount": 12
+	}
+}

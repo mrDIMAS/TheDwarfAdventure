@@ -1,0 +1,24 @@
+{
+	"bodyRadius": 5,
+	"prefab": "data/prefabs/slime.prefab",
+	"name": "grub",
+	"attackTime": 0.6,
+	"attackDistance": 40,
+	"baseDamage": 12,
+	"baseExpirienceDrop": 13,
+	"movementType": "Walk",
+	"flipModel": false,
+	"attackSounds": [],
+	"locations": ["Unknown"],
+	"idleSound": "data/sounds/grub.ogg",
+	"idleSoundVolume": 25,
+	"maxSpeed": 0.25,
+	"levelUpFactors": {
+		"vitality": 0.6,
+		"strength": 0.3,
+		"dexterity": 0.05,
+		"endurance": 0.15,
+		"intelligence": 0.2,
+		"luck": 0.2
+	}
+}

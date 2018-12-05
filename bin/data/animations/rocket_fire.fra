@@ -1,0 +1,16 @@
+#version 1.0
+
+// definition
+
+#texture data/textures/weapons/rocketFire.png
+#frameswidth 2
+#framesheight 1
+
+// sequencies
+
+#seq burn
+#xoffset 0
+#yoffset 0
+#width 2
+#height 1
+#speed 20

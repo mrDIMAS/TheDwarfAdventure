@@ -1,0 +1,18 @@
+After a deep scan - i used sysinternals Tools to understand when optimus is being invoked, and why it cannot start to activate the right GFX choosen in the nvidia control Center. It is - as i thought - a really simple Problem in the registry. Each time an appliction starts, nvidia Needs to be triggered to start correctly. This is done by a registry entry : App_InitDlls Here you can tell Windows what Needs to be triggered when an app starts.
+
+x32bit: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Windows
+x64bit: HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows NT\CurrentVersion\Windows
+
+There you find the link to the NVINIT.DLL or NVINITx.DLL which lets nvidia invoking the right GFX.
+...alright...
+
+But under the reg key RequireSignedAppInit_DLLs the System requires a signed DLL to be invoked/triggered - the value of the key is 1 (true). After Setting this value to 0 (false) - my System runs perfectly!!
+Solution:
+set the following keys to 0
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Windows\RequireSignedAppInit
+HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows NT\CurrentVersion\Windows\RequireSignedAppInit
+
+You do not Need to restart the System - you can test it directly! It seems that Nvidea missed to sign These DLLs ... thats all.
+
+Best regards,
+BoboFox

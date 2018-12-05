@@ -1,0 +1,46 @@
+Physics will use all physical cores (15) of your processor to do calculations
+Renderer successfully (re)initialized!
+Game running on GPU NVIDIA Corporation. GeForce GTX 960/PCIe/SSE2
+Actual Resolution: 1920x1080 pixels.
+Virtual Screen Size: 1200x675 pixels.
+12 terrain brushes was loaded!
+14 Room decorations was loaded!
+3 Wall templates was loaded!
+Input successfully initialized!
+Physics successfully initialized! Using 15 threads
+Editor successfully initialized!
+Item database successfully loaded!
+Found 6 player preset files!
+Menu successfully initialized!
+HUD successfully initialized!
+Stat window successfully initialized!
+Inventory system successfully initialized!
+Dialog system successfully initialized!
+Loot window successfully initialized!
+Barter window successfully initialized!
+Journal successfully initialized!
+Bench successfully initialized!
+Debug menu successfully initialized!
+Interaction menu successfully initialized!
+World map successfully initialized!
+Name database successfully initialized!
+Book reader successfully initialized!
+Encyclopedia successfully initialized!
+FPS: 0
+Sound buffer data/sounds/menupick.ogg was successfully loaded and cached!
+FPS: 65
+FPS: 65
+Sound buffer data/sounds/menuhit.ogg was successfully loaded and cached!
+FPS: 66
+FPS: 66
+FPS: 64
+FPS: 64
+FPS: 65
+FPS: 65
+FPS: 64
+FPS: 64
+FPS: 64
+FPS: 64
+FPS: 63
+FPS: 63
+FPS: 65

@@ -1,0 +1,24 @@
+{
+	"Name": "class_scout",
+	"Money": 90,
+	"Priority": 2,
+	"Stats": {
+		"vitality": 4,
+		"strength": 3,
+		"dexterity": 12,
+		"endurance": 5,
+		"intelligence": 4,
+		"charisma": 6,
+		"luck": 5
+	},
+	"Items": {		
+		"Weapon_Hook": 1,
+		"Potion_WeakHeal": 2,
+		"Potion_MediumHeal": 2,
+		"Helmet_IronHelmet": 1,
+		"Armor_LightLeatherArmor": 1,
+		"Gloves_LightLeatherGloves": 1,
+		"Trousers_LightLeatherTrousers": 1,
+		"Potion_WeakStaminaRestoration": 6	
+	}
+}

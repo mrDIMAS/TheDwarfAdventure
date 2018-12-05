@@ -1,0 +1,43 @@
+{
+	"oreDropBundle": {
+		"Ore_Platinum": 0.01,
+		"Ore_Gold": 0.03,
+		"Ore_Silver": 0.05,
+		"Ore_Tungsten": 0.05,
+		"Ore_Tin": 0.07,
+		"Ore_Copper": 0.11,
+		"Ore_Iron": 0.68
+	},
+	
+	"caveMonstersBundle": {
+		"Monster_Bee": 0.2,
+		"Monster_Grub": 0.2, 
+		"Monster_Frog": 0.2,
+		"Monster_Worm": 0.2,
+		"Monster_Rat": 0.2
+	},
+	
+	"passageMonstersBundle": {
+		"Monster_Bee": 0.2,
+		"Monster_Grub": 0.2, 
+		"Monster_Frog": 0.2,
+		"Monster_Worm": 0.2,
+		"Monster_Rat": 0.2
+	},
+	
+	
+	"monsterCountPerIsolatedPassageWithLegendaryChest": [2, 4],
+	"legendaryChestMoneyRange": [200, 500],
+	"legendaryChestBundle": {
+		"Weapon_AcidGun": 0.1,
+        "Weapon_Drill": 0.1,
+        "Weapon_RevealGun": 0.1,
+        "Weapon_Hook": 0.1,
+        "Weapon_GrenadeLauncher": 0.1,
+        "Weapon_RocketLauncher": 0.1,
+        "Weapon_LightningGun": 0.1,
+        "Weapon_PlasmaDrill": 0.1,
+        "Weapon_Shotgun": 0.1,
+        "Weapon_RailGun": 0.1
+	}
+}

@@ -1,0 +1,6 @@
+BasedOnStyle: LLVM
+SortIncludes: false
+AllowShortFunctionsOnASingleLine: false
+AlignAfterOpenBracket: DontAlign
+ColumnLimit: 100
+AllowShortIfStatementsOnASingleLine: true

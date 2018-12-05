@@ -1,0 +1,28 @@
+{
+	"Name": "class_thief",
+	"Money": 250,
+	"Priority": 1,
+	"Stats": {
+		"vitality": 4,
+		"strength": 3,
+		"dexterity": 8,
+		"endurance": 5,
+		"intelligence": 4,
+		"charisma": 6,
+		"luck": 7
+	},
+	"Items": {		
+		"Potion_WeakHeal": 2,
+		"Potion_MediumHeal": 2,
+		"Weapon_RevealGun": 1,		
+		"Weapon_Shotgun": 1,
+		"Projectile_Shells": 30,
+		"Crystal_SmallPower": 2,
+		"Helmet_IronHelmet": 1,
+		"Armor_LightLeatherArmor": 1,
+		"Gloves_LightLeatherGloves": 1,
+		"Trousers_LightLeatherTrousers": 1,
+		"Potion_WeakStaminaRestoration": 2,
+		"Blueprint_Shells": 1
+	}
+}

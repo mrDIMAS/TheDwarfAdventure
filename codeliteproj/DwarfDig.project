@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Project Name="DwarfDig" Version="10.0.0" InternalType="Console">
+  <Description/>
+  <Dependencies/>
+  <VirtualDirectory Name="src">
+    <File Name="../src/Table.cpp"/>
+    <File Name="../src/Game.cpp"/>
+    <File Name="../src/PaintTerrainInteractionMode.h"/>
+    <File Name="../src/Drill.h"/>
+    <File Name="../src/NPC.h"/>
+    <File Name="../src/UIHelpers.cpp"/>
+    <File Name="../src/Exception.h"/>
+    <File Name="../src/CreateAnimationCommand.h"/>
+    <File Name="../src/Config.h"/>
+    <File Name="../src/Projectile.cpp"/>
+    <File Name="../src/Bundle.h"/>
+    <File Name="../src/IK.h"/>
+    <File Name="../src/Image.h"/>
+    <File Name="../src/RevealGun.h"/>
+    <File Name="../src/CreateNodeCommand.cpp"/>
+    <File Name="../src/Menu.cpp"/>
+    <File Name="../src/SetSpriteSizeCommand.h"/>
+    <File Name="../src/RoomGenerator.cpp"/>
+    <File Name="../src/TextLine.h"/>
+    <File Name="../src/QuestBase.h"/>
+    <File Name="../src/Dialog.cpp"/>
+    <File Name="../src/Harpoon.cpp"/>
+    <File Name="../src/Terrain.h"/>
+    <File Name="../src/BankGenerator.h"/>
+    <File Name="../src/BookReader.cpp"/>
+    <File Name="../src/InteractionMode.h"/>
+    <File Name="../src/Player.cpp"/>
+    <File Name="../src/AttachCommand.h"/>
+    <File Name="../src/Router.cpp"/>
+    <File Name="../src/TestEnum.h"/>
+    <File Name="../src/Smoke.cpp"/>
+    <File Name="../src/BehaviourTree.h"/>
+    <File Name="../src/Keyframe.cpp"/>
+    <File Name="../src/Command.h"/>
+    <File Name="../src/Sound.cpp"/>
+    <File Name="../src/DialogEditor.h"/>
+    <File Name="../src/SpinLock.cpp"/>
+    <File Name="../src/CommandStack.cpp"/>
+    <File Name="../src/Enum.h"/>
+    <File Name="../src/ArbitraryRectangle.h"/>
+    <File Name="../src/Canvas.h"/>
+    <File Name="../src/LootList.h"/>
+    <File Name="../src/WorldOutliner.h"/>
+    <File Name="../src/BarterWindow.h"/>
+    <File Name="../src/TonnelVertex.cpp"/>
+    <File Name="../src/SpinLock.h"/>
+    <File Name="../src/Bar.h"/>
+    <File Name="../src/Journal.h"/>
+    <File Name="../src/Config.cpp"/>
+    <File Name="../src/Animation.cpp"/>
+    <File Name="../src/Hook.cpp"/>
+    <File Name="../src/Serializer.h"/>
+    <File Name="../src/MoveInteractionMode.h"/>
+    <File Name="../src/Item.h"/>
+    <File Name="../src/ItemDatabase.h"/>
+    <File Name="../src/Encyclopedia.h"/>
+    <File Name="../src/Remains.h"/>
+    <File Name="../src/stb_textedit.h"/>
+    <File Name="../src/Sprite.h"/>
+    <File Name="../src/TranslatedStringEditor.h"/>
+    <File Name="../src/TextureStack.cpp"/>
+    <File Name="../src/Dialog.h"/>
+    <File Name="../src/Checkbox.cpp"/>
+    <File Name="../src/LineSet.h"/>
+    <File Name="../src/FogOfWar.h"/>
+    <File Name="../src/Event.cpp"/>
+    <File Name="../src/RevealGun.cpp"/>
+    <File Name="../src/BossAreaGenerator.cpp"/>
+    <File Name="../src/StringBuilder.h"/>
+    <File Name="../src/AcidGun.h"/>
+    <File Name="../src/Sound.h"/>
+    <File Name="../src/ModifyTerrainCommand.h"/>
+    <File Name="../src/WaterBlob.cpp"/>
+    <File Name="../src/FlyingIslandsGenerator.cpp"/>
+    <File Name="../src/JsonConverters.cpp"/>
+    <File Name="../src/Widget.h"/>
+    <File Name="../src/Renderer.h"/>
+    <File Name="../src/Smoke.h"/>
+    <File Name="../src/LightningGun.h"/>
+    <File Name="../src/SetSpriteTextureRectangleCommand.h"/>
+    <File Name="../src/Log.h"/>
+    <File Name="../src/Shield.h"/>
+    <File Name="../src/Theme.cpp"/>
+    <File Name="../src/Hitbox.cpp"/>
+    <File Name="../src/Game.h"/>
+    <File Name="../src/Text.cpp"/>
+    <File Name="../src/Frame.cpp"/>
+    <File Name="../src/HUD.cpp"/>
+    <File Name="../src/SetNodePositionCommand.h"/>
+    <File Name="../src/PolyLine.h"/>
+    <File Name="../src/Level.h"/>
+    <File Name="../src/WaterBlob.h"/>
+    <File Name="../src/Actor.h"/>
+    <File Name="../src/LineSet.cpp"/>
+    <File Name="../src/Stats.cpp"/>
+    <File Name="../src/ScrollableArea.h"/>
+    <File Name="../src/BossCrystal.cpp"/>
+    <File Name="../src/ImageSelector.h"/>
+    <File Name="../src/SetNodeScaleCommand.cpp"/>
+    <File Name="../src/RocketLauncher.h"/>
+    <File Name="../src/Controls.h"/>
+    <File Name="../src/RotateInteractionMode.h"/>
+    <File Name="../src/FogGate.cpp"/>
+    <File Name="../src/SetNodeNameCommand.cpp"/>
+    <File Name="../src/ChestGenerator.h"/>
+    <File Name="../src/Remains.cpp"/>
+    <File Name="../src/HUD.h"/>
+    <File Name="../src/FogGate.h"/>
+    <File Name="../src/Renderer.cpp"/>
+    <File Name="../src/TextAlignment.h"/>
+    <File Name="../src/stb_truetype.h"/>
+    <File Name="../src/Color.h"/>
+    <File Name="../src/EditorCommand.cpp"/>
+    <File Name="../src/Precompiled.cpp"/>
+    <File Name="../src/Event.h"/>
+    <File Name="../src/MoveInteractionMode.cpp"/>
+    <File Name="../src/VisualEffect.cpp"/>
+    <File Name="../src/UIHelpers.h"/>
+    <File Name="../src/SoilGun.h"/>
+    <File Name="../src/Level.cpp"/>
+    <File Name="../src/Table.h"/>
+    <File Name="../src/RailGun.h"/>
+    <File Name="../src/Cloud.h"/>
+    <File Name="../src/ArbitraryRectangle.cpp"/>
+    <File Name="../src/SetTrackKeyframeCommand.h"/>
+    <File Name="../src/Passage.h"/>
+    <File Name="../src/Boss.h"/>
+    <File Name="../src/Location.h"/>
+    <File Name="../src/BarterWindow.cpp"/>
+    <File Name="../src/AddAnimationTrackCommand.cpp"/>
+    <File Name="../src/SetSpriteTextureCommand.cpp"/>
+    <File Name="../src/AttachCommand.cpp"/>
+    <File Name="../src/Reward.h"/>
+    <File Name="../src/IK.cpp"/>
+    <File Name="../src/NameDatabase.h"/>
+    <File Name="../src/Selection.cpp"/>
+    <File Name="../src/WorldGenerator.h"/>
+    <File Name="../src/Room.h"/>
+    <File Name="../src/MapWindow.h"/>
+    <File Name="../src/Node.cpp"/>
+    <File Name="../src/Dwarf.cpp"/>
+    <File Name="../src/GrenadeLauncher.cpp"/>
+    <File Name="../src/Debris.cpp"/>
+    <File Name="../src/RailGun.cpp"/>
+    <File Name="../src/Scene.cpp"/>
+    <File Name="../src/Terrain.cpp"/>
+    <File Name="../src/Shotgun.h"/>
+    <File Name="../src/CommandStack.h"/>
+    <File Name="../src/BehaviourTree.cpp"/>
+    <File Name="../src/AStar.cpp"/>
+    <File Name="../src/Reward.cpp"/>
+    <File Name="../src/Label.h"/>
+    <File Name="../src/Texture.cpp"/>
+    <File Name="../src/Layout.h"/>
+    <File Name="../src/LocationGenerator.h"/>
+    <File Name="../src/stb_image.h"/>
+    <File Name="../src/Frame.h"/>
+    <File Name="../src/MathLib.h"/>
+    <File Name="../src/MonsterGenerator.h"/>
+    <File Name="../src/QuestBase.cpp"/>
+    <File Name="../src/Button.cpp"/>
+    <File Name="../src/Editor.cpp"/>
+    <File Name="../src/InventoryGUI.cpp"/>
+    <File Name="../src/ForceGun.h"/>
+    <File Name="../src/Weapon.h"/>
+    <File Name="../src/Theme.h"/>
+    <File Name="../src/PlasmaDrill.h"/>
+    <File Name="../src/MaskOperation.cpp"/>
+    <File Name="../src/Console.cpp"/>
+    <File Name="../src/SetSelectedCommand.h"/>
+    <File Name="../src/MapWindow.cpp"/>
+    <File Name="../src/SetSelectedCommand.cpp"/>
+    <File Name="../src/CaveGenerator.h"/>
+    <File Name="../src/Bench.cpp"/>
+    <File Name="../src/BossAreaGenerator.h"/>
+    <File Name="../src/Exception.cpp"/>
+    <File Name="../src/Cell.cpp"/>
+    <File Name="../src/Light.cpp"/>
+    <File Name="../src/Cloud.cpp"/>
+    <File Name="../src/Checkbox.h"/>
+    <File Name="../src/ParticleSystem.h"/>
+    <File Name="../src/SetNodeNameCommand.h"/>
+    <File Name="../src/Arena.h"/>
+    <File Name="../src/PolyLine.cpp"/>
+    <File Name="../src/SettlementGenerator.h"/>
+    <File Name="../src/NameDatabase.cpp"/>
+    <File Name="../src/PerlinNoise.h"/>
+    <File Name="../src/SetNodePositionCommand.cpp"/>
+    <File Name="../src/ParticleSystem.cpp"/>
+    <File Name="../src/BossBeast.h"/>
+    <File Name="../src/NPC.cpp"/>
+    <File Name="../src/Dwarf.h"/>
+    <File Name="../src/Guid.h"/>
+    <File Name="../src/Island.h"/>
+    <File Name="../src/Stats.h"/>
+    <File Name="../src/LiquidParticle.cpp"/>
+    <File Name="../src/HouseGenerator.cpp"/>
+    <File Name="../src/TextureStack.h"/>
+    <File Name="../src/Layout.cpp"/>
+    <File Name="../src/MonsterGenerator.cpp"/>
+    <File Name="../src/Keyframe.h"/>
+    <File Name="../src/Drill.cpp"/>
+    <File Name="../src/HouseGenerator.h"/>
+    <File Name="../src/LootList.cpp"/>
+    <File Name="../src/Sprite.cpp"/>
+    <File Name="../src/ConstructionGun.h"/>
+    <File Name="../src/Image.cpp"/>
+    <File Name="../src/Island.cpp"/>
+    <File Name="../src/SetNodeOriginCommand.cpp"/>
+    <File Name="../src/GravityGun.cpp"/>
+    <File Name="../src/BossBeast.cpp"/>
+    <File Name="../src/Input.cpp"/>
+    <File Name="../src/SetSpriteTextureRectangleCommand.cpp"/>
+    <File Name="../src/Precompiled.h"/>
+    <File Name="../src/UndergroundSettlementGenerator.h"/>
+    <File Name="../src/ItemDefinitionEditor.cpp"/>
+    <File Name="../src/BossGolem.cpp"/>
+    <File Name="../src/NaturalCaveGenerator.cpp"/>
+    <File Name="../src/LocationMap.cpp"/>
+    <File Name="../src/NumericUpDown.h"/>
+    <File Name="../src/Debris.h"/>
+    <File Name="../src/Animation.h"/>
+    <File Name="../src/ChestGenerator.cpp"/>
+    <File Name="../src/MoveOriginInteractionMode.h"/>
+    <File Name="../src/ImageSelector.cpp"/>
+    <File Name="../src/Node.h"/>
+    <File Name="../src/Window.h"/>
+    <File Name="../src/stb_rect_pack.h"/>
+    <File Name="../src/LocationGenerator.cpp"/>
+    <File Name="../src/Ladder.cpp"/>
+    <File Name="../src/ViewTriangle.h"/>
+    <File Name="../src/Room.cpp"/>
+    <File Name="../src/WorldOutliner.cpp"/>
+    <File Name="../src/Trigger.h"/>
+    <File Name="../src/Chest.cpp"/>
+    <File Name="../src/Door.h"/>
+    <File Name="../src/InteractionMenu.cpp"/>
+    <File Name="../src/Slot.cpp"/>
+    <File Name="../src/LocationType.cpp"/>
+    <File Name="../src/Editor.h"/>
+    <File Name="../src/FrameAnimation.cpp"/>
+    <File Name="../src/ScaleInteractionMode.h"/>
+    <File Name="../src/CellPixel.h"/>
+    <File Name="../src/SetSpriteColorCommand.cpp"/>
+    <File Name="../src/NodeType.h"/>
+    <File Name="../src/Button.h"/>
+    <File Name="../src/ViewTriangle.cpp"/>
+    <File Name="../src/Item.cpp"/>
+    <File Name="../src/AttributeGrid.cpp"/>
+    <File Name="../src/Pickaxe.cpp"/>
+    <File Name="../src/Asset.cpp"/>
+    <File Name="../src/MaskOperation.h"/>
+    <File Name="../src/SelectInteractionMode.h"/>
+    <File Name="../src/RoomGenerator.h"/>
+    <File Name="../src/Timeline.cpp"/>
+    <File Name="../src/InventoryGUI.h"/>
+    <File Name="../src/AnimationTrack.h"/>
+    <File Name="../src/Chest.h"/>
+    <File Name="../src/Selection.h"/>
+    <File Name="../src/SelectInteractionMode.cpp"/>
+    <File Name="../src/Projectile.h"/>
+    <File Name="../src/Door.cpp"/>
+    <File Name="../src/DebrisAtlas.cpp"/>
+    <File Name="../src/Monster.h"/>
+    <File Name="../src/Tooltip.cpp"/>
+    <File Name="../src/NumericUpDown.cpp"/>
+    <File Name="../src/Passage.cpp"/>
+    <File Name="../src/Collision.h"/>
+    <File Name="../src/WorldGenerator.cpp"/>
+    <File Name="../src/QuadTree.h"/>
+    <File Name="../src/Monster.cpp"/>
+    <File Name="../src/Light.h"/>
+    <File Name="../src/Texture.h"/>
+    <File Name="../src/Player.h"/>
+    <File Name="../src/Menu.h"/>
+    <File Name="../src/WarehouseGenerator.h"/>
+    <File Name="../src/InteractionMode.cpp"/>
+    <File Name="../src/Timeline.h"/>
+    <File Name="../src/CellPixel.cpp"/>
+    <File Name="../src/Cell.h"/>
+    <File Name="../src/AcidGun.cpp"/>
+    <File Name="../src/TranslatedStringEditor.cpp"/>
+    <File Name="../src/CaveGenerator.cpp"/>
+    <File Name="../src/SetTrackKeyframeCommand.cpp"/>
+    <File Name="../src/SettlementGenerator.cpp"/>
+    <File Name="../src/UndergroundSettlementGenerator.cpp"/>
+    <File Name="../src/BankGenerator.cpp"/>
+    <File Name="../src/AttributeGrid.h"/>
+    <File Name="../src/PerlinNoise.cpp"/>
+    <File Name="../src/SetSpriteTextureCommand.h"/>
+    <File Name="../src/Canvas.cpp"/>
+    <File Name="../src/MoveOriginInteractionMode.cpp"/>
+    <File Name="../src/SoilGun.cpp"/>
+    <File Name="../src/CreateSpriteCommand.cpp"/>
+    <File Name="../src/PaintTerrainInteractionMode.cpp"/>
+    <File Name="../src/PlasmaDrill.cpp"/>
+    <File Name="../src/DebrisAtlas.h"/>
+    <File Name="../src/Controls.cpp"/>
+    <File Name="../src/LightningGun.cpp"/>
+    <File Name="../src/Shield.cpp"/>
+    <File Name="../src/StatWindow.cpp"/>
+    <File Name="../src/HubGenerator.h"/>
+    <File Name="../src/DialogEditor.cpp"/>
+    <File Name="../src/Guid.cpp"/>
+    <File Name="../src/EditorCommand.h"/>
+    <File Name="../src/Command.cpp"/>
+    <File Name="../src/Widget.cpp"/>
+    <File Name="../src/SetSpriteSizeCommand.cpp"/>
+    <File Name="../src/CreateSpriteCommand.h"/>
+    <File Name="../src/ResourceDatabase.h"/>
+    <File Name="../src/SetSpriteColorCommand.h"/>
+    <File Name="../src/Asset.h"/>
+    <File Name="../src/CreateAnimationCommand.cpp"/>
+    <File Name="../src/BookReader.h"/>
+    <File Name="../src/BossCrystal.h"/>
+    <File Name="../src/RotateInteractionMode.cpp"/>
+    <File Name="../src/Torch.h"/>
+    <File Name="../src/SetNodeRotationCommand.h"/>
+    <File Name="../src/FrameAnimation.h"/>
+    <File Name="../src/JsonConverters.h"/>
+    <File Name="../src/ModifyTerrainCommand.cpp"/>
+    <File Name="../src/Trigger.cpp"/>
+    <File Name="../src/MotherCrystal.h"/>
+    <File Name="../src/ItemType.h"/>
+    <File Name="../src/Ladder.h"/>
+    <File Name="../src/SlideList.h"/>
+    <File Name="../src/Scene.h"/>
+    <File Name="../src/Input.h"/>
+    <File Name="../src/WarehouseGenerator.cpp"/>
+    <File Name="../src/Text.h"/>
+    <File Name="../src/ForceGun.cpp"/>
+    <File Name="../src/PassageGenerator.cpp"/>
+    <File Name="../src/Location.cpp"/>
+    <File Name="../src/NaturalCaveGenerator.h"/>
+    <File Name="../src/ResourceDatabase.cpp"/>
+    <File Name="../src/SlideList.cpp"/>
+    <File Name="../src/Hitbox.h"/>
+    <File Name="../src/Inventory.h"/>
+    <File Name="../src/Window.cpp"/>
+    <File Name="../src/GravityGun.h"/>
+    <File Name="../src/Label.cpp"/>
+    <File Name="../src/QuadTree.cpp"/>
+    <File Name="../src/LocationType.h"/>
+    <File Name="../src/Workbench.h"/>
+    <File Name="../src/Weapon.cpp"/>
+    <File Name="../src/Hook.h"/>
+    <File Name="../src/Damage.h"/>
+    <File Name="../src/Inventory.cpp"/>
+    <File Name="../src/Damage.cpp"/>
+    <File Name="../src/LiquidParticle.h"/>
+    <File Name="../src/Bench.h"/>
+    <File Name="../src/VisualEffect.h"/>
+    <File Name="../src/Console.h"/>
+    <File Name="../src/ConstructionGun.cpp"/>
+    <File Name="../src/PixelAttribute.h"/>
+    <File Name="../src/AnimationTrack.cpp"/>
+    <File Name="../src/FlyingIslandsGenerator.h"/>
+    <File Name="../src/Router.h"/>
+    <File Name="../src/InteractionMenu.h"/>
+    <File Name="../src/LocationMap.h"/>
+    <File Name="../src/AStar.h"/>
+    <File Name="../src/Shotgun.cpp"/>
+    <File Name="../src/Pickaxe.h"/>
+    <File Name="../src/Serializer.cpp"/>
+    <File Name="../src/MotherCrystal.cpp"/>
+    <File Name="../src/TextLine.cpp"/>
+    <File Name="../src/HubGenerator.cpp"/>
+    <File Name="../src/Encyclopedia.cpp"/>
+    <File Name="../src/Harpoon.h"/>
+    <File Name="../src/SetNodeOriginCommand.h"/>
+    <File Name="../src/RocketLauncher.cpp"/>
+    <File Name="../src/Journal.cpp"/>
+    <File Name="../src/Workbench.cpp"/>
+    <File Name="../src/Bar.cpp"/>
+    <File Name="../src/Collision.cpp"/>
+    <File Name="../src/ScaleInteractionMode.cpp"/>
+    <File Name="../src/ScrollableArea.cpp"/>
+    <File Name="../src/Tooltip.h"/>
+    <File Name="../src/Boss.cpp"/>
+    <File Name="../src/SetNodeRotationCommand.cpp"/>
+    <File Name="../src/Torch.cpp"/>
+    <File Name="../src/ItemDefinitionEditor.h"/>
+    <File Name="../src/StatWindow.h"/>
+    <File Name="../src/GrenadeLauncher.h"/>
+    <File Name="../src/SetNodeScaleCommand.h"/>
+    <File Name="../src/AddAnimationTrackCommand.h"/>
+    <File Name="../src/PassageGenerator.h"/>
+    <File Name="../src/Actor.cpp"/>
+    <File Name="../src/CreateNodeCommand.h"/>
+    <File Name="../src/Arena.cpp"/>
+    <File Name="../src/Slot.h"/>
+    <File Name="../src/TonnelVertex.h"/>
+    <File Name="../src/ListBox.h"/>
+    <File Name="../src/Log.cpp"/>
+    <File Name="../src/BossGolem.h"/>
+    <File Name="../src/FogOfWar.cpp"/>
+    <File Name="../src/ItemDatabase.cpp"/>
+    <File Name="../src/ListBox.cpp"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="imgui">
+    <File Name="../src/imgui/imgui.h"/>
+    <File Name="../src/imgui/imgui_widgets.cpp"/>
+    <File Name="../src/imgui/imgui.cpp"/>
+    <File Name="../src/imgui/imstb_truetype.h"/>
+    <File Name="../src/imgui/imconfig.h"/>
+    <File Name="../src/imgui/imstb_textedit.h"/>
+    <File Name="../src/imgui/imstb_rectpack.h"/>
+    <File Name="../src/imgui/imgui_draw.cpp"/>
+    <File Name="../src/imgui/imgui_internal.h"/>
+    <File Name="../src/imgui/imgui_demo.cpp"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="miniz">
+    <File Name="../src/miniz/miniz.c"/>
+    <File Name="../src/miniz/miniz.h"/>
+  </VirtualDirectory>
+  <Settings Type="Executable">
+    <GlobalSettings>
+      <Compiler Options="" C_Options="" Assembler="">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="">
+        <LibraryPath Value="."/>
+      </Linker>
+      <ResourceCompiler Options=""/>
+    </GlobalSettings>
+    <Configuration Name="Debug" CompilerType="GCC" DebuggerType="GNU gdb debugger" Type="Executable" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-pg;-g;-O0;-Wall;-std=c++17;-Wno-format-security;-Wno-class-memaccess;-Wno-misleading-indentation;" C_Options="-pg;-g;-O0;-Wall" Assembler="" Required="yes" PreCompiledHeader="../src/Precompiled.h" PCHInCommandLine="no" PCHFlags="" PCHFlagsPolicy="1">
+        <IncludePath Value="./"/>
+        <IncludePath Value="../src/"/>
+        <IncludePath Value="../src/imgui/"/>
+        <IncludePath Value="../external/SFML/include"/>
+        <IncludePath Value="../external/"/>
+      </Compiler>
+      <Linker Options="-pg;" Required="yes">
+        <Library Value="sfml-graphics"/>
+        <Library Value="sfml-window"/>
+        <Library Value="sfml-system"/>
+        <Library Value="sfml-audio"/>
+        <Library Value="GL"/>
+        <Library Value="GLEW"/>
+        <Library Value="pthread"/>
+        <Library Value="stdc++fs"/>
+        <Library Value="stdc++"/>
+      </Linker>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="../bin/DwarfDig" IntermediateDirectory="./Debug" Command="../bin/DwarfDig" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="../bin/" PauseExecWhenProcTerminates="yes" IsGUIProgram="no" IsEnabled="yes"/>
+      <BuildSystem Name="Default"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;">
+        <![CDATA[]]>
+      </Environment>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="" IsExtended="yes">
+        <DebuggerSearchPaths/>
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName>None</ThirdPartyToolName>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+      <Completion EnableCpp11="no" EnableCpp14="no">
+        <ClangCmpFlagsC/>
+        <ClangCmpFlags/>
+        <ClangPP/>
+        <SearchPaths/>
+      </Completion>
+    </Configuration>
+    <Configuration Name="Release" CompilerType="GCC" DebuggerType="GNU gdb debugger" Type="Executable" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="prepend" BuildResWithGlobalSettings="append">
+      <Compiler Options="-pg;-O2;-Wall;-std=c++17;-Wno-format-security;-Wno-class-memaccess;-Wno-misleading-indentation;" C_Options="-pg;-O2;-Wall" Assembler="" Required="yes" PreCompiledHeader="../src/Precompiled.h" PCHInCommandLine="no" PCHFlags="" PCHFlagsPolicy="1">
+        <IncludePath Value="./"/>
+        <IncludePath Value="../src/"/>
+        <IncludePath Value="../src/imgui/"/>
+        <IncludePath Value="../external/SFML/include"/>
+        <IncludePath Value="../external/"/>
+        <Preprocessor Value="NDEBUG"/>
+      </Compiler>
+      <Linker Options="-pg;" Required="yes">
+        <Library Value="sfml-graphics"/>
+        <Library Value="sfml-window"/>
+        <Library Value="sfml-system"/>
+        <Library Value="sfml-audio"/>
+        <Library Value="GL"/>
+        <Library Value="GLEW"/>
+        <Library Value="pthread"/>
+        <Library Value="stdc++fs"/>
+        <Library Value="stdc++"/>
+      </Linker>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="../bin/DwarfDig" IntermediateDirectory="./Release" Command="../bin/DwarfDig" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="../bin/" PauseExecWhenProcTerminates="yes" IsGUIProgram="no" IsEnabled="yes"/>
+      <BuildSystem Name="Default"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;">
+        <![CDATA[]]>
+      </Environment>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="" IsExtended="yes">
+        <DebuggerSearchPaths/>
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName>None</ThirdPartyToolName>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+      <Completion EnableCpp11="no" EnableCpp14="no">
+        <ClangCmpFlagsC/>
+        <ClangCmpFlags/>
+        <ClangPP/>
+        <SearchPaths/>
+      </Completion>
+    </Configuration>
+  </Settings>
+</CodeLite_Project>

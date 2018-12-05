@@ -1,0 +1,18 @@
+{
+	"Name": "class_poorman",
+	"Money": 0,
+	"Priority": 5,
+	"Stats": {
+		"vitality": 7,
+		"strength": 6,
+		"dexterity": 7,
+		"endurance": 7,
+		"intelligence": 1,
+		"charisma": 1,
+		"luck": 1
+	},
+	"Items": {		
+		"Ring_RingOfLife": 1,
+		"Potion_WeakHeal": 4
+	}
+}

@@ -1,0 +1,1246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\src\Actor.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Bar.cpp">
+      <Filter>Engine\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\BarterWindow.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Canvas.cpp">
+      <Filter>Engine\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Button.cpp">
+      <Filter>Engine\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Checkbox.cpp">
+      <Filter>Engine\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Chest.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Dialog.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\HUD.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Inventory.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\InventoryGUI.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Item.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ItemDatabase.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Journal.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Ladder.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Level.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\LiquidParticle.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\LootList.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Menu.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MotherCrystal.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Player.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Projectile.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Remains.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Smoke.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Stats.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\StatWindow.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Game.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Label.cpp">
+      <Filter>Engine\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Layout.cpp">
+      <Filter>Engine\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ListBox.cpp">
+      <Filter>Engine\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\NumericUpDown.cpp">
+      <Filter>Engine\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\LineSet.cpp">
+      <Filter>Engine\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ScrollableArea.cpp">
+      <Filter>Engine\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SlideList.cpp">
+      <Filter>Engine\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Table.cpp">
+      <Filter>Engine\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Theme.cpp">
+      <Filter>Engine\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Tooltip.cpp">
+      <Filter>Engine\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Window.cpp">
+      <Filter>Engine\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Widget.cpp">
+      <Filter>Engine\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Cell.cpp">
+      <Filter>Engine\Internals</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Collision.cpp">
+      <Filter>Engine\Internals</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Config.cpp">
+      <Filter>Engine\Internals</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DebrisAtlas.cpp">
+      <Filter>Engine\Internals</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Event.cpp">
+      <Filter>Engine\Internals</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FrameAnimation.cpp">
+      <Filter>Engine\Internals</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Input.cpp">
+      <Filter>Engine\Internals</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Light.cpp">
+      <Filter>Engine\Internals</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Log.cpp">
+      <Filter>Engine\Internals</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Node.cpp">
+      <Filter>Engine\Internals</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleSystem.cpp">
+      <Filter>Engine\Internals</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\PolyLine.cpp">
+      <Filter>Engine\Internals</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Precompiled.cpp">
+      <Filter>Engine\Internals</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\QuadTree.cpp">
+      <Filter>Engine\Internals</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Renderer.cpp">
+      <Filter>Engine\Internals</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Scene.cpp">
+      <Filter>Engine\Internals</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Serializer.cpp">
+      <Filter>Engine\Internals</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Sound.cpp">
+      <Filter>Engine\Internals</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Sprite.cpp">
+      <Filter>Engine\Internals</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Terrain.cpp">
+      <Filter>Engine\Internals</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Text.cpp">
+      <Filter>Engine\Internals</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Texture.cpp">
+      <Filter>Engine\Internals</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Trigger.cpp">
+      <Filter>Engine\Internals</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Editor.cpp">
+      <Filter>Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Debris.cpp">
+      <Filter>Engine\Internals</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Frame.cpp">
+      <Filter>Engine\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Door.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\TextureStack.cpp">
+      <Filter>Engine\Internals</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Image.cpp">
+      <Filter>Engine\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\QuestBase.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Shield.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Bench.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\WaterBlob.cpp">
+      <Filter>Engine\Internals</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\AcidGun.cpp">
+      <Filter>Game\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\GrenadeLauncher.cpp">
+      <Filter>Game\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\GravityGun.cpp">
+      <Filter>Game\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Harpoon.cpp">
+      <Filter>Game\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Hook.cpp">
+      <Filter>Game\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\PlasmaDrill.cpp">
+      <Filter>Game\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\RailGun.cpp">
+      <Filter>Game\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\RevealGun.cpp">
+      <Filter>Game\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\RocketLauncher.cpp">
+      <Filter>Game\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Shotgun.cpp">
+      <Filter>Game\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SoilGun.cpp">
+      <Filter>Game\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Weapon.cpp">
+      <Filter>Game\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Pickaxe.cpp">
+      <Filter>Game\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ForceGun.cpp">
+      <Filter>Game\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\PassageGenerator.cpp">
+      <Filter>Game\Generators</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CaveGenerator.cpp">
+      <Filter>Game\Generators</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Keyframe.cpp">
+      <Filter>Engine\Internals</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Animation.cpp">
+      <Filter>Engine\Internals</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\AnimationTrack.cpp">
+      <Filter>Engine\Internals</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\IK.cpp">
+      <Filter>Engine\Internals</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Drill.cpp">
+      <Filter>Game\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\LightningGun.cpp">
+      <Filter>Game\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\RoomGenerator.cpp">
+      <Filter>Game\Generators</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Dwarf.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\NPC.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Boss.cpp">
+      <Filter>Game\Bosses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Monster.cpp">
+      <Filter>Game\Monsters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\BossGolem.cpp">
+      <Filter>Game\Bosses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ViewTriangle.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\AStar.cpp">
+      <Filter>Engine\Internals</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Router.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Command.cpp">
+      <Filter>Engine\Internals</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\VisualEffect.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Console.cpp">
+      <Filter>Engine\Internals</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\InteractionMenu.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\PerlinNoise.cpp">
+      <Filter>Engine\Internals</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Workbench.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Torch.cpp">
+      <Filter>Game\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ConstructionGun.cpp">
+      <Filter>Game\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Slot.cpp">
+      <Filter>Engine\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MapWindow.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Location.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\BookReader.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\WorldGenerator.cpp">
+      <Filter>Game\Generators</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Room.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FogGate.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\NaturalCaveGenerator.cpp">
+      <Filter>Game\Generators</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Encyclopedia.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Controls.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\NameDatabase.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MonsterGenerator.cpp">
+      <Filter>Game\Generators</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\LocationMap.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FlyingIslandsGenerator.cpp">
+      <Filter>Game\Generators</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ArbitraryRectangle.cpp">
+      <Filter>Engine\MathLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CellPixel.cpp">
+      <Filter>Engine\Internals</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SettlementGenerator.cpp">
+      <Filter>Game\Generators</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Exception.cpp">
+      <Filter>Engine\Internals</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ResourceDatabase.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Hitbox.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Damage.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\BehaviourTree.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\BossCrystal.cpp">
+      <Filter>Game\Bosses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Asset.cpp">
+      <Filter>Engine\Internals</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\BossAreaGenerator.cpp">
+      <Filter>Game\Generators</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CreateNodeCommand.cpp">
+      <Filter>Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\EditorCommand.cpp">
+      <Filter>Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CreateSpriteCommand.cpp">
+      <Filter>Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SetNodePositionCommand.cpp">
+      <Filter>Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SetNodeOriginCommand.cpp">
+      <Filter>Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SetNodeScaleCommand.cpp">
+      <Filter>Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SetNodeRotationCommand.cpp">
+      <Filter>Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SetSpriteTextureCommand.cpp">
+      <Filter>Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SetSpriteTextureRectangleCommand.cpp">
+      <Filter>Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SetSelectedCommand.cpp">
+      <Filter>Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SetSpriteSizeCommand.cpp">
+      <Filter>Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SetSpriteColorCommand.cpp">
+      <Filter>Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SetNodeNameCommand.cpp">
+      <Filter>Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SetTrackKeyframeCommand.cpp">
+      <Filter>Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CreateAnimationCommand.cpp">
+      <Filter>Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\AddAnimationTrackCommand.cpp">
+      <Filter>Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Timeline.cpp">
+      <Filter>Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MaskOperation.cpp">
+      <Filter>Engine\Internals</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\LocationGenerator.cpp">
+      <Filter>Game\Generators</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\UndergroundSettlementGenerator.cpp">
+      <Filter>Game\Generators</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\BankGenerator.cpp">
+      <Filter>Game\Generators</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\HubGenerator.cpp">
+      <Filter>Game\Generators</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\HouseGenerator.cpp">
+      <Filter>Game\Generators</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\WarehouseGenerator.cpp">
+      <Filter>Game\Generators</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Passage.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Island.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\TonnelVertex.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Cloud.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FogOfWar.cpp">
+      <Filter>Engine\Internals</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SpinLock.cpp">
+      <Filter>Engine\Internals</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\TextLine.cpp">
+      <Filter>Engine\Internals</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\AttributeGrid.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ItemDefinitionEditor.cpp">
+      <Filter>Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\JsonConverters.cpp" />
+    <ClCompile Include="..\src\ImageSelector.cpp">
+      <Filter>Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DialogEditor.cpp">
+      <Filter>Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\BossBeast.cpp">
+      <Filter>Game\Bosses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Arena.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\TranslatedStringEditor.cpp">
+      <Filter>Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\imgui\imgui.cpp">
+      <Filter>Engine\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\imgui\imgui_demo.cpp">
+      <Filter>Engine\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\imgui\imgui_draw.cpp">
+      <Filter>Engine\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\imgui\imgui_widgets.cpp">
+      <Filter>Engine\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ChestGenerator.cpp">
+      <Filter>Game\Generators</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Guid.cpp">
+      <Filter>Engine\Internals</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\UIHelpers.cpp" />
+    <ClCompile Include="..\src\ModifyTerrainCommand.cpp" />
+    <ClCompile Include="..\src\InteractionMode.cpp" />
+    <ClCompile Include="..\src\PaintTerrainInteractionMode.cpp" />
+    <ClCompile Include="..\src\SelectInteractionMode.cpp" />
+    <ClCompile Include="..\src\MoveInteractionMode.cpp" />
+    <ClCompile Include="..\src\ScaleInteractionMode.cpp" />
+    <ClCompile Include="..\src\MoveOriginInteractionMode.cpp" />
+    <ClCompile Include="..\src\RotateInteractionMode.cpp" />
+    <ClCompile Include="..\src\miniz\miniz.c">
+      <Filter>Engine\Internals\miniz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CommandStack.cpp" />
+    <ClCompile Include="..\src\WorldOutliner.cpp" />
+    <ClCompile Include="..\src\AttachCommand.cpp" />
+    <ClCompile Include="..\src\Selection.cpp" />
+    <ClCompile Include="..\src\Reward.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\Actor.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Bar.h">
+      <Filter>Engine\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\BarterWindow.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Canvas.h">
+      <Filter>Engine\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Button.h">
+      <Filter>Engine\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Checkbox.h">
+      <Filter>Engine\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Chest.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Dialog.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\HUD.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Inventory.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\InventoryGUI.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Item.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Journal.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Ladder.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Level.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\LiquidParticle.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\LootList.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Menu.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MotherCrystal.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Player.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Projectile.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Remains.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Smoke.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Stats.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\StatWindow.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Game.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Label.h">
+      <Filter>Engine\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Layout.h">
+      <Filter>Engine\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ListBox.h">
+      <Filter>Engine\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\NumericUpDown.h">
+      <Filter>Engine\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\LineSet.h">
+      <Filter>Engine\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ScrollableArea.h">
+      <Filter>Engine\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\SlideList.h">
+      <Filter>Engine\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Table.h">
+      <Filter>Engine\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Theme.h">
+      <Filter>Engine\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Tooltip.h">
+      <Filter>Engine\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Window.h">
+      <Filter>Engine\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Widget.h">
+      <Filter>Engine\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Cell.h">
+      <Filter>Engine\Internals</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Collision.h">
+      <Filter>Engine\Internals</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Config.h">
+      <Filter>Engine\Internals</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\DebrisAtlas.h">
+      <Filter>Engine\Internals</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Event.h">
+      <Filter>Engine\Internals</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\FrameAnimation.h">
+      <Filter>Engine\Internals</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Input.h">
+      <Filter>Engine\Internals</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Light.h">
+      <Filter>Engine\Internals</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Node.h">
+      <Filter>Engine\Internals</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ParticleSystem.h">
+      <Filter>Engine\Internals</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\PolyLine.h">
+      <Filter>Engine\Internals</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Precompiled.h">
+      <Filter>Engine\Internals</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\QuadTree.h">
+      <Filter>Engine\Internals</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Renderer.h">
+      <Filter>Engine\Internals</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Engine\Internals</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Scene.h">
+      <Filter>Engine\Internals</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Serializer.h">
+      <Filter>Engine\Internals</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Sound.h">
+      <Filter>Engine\Internals</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Sprite.h">
+      <Filter>Engine\Internals</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Terrain.h">
+      <Filter>Engine\Internals</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Text.h">
+      <Filter>Engine\Internals</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Texture.h">
+      <Filter>Engine\Internals</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Trigger.h">
+      <Filter>Engine\Internals</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\imgui\imconfig.h">
+      <Filter>Engine\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Editor.h">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Debris.h">
+      <Filter>Engine\Internals</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Frame.h">
+      <Filter>Engine\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Door.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\TextureStack.h">
+      <Filter>Engine\Internals</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Image.h">
+      <Filter>Engine\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\QuestBase.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Shield.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Bench.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\WaterBlob.h">
+      <Filter>Engine\Internals</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\AcidGun.h">
+      <Filter>Game\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\GrenadeLauncher.h">
+      <Filter>Game\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\GravityGun.h">
+      <Filter>Game\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Harpoon.h">
+      <Filter>Game\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Hook.h">
+      <Filter>Game\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\PlasmaDrill.h">
+      <Filter>Game\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\RailGun.h">
+      <Filter>Game\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\RevealGun.h">
+      <Filter>Game\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\RocketLauncher.h">
+      <Filter>Game\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Shotgun.h">
+      <Filter>Game\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\SoilGun.h">
+      <Filter>Game\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Weapon.h">
+      <Filter>Game\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Pickaxe.h">
+      <Filter>Game\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ForceGun.h">
+      <Filter>Game\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\PassageGenerator.h">
+      <Filter>Game\Generators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\CaveGenerator.h">
+      <Filter>Game\Generators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Bundle.h">
+      <Filter>Engine\Internals</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Keyframe.h">
+      <Filter>Engine\Internals</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Animation.h">
+      <Filter>Engine\Internals</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\AnimationTrack.h">
+      <Filter>Engine\Internals</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\IK.h">
+      <Filter>Engine\Internals</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Drill.h">
+      <Filter>Game\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\LightningGun.h">
+      <Filter>Game\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\RoomGenerator.h">
+      <Filter>Game\Generators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Dwarf.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\NPC.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Boss.h">
+      <Filter>Game\Bosses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Monster.h">
+      <Filter>Game\Monsters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\BossGolem.h">
+      <Filter>Game\Bosses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ViewTriangle.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\AStar.h">
+      <Filter>Engine\Internals</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Router.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Command.h">
+      <Filter>Engine\Internals</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\VisualEffect.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Console.h">
+      <Filter>Engine\Internals</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\InteractionMenu.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\PerlinNoise.h">
+      <Filter>Engine\Internals</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Workbench.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Torch.h">
+      <Filter>Game\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ConstructionGun.h">
+      <Filter>Game\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Slot.h">
+      <Filter>Engine\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MapWindow.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Location.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\BookReader.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\WorldGenerator.h">
+      <Filter>Game\Generators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Room.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\FogGate.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\NaturalCaveGenerator.h">
+      <Filter>Game\Generators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Encyclopedia.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Controls.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\NameDatabase.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MonsterGenerator.h">
+      <Filter>Game\Generators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\LocationMap.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\FlyingIslandsGenerator.h">
+      <Filter>Game\Generators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ArbitraryRectangle.h">
+      <Filter>Engine\MathLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MathLib.h">
+      <Filter>Engine\MathLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Log.h">
+      <Filter>Engine\Internals</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Enum.h">
+      <Filter>Engine\Internals</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\StringBuilder.h">
+      <Filter>Engine\Internals</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\CellPixel.h">
+      <Filter>Engine\Internals</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\SettlementGenerator.h">
+      <Filter>Game\Generators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Exception.h">
+      <Filter>Engine\Internals</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ResourceDatabase.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Hitbox.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Damage.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\BehaviourTree.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\BossCrystal.h">
+      <Filter>Game\Bosses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Asset.h">
+      <Filter>Engine\Internals</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\BossAreaGenerator.h">
+      <Filter>Game\Generators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\CreateNodeCommand.h">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\EditorCommand.h">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\CreateSpriteCommand.h">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\SetNodePositionCommand.h">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\SetNodeOriginCommand.h">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\SetNodeScaleCommand.h">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\SetNodeRotationCommand.h">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\SetSpriteTextureCommand.h">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\SetSpriteTextureRectangleCommand.h">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\SetSelectedCommand.h">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\SetSpriteSizeCommand.h">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\SetSpriteColorCommand.h">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\SetNodeNameCommand.h">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\SetTrackKeyframeCommand.h">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\CreateAnimationCommand.h">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\AddAnimationTrackCommand.h">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Timeline.h">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MaskOperation.h">
+      <Filter>Engine\Internals</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\PixelAttribute.h">
+      <Filter>Engine\Internals</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ItemDatabase.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\LocationGenerator.h">
+      <Filter>Game\Generators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\LocationType.h">
+      <Filter>Game\Generators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\UndergroundSettlementGenerator.h">
+      <Filter>Game\Generators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\BankGenerator.h">
+      <Filter>Game\Generators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\HubGenerator.h">
+      <Filter>Game\Generators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\HouseGenerator.h">
+      <Filter>Game\Generators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\WarehouseGenerator.h">
+      <Filter>Game\Generators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Passage.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Island.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\TonnelVertex.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Cloud.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\FogOfWar.h">
+      <Filter>Engine\Internals</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\SpinLock.h">
+      <Filter>Engine\Internals</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\TextAlignment.h">
+      <Filter>Engine\Internals</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Color.h">
+      <Filter>Engine\Internals</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\TextLine.h">
+      <Filter>Engine\Internals</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\AttributeGrid.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ItemDefinitionEditor.h">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\JsonConverters.h">
+      <Filter>Engine\Internals</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ItemType.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ImageSelector.h">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\DialogEditor.h">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\BossBeast.h">
+      <Filter>Game\Bosses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Arena.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\TranslatedStringEditor.h">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\imgui\imgui.h">
+      <Filter>Engine\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\imgui\imgui_internal.h">
+      <Filter>Engine\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\imgui\imstb_rectpack.h">
+      <Filter>Engine\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\imgui\imstb_textedit.h">
+      <Filter>Engine\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\imgui\imstb_truetype.h">
+      <Filter>Engine\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ChestGenerator.h">
+      <Filter>Game\Generators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Guid.h">
+      <Filter>Engine\Internals</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\UIHelpers.h">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ModifyTerrainCommand.h">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\PaintTerrainInteractionMode.h">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\InteractionMode.h">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\SelectInteractionMode.h">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MoveInteractionMode.h">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ScaleInteractionMode.h">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MoveOriginInteractionMode.h">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\RotateInteractionMode.h">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\miniz\miniz.h">
+      <Filter>Engine\Internals\miniz</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\CommandStack.h">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\WorldOutliner.h">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\AttachCommand.h">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\NodeType.h">
+      <Filter>Engine\Internals</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Selection.h">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Reward.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DwarfDig.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Game">
+      <UniqueIdentifier>{2487e114-163a-4e1a-8b45-07f644bb5932}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{342170b9-74dd-40a9-8ae5-dd528a776fea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\GUI">
+      <UniqueIdentifier>{ecbb05f0-8c21-4579-ab55-4cfe5ece3f29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Internals">
+      <UniqueIdentifier>{6f4e03ad-09b7-4980-9f8a-081d3ce4521a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\imgui">
+      <UniqueIdentifier>{d7285cb2-3cfd-4f1a-bad8-c06cc06fb6d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor">
+      <UniqueIdentifier>{1b553b47-3ab3-40e5-80a5-d97de5cde801}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Strings">
+      <UniqueIdentifier>{70460116-8069-4850-a803-21c78b1b6283}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Weapons">
+      <UniqueIdentifier>{974cd87f-6397-4aa6-8fc4-fafc4691dcad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Bosses">
+      <UniqueIdentifier>{a2c1b22e-8a8c-4308-bb5b-d5cc401b6830}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Monsters">
+      <UniqueIdentifier>{2e72d98e-5328-4b28-82d1-b0c266b3066b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Generators">
+      <UniqueIdentifier>{ce6da237-df19-4bee-94b3-66d1c75c1773}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\MathLib">
+      <UniqueIdentifier>{35688342-d511-46f9-a949-8590bc9c68d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Internals\miniz">
+      <UniqueIdentifier>{35e50c39-0a60-4734-8b52-df2d40a29c30}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\bin\data\strings\ru\db.str">
+      <Filter>Game\Strings</Filter>
+    </None>
+    <None Include="ClassDiagram.cd" />
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+</Project>
