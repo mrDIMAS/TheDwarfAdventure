@@ -949,26 +949,8 @@ void Game::ScheduleGenerateWorld(const LevelGeneratorParameters & parameters)
 	}
 }
 
-
-void testguids()
-{
-	Guid test;
-	UNUSED(test);
-	Guid original = Guid::Generate();
-	string strGuid = original.ToString();
-	Guid reconstructed;
-	bool result = Guid::TryParse(strGuid, reconstructed);
-	UNUSED(result);
-	for (int i = 0; i < 10; ++i)
-	{
-		cout << Guid::Generate().ToString() << endl;
-	}
-}
-
 int main(int argc, char **argv)
 {
-	testguids();
-
 	UNUSED(argc);
 	UNUSED(argv);
 
