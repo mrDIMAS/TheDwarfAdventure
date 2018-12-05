@@ -25,3 +25,6 @@ codeliteproj/.codelite
 
 # Ignore save files
 *.dsv
+
+# Ignore game-generated files
+/bin/*.log
