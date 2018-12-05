@@ -32,3 +32,7 @@ codeliteproj/.codelite
 
 # Ignore game-generated files
 /bin/*.log
+
+# Ignore archives
+/bin/*.zip
+/bin/*.rar

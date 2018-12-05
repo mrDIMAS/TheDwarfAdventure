@@ -412,11 +412,14 @@ typename vector<T>::iterator RemoveByPointer(vector<T> & vec, P ptr)
 	return result;
 }
 
-vector<shared_ptr<SceneNode>>::iterator Scene::RemoveNode(const shared_ptr<SceneNode> &node)
+vector<shared_ptr<SceneNode>>::iterator Scene::RemoveNode(const shared_ptr<SceneNode> &node, bool removeAnimTracks)
 {
-	for (const shared_ptr<Animation>& anim : mAnimationList)
+	if (removeAnimTracks)
 	{
-		anim->RemoveTrack(anim->FindAssociatedTrack(node));
+		for (const shared_ptr<Animation>& anim : mAnimationList)
+		{
+			anim->RemoveTrack(anim->FindAssociatedTrack(node));
+		}
 	}
 
 	switch (node->GetType())
@@ -443,7 +446,7 @@ vector<shared_ptr<SceneNode>>::iterator Scene::RemoveNode(const shared_ptr<Scene
 
 	for (const shared_ptr<SceneNode> & child : node->GetChildren())
 	{
-		RemoveNode(child);
+		RemoveNode(child, removeAnimTracks);
 	}
 
 	mNeedSortRenderOrder = true;
@@ -526,7 +529,7 @@ void Scene::AcceptNode(const std::shared_ptr<SceneNode>& node)
 		return;
 	}
 	// remove from prev
-	prevScene->RemoveNode(n);
+	prevScene->RemoveNode(n, false);
 	// add to this
 	AddNode(n);
 	n->SetScene(shared_from_this());

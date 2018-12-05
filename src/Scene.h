@@ -97,7 +97,7 @@ public:
 	void AddNode(const shared_ptr<SceneNode> &n);
 	// you should call this method when obtained node pointer (through CreateXXX)
 	// is not needed anymore
-	vector<shared_ptr<SceneNode>>::iterator RemoveNode(const shared_ptr<SceneNode> &node);
+	vector<shared_ptr<SceneNode>>::iterator RemoveNode(const shared_ptr<SceneNode> &node, bool removeAnimTracks = true);
 	void Update();
 	sf::View &GetView();
 	Vec2f GetViewVelocity() const;

@@ -67,10 +67,12 @@ Exception::Exception(const std::string & message)
 
     cerr << mMessage << endl;
     
+#ifndef NDEBUG
 #ifdef _MSC_VER
 	__debugbreak();
 #else
     raise(SIGTRAP);
+#endif
 #endif
 }
 
