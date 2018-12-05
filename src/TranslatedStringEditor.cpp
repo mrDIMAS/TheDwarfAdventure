@@ -52,6 +52,11 @@ namespace ed
 					SyncLocalizations();
 				}
 
+				if (ImGui::MenuItem("Remove Unused Entries (check your diff after!)"))
+				{
+					RemoveUnusedEntries();
+				}
+
 				ImGui::EndMenu();
 			}
 
@@ -206,6 +211,88 @@ namespace ed
 
 					// Save it back
 					otherLocalizationConfig.Save();
+				}
+			}
+		}
+	}
+
+	void TranslatedStringEditor::RemoveUnusedEntries()
+	{
+		vector<string> sources;
+
+		// Load sources
+		for (auto &p : filesystem::recursive_directory_iterator("../src/"))
+		{
+			auto path = p.path();
+
+			if (path.has_extension())
+			{
+				auto ext = path.extension().string();
+				if (ext == ".cpp" || ext == ".h")
+				{
+					std::ifstream file(path);
+					sources.push_back(std::string((std::istreambuf_iterator<char>(file)), std::istreambuf_iterator<char>()));
+				}
+			}
+		}
+
+		// Load every json
+		for (auto &p : filesystem::recursive_directory_iterator("data/"))
+		{
+			auto path = p.path();
+
+			if (path.has_extension())
+			{
+				auto ext = path.extension().string();
+				if (ext == ".json")
+				{
+					std::ifstream file(path);
+					sources.push_back(std::string((std::istreambuf_iterator<char>(file)), std::istreambuf_iterator<char>()));
+				}
+			}
+		}
+
+		// Do a search from each localization
+		for (auto &p : filesystem::recursive_directory_iterator("data/strings/"))
+		{
+			auto path = p.path();
+
+			if (path.has_extension())
+			{
+				auto ext = path.extension().string();
+				if (ext == ".loca")
+				{
+					Config localizationConfig { path.string() };
+
+					unordered_map<string, string>& localization = localizationConfig.GetMap();
+
+					vector<string> entriesForDelete;
+					for (const pair<string, string>& keyValue : localization)
+					{
+						string decorated = '"' + keyValue.first + '"';
+
+						bool found = false;
+						for (const string& sourceFile : sources)
+						{
+							if (sourceFile.find(decorated) != string::npos)
+							{
+								found = true;
+								break;
+							}
+						}
+
+						if (!found)
+						{
+							entriesForDelete.push_back(keyValue.first);
+						}
+					}
+
+					for (const string& delEntry : entriesForDelete)
+					{
+						localization.erase(delEntry);
+					}
+
+					localizationConfig.Save();
 				}
 			}
 		}

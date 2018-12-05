@@ -45,9 +45,6 @@ namespace ed
 		// For example: in a localization we have 
 		//   foo = "foobar";
 		// but in code node such string "foobar", so entry will be deleted 		
-		void RemoveUnusedEntries()
-		{
-
-		}
+		void RemoveUnusedEntries();
 	};
 }
