@@ -18,3 +18,6 @@ projects/.vs
 # Ignore CodeLite generated files
 codeliteproj/.clang
 codeliteproj/.codelite
+
+# Ignore gcc generated files
+*.gch

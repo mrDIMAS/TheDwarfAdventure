@@ -108,6 +108,9 @@ using Vec2i = sf::Vector2i;
 
 #include "json.hpp"
 
+class Serializer;
+void Serialize(shared_ptr<sf::SoundBuffer> &buf, Serializer &sav);
+
 #include "Serializer.h"
 #include "Log.h"
 #include "MathLib.h"
