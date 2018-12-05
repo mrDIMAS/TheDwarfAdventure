@@ -326,7 +326,7 @@ shared_ptr<Level> WorldGenerator::Generate()
 		locationDefinitions.push_back(make_shared<LocationDefinition>(LocationType::FlyingIsland, locationSizeRange.RandomValue(), locationSizeRange.RandomValue()));
 		locationDefinitions.push_back(make_shared<LocationDefinition>(LocationType::UndergroundSettlement, locationSizeRange.RandomValue(), locationSizeRange.RandomValue()));
 
-		const int genericCount = 3;
+		const int genericCount = 6;
 		// Add some generic locations
 		for (int i = 0; i < genericCount; ++i)
 		{

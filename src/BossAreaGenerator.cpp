@@ -107,7 +107,7 @@ void BossAreaGenerator::Generate()
 	Bundle<BossType> possibleBosses = {
 		{ 0.33f, BossType::Golem },
 		{ 0.33f, BossType::Crystal },
-		{ 1000.33f, BossType::Beast }
+		{ 0.33f, BossType::Beast }
 	};
 
 	BossType bossType = possibleBosses.Drop();

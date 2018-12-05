@@ -234,8 +234,7 @@ Game::Game()
 	mMusic.openFromFile("data/music/misery.ogg");
 	mMusic.play();
 	mMusic.setLoop(true);
-	//mMusic.setVolume(10);
-	mMusic.setVolume(0);
+	mMusic.setVolume(10);
 }
 
 Game::~Game()
