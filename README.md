@@ -16,6 +16,8 @@
 
 ## How to build
 
+First of all you need C++17 compiler. I'm using GCC 8.2 on Linux and Visual Studio 2015 (with std::experimental) on Windows.
+
 ### Dependencies
 Game depends on SFML and GLEW libraries.
 
