@@ -26,21 +26,99 @@ World map successfully initialized!
 Name database successfully initialized!
 Book reader successfully initialized!
 Encyclopedia successfully initialized!
-FPS: 0
 Sound buffer data/sounds/menupick.ogg was successfully loaded and cached!
-FPS: 65
-FPS: 65
+FPS: 0
 Sound buffer data/sounds/menuhit.ogg was successfully loaded and cached!
-FPS: 66
-FPS: 66
-FPS: 64
-FPS: 64
 FPS: 65
 FPS: 65
+FPS: 64
+FPS: 64
+Using multithreaded world generator
+Generation thread for location Hub was created!
+Generation thread for location UndergroundSettlement was created!
+Generation thread for location Settlement was created!
+Generation thread for location UndergroundSettlement was created!
+Generation thread for location Bank was created!
+Generation thread for location NaturalCaves was created!
+Generation thread for location FlyingIsland was created!
+Generation thread for location NaturalCaves was created!
+FPS: 64
+FPS: 64
+FPS: 61
+Generation thread for location UndergroundSettlement was done its job! Location is generated successfully!
+FPS: 61
+Generation thread for location FlyingIsland was done its job! Location is generated successfully!
+FPS: 64
+Generation thread for location NaturalCaves was done its job! Location is generated successfully!
+FPS: 64
+Generation thread for location Bank was done its job! Location is generated successfully!
+Generation thread for location Settlement was done its job! Location is generated successfully!
+FPS: 64
+Generation thread for location NaturalCaves was done its job! Location is generated successfully!
+Generation thread for location Hub was done its job! Location is generated successfully!
+Generation thread for location UndergroundSettlement was done its job! Location is generated successfully!
+FPS: 64
+Successfully generated in 3679 ms.
+Sound buffer data/sounds/water_sewer.ogg was successfully loaded and cached!
+FPS: 41
+FPS: 41
+FPS: 65
+FPS: 65
+Terrain NavMesh was rebuilt in 940 microseconds!
+FPS: 64
+Sound buffer data/sounds/footsteps/step3.ogg was successfully loaded and cached!
+FPS: 64
+Sound buffer data/sounds/footsteps/step1.ogg was successfully loaded and cached!
+Terrain NavMesh was rebuilt in 900 microseconds!
+Sound buffer data/sounds/footsteps/step4.ogg was successfully loaded and cached!
+FPS: 64
+Sound buffer data/sounds/footsteps/step2.ogg was successfully loaded and cached!
+FPS: 64
+Terrain NavMesh was rebuilt in 895 microseconds!
+FPS: 64
+FPS: 64
+FPS: 64
+FPS: 64
+FPS: 64
+FPS: 64
+Terrain NavMesh was rebuilt in 887 microseconds!
+FPS: 64
+Sound buffer data/sounds/item_pickup.ogg was successfully loaded and cached!
+FPS: 64
+Terrain NavMesh was rebuilt in 896 microseconds!
 FPS: 64
 FPS: 64
 FPS: 64
 FPS: 64
 FPS: 63
+Terrain NavMesh was rebuilt in 868 microseconds!
 FPS: 63
-FPS: 65
+FPS: 64
+Terrain NavMesh was rebuilt in 888 microseconds!
+FPS: 64
+FPS: 64
+Terrain NavMesh was rebuilt in 889 microseconds!
+FPS: 64
+FPS: 64
+Terrain NavMesh was rebuilt in 886 microseconds!
+FPS: 64
+Sound buffer data/sounds/metal_impact1.ogg was successfully loaded and cached!
+Sound buffer data/sounds/pickaxe_impact3.ogg was successfully loaded and cached!
+Sound buffer data/sounds/pickaxe_impact2.ogg was successfully loaded and cached!
+FPS: 64
+Terrain NavMesh was rebuilt in 889 microseconds!
+FPS: 64
+Sound buffer data/sounds/wooden_door_open.ogg was successfully loaded and cached!
+Terrain NavMesh was rebuilt in 888 microseconds!
+FPS: 64
+FPS: 64
+Terrain NavMesh was rebuilt in 936 microseconds!
+FPS: 64
+FPS: 64
+Terrain NavMesh was rebuilt in 885 microseconds!
+FPS: 64
+FPS: 64
+Terrain NavMesh was rebuilt in 875 microseconds!
+FPS: 64
+FPS: 64
+FPS: 63

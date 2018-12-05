@@ -7,6 +7,7 @@
 *.exp
 *.iobj
 *.ipdb
+*.pdb
 
 # Ignore VS generated files
 projects/Debug
@@ -21,3 +22,6 @@ codeliteproj/.codelite
 
 # Ignore gcc generated files
 *.gch
+
+# Ignore save files
+*.dsv

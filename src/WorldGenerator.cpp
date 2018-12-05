@@ -307,7 +307,7 @@ shared_ptr<Level> WorldGenerator::Generate()
 
 	mTimeGenerationStarted = chrono::high_resolution_clock::now();
 
-	const Math::Range<int> locationSizeRange = { 5, 6 };
+	const Math::Range<int> locationSizeRange = { 6, 10 };
 
 	// Define locations
 	vector<shared_ptr<LocationDefinition>> locationDefinitions;
@@ -320,13 +320,13 @@ shared_ptr<Level> WorldGenerator::Generate()
 		};
 
 		// Add unique locations
-		//locationDefinitions.push_back(make_shared<LocationDefinition>(LocationType::Hub, locationSizeRange.RandomValue(), locationSizeRange.RandomValue()));
-		//locationDefinitions.push_back(make_shared<LocationDefinition>(LocationType::Bank, locationSizeRange.RandomValue(), locationSizeRange.RandomValue()));
-		//locationDefinitions.push_back(make_shared<LocationDefinition>(LocationType::Settlement, locationSizeRange.RandomValue(), locationSizeRange.RandomValue()));
-		//locationDefinitions.push_back(make_shared<LocationDefinition>(LocationType::FlyingIsland, locationSizeRange.RandomValue(), locationSizeRange.RandomValue()));
+		locationDefinitions.push_back(make_shared<LocationDefinition>(LocationType::Hub, locationSizeRange.RandomValue(), locationSizeRange.RandomValue()));
+		locationDefinitions.push_back(make_shared<LocationDefinition>(LocationType::Bank, locationSizeRange.RandomValue(), locationSizeRange.RandomValue()));
+		locationDefinitions.push_back(make_shared<LocationDefinition>(LocationType::Settlement, locationSizeRange.RandomValue(), locationSizeRange.RandomValue()));
+		locationDefinitions.push_back(make_shared<LocationDefinition>(LocationType::FlyingIsland, locationSizeRange.RandomValue(), locationSizeRange.RandomValue()));
 		locationDefinitions.push_back(make_shared<LocationDefinition>(LocationType::UndergroundSettlement, locationSizeRange.RandomValue(), locationSizeRange.RandomValue()));
 
-		const int genericCount = 0;
+		const int genericCount = 3;
 		// Add some generic locations
 		for (int i = 0; i < genericCount; ++i)
 		{
