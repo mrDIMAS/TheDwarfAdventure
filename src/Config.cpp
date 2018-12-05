@@ -80,9 +80,14 @@ void Config::LoadString(const string &str)
 	bool comment = false;
 	unsigned int n = 0;
 	string varName, var;
+	unsigned int lineNumber = 0;
 	while (true)
 	{
 		char symbol = str[n];
+		if (symbol == '\n')
+		{
+			++lineNumber;
+		}
 		if (symbol == '#')
 		{
 			comment = true;
@@ -97,7 +102,7 @@ void Config::LoadString(const string &str)
 			{
 				if (!quoteRF)
 				{
-					throw Exception(StringBuilder("Syntax error when parsing ") << mFileName << ": forgot value closing quote");
+					throw Exception(StringBuilder("Syntax error when parsing ") << mFileName << ": forgot value closing quote at line " + to_string(lineNumber + 1));
 				}
 				quoteLF = false;
 				quoteRF = false;
@@ -155,7 +160,7 @@ void Config::Load(const string &fileName)
 	std::ifstream file(fileName);
 	if (!file.is_open())
 	{
-		throw Exception("Unable to parse file " + fileName);
+		throw Exception("Unable to parse file " + fileName + ". File does not exist!");
 	}
 	std::string buffer((std::istreambuf_iterator<char>(file)), std::istreambuf_iterator<char>());
 	file.close();
@@ -218,6 +223,11 @@ void Config::AddString(const string &newVarName, const string &value)
 bool Config::IsEmpty() const
 {
 	return mValues.empty();
+}
+
+string Config::GetPath() const
+{
+	return mFileName;
 }
 
 void Config::SetNumber(const string &varName, int value)

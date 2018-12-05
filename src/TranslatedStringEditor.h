@@ -31,5 +31,23 @@ namespace ed
 		array<char, 32536> mEditBuffer { 0 };
 		array<char, 255> mKeyName { 0 };
 		int mSelectedIndex { -1 };
+
+		// Uses current localization as reference and fixes other localizations
+		// so they will contain all strings that are needed.
+		// For example: russian localization contains 
+		//   foo = "some string";
+		//   foobar = "some string 2";
+		// but english contains only 'foo' and 'foobaz', so this function will add
+		// 'foobar' string to english localization and will remove 'foobaz'. 
+		void SyncLocalizations();
+
+		// Looks for strings in source files and removes unused from every localization
+		// For example: in a localization we have 
+		//   foo = "foobar";
+		// but in code node such string "foobar", so entry will be deleted 		
+		void RemoveUnusedEntries()
+		{
+
+		}
 	};
 }

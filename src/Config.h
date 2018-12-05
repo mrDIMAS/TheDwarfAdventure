@@ -22,12 +22,6 @@
 
 class Config
 {
-private:
-	string mFileName;
-	unordered_map<string, string> mValues;
-	string& GetExisting(const string &varName);
-	const string& GetExisting(const string &varName) const;
-
 public:
 	Config();
 	Config(const string &filename);
@@ -36,6 +30,7 @@ public:
 	void Save(const string &fileName) const;
 	void Save() const;
 	bool IsEmpty() const;
+	string GetPath() const;
 	unordered_map<string, string> GetValuesCopy() const;
 	unordered_map<string, string> & GetMap();
 	void SetNumber(const string &varName, float value);
@@ -48,5 +43,11 @@ public:
 	void AddBoolean(const string &varName, bool value);
 
 	template <class T> T Get(const string &varName) const;		
+
+private:
+	string mFileName;
+	unordered_map<string, string> mValues;
+	string& GetExisting(const string &varName);
+	const string& GetExisting(const string &varName) const;
 };
 

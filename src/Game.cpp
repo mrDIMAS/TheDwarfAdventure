@@ -167,7 +167,7 @@ Game::Game()
 		Log() << "Physics will use all physical cores (" << processorCount << ") of your processor to do calculations" << LineEnd;
 	}
 	string locPath = cfg.Get<string>("localizationPath");
-	mLocalization.Load(locPath + "db.str");
+	mLocalization.Load(locPath + "db.loca");
 	mControls.LoadDefaults();
 	Debug.useMultithreadedWorldGenerator = cfg.Get<bool>("useMultithreadedWorldGenerator");
 
@@ -600,6 +600,11 @@ unordered_map<string, string>& Game::GetCurrentLocalization()
 void Game::SaveLocalization()
 {
 	mLocalization.Save();
+}
+
+Config & Game::GetCurrentLocalizationConfig()
+{
+	return mLocalization;
 }
 
 HUD * Game::GetHUD()

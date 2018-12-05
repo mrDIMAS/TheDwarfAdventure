@@ -148,6 +148,7 @@ public:
 	InteractionMenu* GetInteractionMenu() const;
 	unordered_map<string, string> & GetCurrentLocalization();
 	void SaveLocalization();
+	Config& GetCurrentLocalizationConfig();
 
 	// Built-in debug menu uses this data to control state of the game
 	struct TDebug

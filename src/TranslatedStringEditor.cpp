@@ -45,6 +45,16 @@ namespace ed
 				ImGui::EndMenu();
 			}
 
+			if (ImGui::BeginMenu("Syncing"))
+			{
+				if (ImGui::MenuItem("Sync to Current"))
+				{
+					SyncLocalizations();
+				}
+
+				ImGui::EndMenu();
+			}
+
 			ImGui::EndMenuBar();
 		}
 
@@ -153,5 +163,51 @@ namespace ed
 		ImGui::EndChild();
 
 		ImGui::End();
+	}
+
+	void TranslatedStringEditor::SyncLocalizations()
+	{
+		const unordered_map<string, string>& currentLocalization = game->GetCurrentLocalization();
+
+		for (auto &p : filesystem::recursive_directory_iterator("data/strings/"))
+		{
+			auto path = p.path();
+						
+			if (path != game->GetCurrentLocalizationConfig().GetPath() && path.has_extension())
+			{
+				auto ext = path.extension().string();
+				if (ext == ".loca")
+				{
+					Config otherLocalizationConfig { path.string() };
+
+					unordered_map<string, string>& otherLocalization = otherLocalizationConfig.GetMap();
+
+					// First pass: look for missing entries in other localizations and add them
+					for (const pair<string, string>& currentKeyValue : currentLocalization)
+					{					
+						if (otherLocalization.find(currentKeyValue.first) == otherLocalization.end())
+						{
+							otherLocalization[currentKeyValue.first] = currentKeyValue.second;
+						}						
+					}
+
+					// Second pass: look for unused entries in other localizations and delete them
+					unordered_map<string, string> result;
+					for (const pair<string, string>& otherKeyValue : otherLocalization)
+					{
+						if (currentLocalization.find(otherKeyValue.first) != currentLocalization.end())
+						{
+							result[otherKeyValue.first] = otherKeyValue.second;
+						}
+					}
+
+					// Swap localizations
+					otherLocalization = result;
+
+					// Save it back
+					otherLocalizationConfig.Save();
+				}
+			}
+		}
 	}
 }
