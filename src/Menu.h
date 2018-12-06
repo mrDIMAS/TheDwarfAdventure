@@ -50,6 +50,15 @@ enum class MenuPage
 
 class Menu
 {
+public:
+	Menu();
+	~Menu();
+	void SetVisible(bool state);
+	bool IsVisible() const;
+	void SetPage(const MenuPage &page);
+	void Update();
+	void SetProgressMessage(const string & message);
+	void ShowProgressWindow(bool state);
 private:
 	bool mWaitKey { false };
 	int mWaitKeyBlinkTimer { 0 };
@@ -129,6 +138,8 @@ private:
 	shared_ptr<SlideList> mResolutionLst;
 	shared_ptr<Label> mWindowModeLbl;
 	shared_ptr<SlideList> mWindowModeLst;
+	shared_ptr<Label> mLanguageLbl;
+	shared_ptr<SlideList> mLanguageLst;
 	shared_ptr<Label> mControlsLbl;
 	shared_ptr<ListBox> mControlsLbx;
 	shared_ptr<Label> mMusicVolumeLbl;
@@ -159,13 +170,5 @@ private:
 	void InvokeGenerationThread();
 	void FillResolutionList();
 	void MakeEndGamePage();
-public:
-	Menu();
-	~Menu();
-	void SetVisible(bool state);
-	bool IsVisible() const;
-	void SetPage(const MenuPage &page);
-	void Update();
-	void SetProgressMessage(const string & message);
-	void ShowProgressWindow(bool state);
+	void MakeLanguageSelector(const Vec2f& buttonSize);
 };

@@ -474,6 +474,50 @@ void Menu::MakeEndGamePage()
 	mEndGame.mWindow->AddChild(mEndGame.mExitGameBtn);
 }
 
+void Menu::MakeLanguageSelector(const Vec2f & buttonSize)
+{
+	mLanguageLbl = mCanvas->Create<Label>();
+	mLanguageLbl->SetText(game->GetStr("language"));
+	mLanguageLbl->SetAlignment(TextAlignment::Center);
+	mOptionsWnd->AddChild(mLanguageLbl);
+
+	mLanguageLst = mCanvas->Create<SlideList>();
+	mLanguageLst->SetSize(buttonSize);
+	mLanguageLst->OnCurrentItemChanged += [this]
+	{
+		Config cfg("default.cfg");
+		cfg.SetString("localizationPath", *static_pointer_cast<string>(mLanguageLst->GetCurrentItem()));
+		cfg.Save();
+	};
+	mOptionsWnd->AddChild(mLanguageLst);
+
+	int n = 0, current = 0;
+	for (auto &p : filesystem::recursive_directory_iterator("data/strings/"))
+	{
+		auto path = p.path();
+		if (path.has_extension())
+		{
+			auto ext = path.extension().string();
+			if (ext == ".loca")
+			{
+				string str = path.string();
+				str.erase(str.find(path.filename().string()));
+				
+				mLanguageLst->AddItem(path.string(), make_shared<string>(str));
+
+				if (path == game->GetCurrentLocalizationConfig().GetPath())
+				{
+					current = n;
+				}
+
+				++n;
+			}
+		}
+	}
+
+	mLanguageLst->SetCurrentItem(current);
+}
+
 Menu::Menu()
 {
 	auto renderer = game->GetRenderer();
@@ -814,6 +858,8 @@ Menu::Menu()
 			game->GetRenderer()->SetFullscreen(mWindowModeLst->GetCurrentItemIndex() == 0 ? false : true);
 		};
 		mOptionsWnd->AddChild(mWindowModeLst);
+
+		MakeLanguageSelector(buttonSize);
 
 		mMusicVolumeLbl = mCanvas->Create<Label>();
 		mMusicVolumeLbl->SetText(game->GetStr("musicVolume"));

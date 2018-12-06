@@ -613,3 +613,4 @@ youDied = "You died!";
 youHaveSkill = "current value";
 zoomIn = "Zoom in";
 zoomOut = "ZoomOut";
+language = "Language (need restart)";

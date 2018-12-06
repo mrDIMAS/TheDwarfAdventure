@@ -649,7 +649,7 @@ void PassageGenerator::GeneratePassages()
 				scene->AddWaterBlob(blob);
 			}
 
-			if (mGenerateMonsters && Math::ProbabilityEventAppeared(0.3f))
+			if (mGenerateMonsters && Math::ProbabilityEventAppeared(0.65f))
 			{
 				const shared_ptr<Creature> monster = mParentGenerator->GetMonsterGenerator()->Generate(location);
 
