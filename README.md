@@ -27,11 +27,13 @@ Can be found in releases (https://github.com/mrDIMAS/TheDwarfAdventure/releases)
 ## Gameplay video
 - Soon
 
+You can always propose any video about the game.
+
 ## Supported languages
 - Russian
-- English (soon) 
+- English
 
-Any help is appreciated!
+Please note that my native language is russian, so in english translation can be mistakes. You can edit any translation, or add your own - any help is appreciated!
 
 ## Questions and answers
 ### Can I win the game?
