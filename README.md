@@ -19,6 +19,8 @@ You can always propose any video about the game.
 
 I'm making this game for more than 2,5 years alone on my own engine based on SFML, and it still far from complete. Some game elements are working not so well, some parts can be unbalanced. You can participate in development if want to.
 
+Average code base size: ~47000 lines of code.
+
 ## Story
 You are a dwarf and you live in a deserted kingdom. For a long time your people lived in wealth and prosperity, but on some day a huge chunk of mysterious energetic crystals was found. These crystal were called Arkalith, they were used to create amazing machines and powerful weapons that allowed the kingdom to seize neighboring kingdoms. Your kingdom fell into decay after the discovery of the mysterious Black creature deep underground in the thick of the arkalith. The ancient creature immediately incinerated the dwarves who were mining this sinister mineral. After a while the kingdom was filled with deadly creatures from other worlds. Royal forces were not prepared for this strike - dwarves dying everyday since then, not so many of them can survive. Discovery of Arkalith also affected ordinary creatures - bees, frogs, bats - even ordinary bee became huge and dangerous. Swords and axes became useless, creatures from other worlds could be destroyed only by the energy of the arkalith. You is the only hope for your kingdom!
 
