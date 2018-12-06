@@ -3,7 +3,7 @@
 2D sandbox adventure RPG with destructible and generated world. 
 
 ## Gameplay video
-- Soon
+https://www.youtube.com/watch?v=O3v6zptRwWw
 
 You can always propose any video about the game.
 
