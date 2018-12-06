@@ -1,67 +1,67 @@
-BarterUI_Help = "В этом окне осуществляется торговля с различными персонажами.
-Слева расположен список с предметами торговца, по-середине - предметы сделки, а справа - ваши предметы.
-Для того чтобы купить предмет у торговца, нажмите на нужный предмет и затем нажмите клавишу [Использовать]. Предмет будет помещен в список по-середине. Похожие действия нужно совершить если вы хотите продать предмет. Стрелка возле предмета показывает кому достанется предмет при совершении сделки. Под списком сделок расположена сумма выплат - если она отрицательная - вы должны будете заплатить торговцу эту сумму, если положительная - такую сумму заплатит вам торговец. Вы можете отменить сделку в любой момент. Если вы передумали покупать или продавать предмет, выделите его в списке сделок и нажмите клавишу [Использовать] - предмет будет возвращен владельцу.";
-DialogUI_Help = "В этом окне происходит общение с различными персонажами. В списке справа приведены возможные варианты ответов или вопросов. В текстовом поле слева сохраняются вся история диалогов.";
-Dialog_AnyQuest_A_Accept = "Идет!";
-Dialog_AnyQuest_A_Entry = "Что-то случилось?";
-Dialog_AnyQuest_A_Refuse = "Не интересует.";
-Dialog_AnyQuest_A_Reward = "Какова награда?";
-Dialog_FindItemQuest_Q_Accept = "Ну значит договорились. Я отмечу место на твоей карте где я мог выронить мою безделушку. Удачи!";
-Dialog_FindItemQuest_Q_Begin = "Тут такое дело... недавно я убегал от этих злобных тварей и обронил одну ценную вещицу. Я бы хорошо тебе заплатил за нее, если бы ты мне ее вернул. Интересует?";
-Dialog_FindItemQuest_Q_Refuse = "Очень жаль. Придется мне самому искать, но если ты передумаешь - ты знаешь где меня найти.";
-Dialog_FindItemQuest_Q_Reward = "Я очень щедро тебе отплачу, путник: ";
-Dialog_FirstWarning_A_Ok = "Ладно.";
-Dialog_FirstWarning_A_Sorry = "Прости, я случайно.";
-Dialog_FirstWarning_A_YouWillDie = "Сейчас ты умрешь!";
-Dialog_FirstWarning_Q_Entry = "Зачем ты меня атаковал? На первый раз прощаю, больше так не делай иначе тебе не поздоровится.";
-Dialog_GameBeginning_A_Allrigth = "Как скажешь, дай уже поиграть.";
-Dialog_GameBeginning_A_Ok = "ОК.";
-Dialog_GameBeginning_A_WhyNotSee = "Кто ты и почему я тебя не вижу!?";
-Dialog_GameBeginning_Q_Entry = "Вы гном и вы живете в опустевшем королевстве. Долгое время ваш народ жил в богатстве и процветании, до тех пор пока жители королевства не наткнулись на месторождение таинственных энергетических кристаллов, прозванных аркалитом. Эти кристаллы позволили создать удивительные машины и могущественное оружие, позволившие захватить соседние королевства. Ваше королевство пришло в упадок после обнаружения загадочной Черной твари глубоко под землей в толще аркалита. Древнее существо мгновенно испепелило гномов, добывающих этот зловещий минерал. Спустя некоторое время по всему королевству начали появляться смертоносные создания из других миров, постепенно уничтожавшие местных жителей. Даже обыкновенные осы стали огромными и опасными. Мечи и топоры стали бесполезными, создания из других миров могли быть уничтожены только энергией аркалита. Каждый уровень королевства был занят могущественными существами, которые контролировали приток тварей из других миров и поддерживали их жизнь. Вы должны освободить свое королевство от захватчиков, уничтожив Черную тварь.";
-Dialog_GameBeginning_Q_LazyDev = "Я ленивый разработчик, которому лень делать нормальное вступление. ";
-Dialog_GameBeginning_Q_OkiDoki = "Вот и ладушки.";
-Dialog_IllegalZone_A_DontCare = "Где хочу там и хожу!";
-Dialog_IllegalZone_A_FineLeave = "Хорошо, уйду.";
-Dialog_IllegalZone_A_ICameForYou = "Я пришел за тобой! (начать бой)";
-Dialog_IllegalZone_A_Sorry = "Прости, я не знал что сюда нельзя.";
-Dialog_IllegalZone_Q_Entry = "Тебе нельзя здесь находиться, пожалуйста уйди отсюда!";
-Dialog_KickOutFromRoom_A_JustCurious = "Мне было интересно, что у тебя тут.";
-Dialog_KickOutFromRoom_A_StillGetYou = "Я все равно до тебя доберусь!";
-Dialog_KickOutFromRoom_Q_Entry = "Я просил тебя уйти по-хорошему, но ты упорно продолжаешь ходить там где тебе не положено быть. Придется тебя выгнать.";
-Dialog_KillQuest_Q_Accept = "Отлично! Я отмечу место на твоей карте где ты сможешь найти этих мерзких исчадий и расправиться с ними. Удачи!";
-Dialog_KillQuest_Q_Begin = "Недавно меня чуть не сожрали эти злобные твари по пути домой. Не мог бы ты избавиться от них? Мы с соседями скинулись на награду и она тебя не разочарует. Поможешь нам?";
-Dialog_KillQuest_Q_Refuse = "Ты не можешь нас бросить! Мы же тут погибнем...";
-Dialog_KillQuest_Q_Reward = "Как я уже сказал, награда будет щедрой: ";
-Dialog_Local_A_Rumors = "Что слышно в последнее время?";
-Dialog_Local_Q_Entry = "Приветствую!";
-Dialog_Local_Q_Rumor_0 = "Говорят, что иногда при копании тоннелей, шахтеры находят старинные сундуки с разными богатствами. Сам я боюсь выходить лишний раз из дома. Но ты похож на закаленного воина, поэтому тебе стоит поискать эти сундуки.";
-Dialog_Local_Q_Rumor_1 = "Недавно я наткнулся на пласт кристаллов аркалита, в участке этого пласта была полость прикрытая странным искрящимся туманов. Я не рискнул пройти сквозь туман, жизнь дороже.";
-Dialog_Local_Q_Rumor_2 = "Ходят слухи, что королевская академия наук была перенесена на Небесные острова для поиска способа одолеть Черную тварь. И я вот гадаю - как же они попадают на Небесные острова, я их сам не видел, но говорят что они парят в воздухе за счет энергии кристаллов аркалита. Бог весть что они там делают в своей академии.";
-Dialog_Local_Q_Rumor_3 = "Ходят слухи что наш мир - симуляция. Представь, что вся наша жизнь может быть выдумкой одного человека. Ужас!";
-Dialog_Merchant_A_Barter = "Я посмотрю на твои товары.";
-Dialog_Merchant_A_WhatsWrong = "В чем дело?";
-Dialog_Merchant_Q_Entry = "Приветствую! Я - торговец, можно сказать вымирающий вид в сложившейся ситуации.";
-Dialog_Merchant_Q_Monsters = "В этих чертовых монстрах, любой выход из дома или магазина превращается в настоящее испытание: некогда маленькие насекомые и животные выросли во много десятков раз и стали чрезвычайно опасными. К тому же встречаются совершенно необычные твари, такое ощущение что они вообще не из нашего мира. Я мог бы нанять наемника для охраны, но они сейчас заламывают такие цены что жить не хочется.";
-InventoryUI_Help = "Инвентарь предоставляет единый доступ ко всем вашим предметам.
-В списке отображаются все ваши предметы и их количество. Одинаковые предметы группируются.
-Над списком можно выставить фильтр для отображаемых предметов.
-Справа расположены слоты снаряжения. Описание каждого слота отображается при наведении на него мышки.
-Под слотами снаряжения расположена информация о количестве денег и общем весе снаряжения.
-Любой предмет можно использовать разными руками, конкретное действие зависит от типа предмета.
-Например оружие и щиты можно брать в разные руки и использовать порознь, тогда как зелья и другие предметы можно использовать любой рукой.
-Большинство предметов можно выбросить из инвентаря. Для этого выделите предмет в списке и нажмите соответствующую кнопку.";
+BarterUI_Help = "In this window you can trade with various characters.
+On the left is a list with items of the merchant, in the middle - the objects of the transaction, and on the right - your items.
+In order to purchase an item from a dealer, click on the item of interest and then press the [Use] key. Item will be placed in the middle list. Similar actions need to be done if you want to sell an item. The arrow next to the item shows who will get the item when making a deal. Under the list of transactions is the amount of payments - if it is negative - you will have to pay this amount to the merchant, if positive - the merchant will pay you that amount. You can cancel the transaction at any time. If you change your mind to buy or sell an item, select it in the list of deals and press the [Use] key - the item will be returned to the owner. ";
+DialogUI_Help = "In this window, you communicate with various characters. The list on the right shows possible options for answers or questions. The entire history of dialogs is saved in the text box on the left.";
+Dialog_AnyQuest_A_Accept = "Deal!";
+Dialog_AnyQuest_A_Entry = "Whats happened?";
+Dialog_AnyQuest_A_Refuse = "Not interested.";
+Dialog_AnyQuest_A_Reward = "What is the reward?";
+Dialog_FindItemQuest_Q_Accept = "Great! I will mark the place on your map where I could drop my trinket. Good luck!";
+Dialog_FindItemQuest_Q_Begin = "I recently ran away from these evil creatures and dropped one valuable thing. I would pay you well for her if you would return it to me. Interested in?";
+Dialog_FindItemQuest_Q_Refuse = "Very sorry. I'll have to look for myself, but if you change your mind, you know where to find me.";
+Dialog_FindItemQuest_Q_Reward = "As I said, the reward will be generous: ";
+Dialog_FirstWarning_A_Ok = "Ok.";
+Dialog_FirstWarning_A_Sorry = "Sorry, it was an accident - I didn't meant to hurt you.";
+Dialog_FirstWarning_A_YouWillDie = "You will die!";
+Dialog_FirstWarning_Q_Entry = "Why did you attacked me? Next time I'll kick your ass.";
+Dialog_GameBeginning_A_Allrigth = "Ok, ok. Let me play already!";
+Dialog_GameBeginning_A_Ok = "OK.";
+Dialog_GameBeginning_A_WhyNotSee = "With who am I talking right now!?";
+Dialog_GameBeginning_Q_Entry = "You are a dwarf and you live in a deserted kingdom. For a long time your people lived in wealth and prosperity, but on some day a huge chunk of mysterious energetic crystals was found. These crystal were called Arkalith, they were used to create amazing machines and powerful weapons that allowed the kingdom to seize neighboring kingdoms. Your kingdom fell into decay after the discovery of the mysterious Black creature deep underground in the thick of the arkalith. The ancient creature immediately incinerated the dwarves who were mining this sinister mineral. After a while the kingdom was filled with deadly creatures from other worlds. Royal forces were not prepared for this strike - dwarves dying everyday since then, not so many of them can survive. Discovery of Arkalith also affected ordinary creatures - bees, frogs, bats - even ordinary bee became huge and dangerous. Swords and axes became useless, creatures from other worlds could be destroyed only by the energy of the arkalith. You is the only hope for your kingdom!";
+Dialog_GameBeginning_Q_LazyDev = "I'm the lazy developer who is too lazy to make cool intro.";
+Dialog_GameBeginning_Q_OkiDoki = "Alright!";
+Dialog_IllegalZone_A_DontCare = "I don't care!";
+Dialog_IllegalZone_A_FineLeave = "Ok, I'll leave.";
+Dialog_IllegalZone_A_ICameForYou = "I came for you! (start fight)";
+Dialog_IllegalZone_A_Sorry = "I'm sorry, I didn't know that this is restricted area";
+Dialog_IllegalZone_Q_Entry = "You can't be here, please leave!";
+Dialog_KickOutFromRoom_A_JustCurious = "I was just curious what you have here...";
+Dialog_KickOutFromRoom_A_StillGetYou = "I'll still get you!";
+Dialog_KickOutFromRoom_Q_Entry = "I asked you to leave in a good way, but you persist in going where you are not supposed to be. I'll have to kick you out.";
+Dialog_KillQuest_Q_Accept = "Excellent! I will mark the place on your map where you can find these bloody creatures and kill them. Good luck!";
+Dialog_KillQuest_Q_Begin = "Recently, I almost got killed by these bloody creatures on the way home. Could you get rid of them? My neighbors and I gathered a reward and it will not disappoint you. Will you help us?";
+Dialog_KillQuest_Q_Refuse = "You can't leave us! We will die here...";
+Dialog_KillQuest_Q_Reward = "As I said, the reward will be generous: ";
+Dialog_Local_A_Rumors = "Any rumors?";
+Dialog_Local_Q_Entry = "Greetings!";
+Dialog_Local_Q_Rumor_0 = "They say that sometimes when digging tunnels, miners find old chests with different riches. I'm afraid to leave the house once again. But you look like a seasoned warrior, so you should look for these chests.";
+Dialog_Local_Q_Rumor_1 = "Recently, I came across a layer of arkalite crystals, in the area of this layer there was a cavity covered by a strange sparkling fog. I did not dare to go through the fog, life is only one.";
+Dialog_Local_Q_Rumor_2 = "Rumor has it that the Royal Academy of Sciences was moved to the Flying Islands to find a way to defeat the Black Creature. And I'm wondering how they get to the Flying Islands, I did not see them myself, but someone said that they are floating in the air due to the energy of arkalite crystals. Only God knows what they do there in their academy!";
+Dialog_Local_Q_Rumor_3 = "Rumor has it that our world is a simulation. Imagine that our whole life can be a fiction of one person!";
+Dialog_Merchant_A_Barter = "I'll take a look at your stuff.";
+Dialog_Merchant_A_WhatsWrong = "Whats wrong?";
+Dialog_Merchant_Q_Entry = "Greetings! I'm a mechant.";
+Dialog_Merchant_Q_Monsters = "In these damn monsters, any way out of the house or shop turns into a real test: once small insects and animals have grown dozens of times and have become extremely dangerous. In addition, there are quite unusual creatures, I have a feeling that they are not from our world. I could hire a mercenary for the protection, but now they throw up such prices... *sigh*";
+InventoryUI_Help = "Inventory provides unified access to all your items.
+The list displays all your items and their quantity. The same items are grouped.
+Above the list, you can set the filter for the displayed items.
+On the right are slots equipment. The description of each slot is displayed when you hover the mouse on it.
+Under the slots of equipment is information about the amount of money and the total weight of equipment.
+Any object can be used with different hands, the specific action depends on the type of object.
+For example, weapons and shields can be taken in different hands and used separately, while potions and other items can be used with either hand.
+Most items can be discarded from inventory. To do this, select the item in the list and click the appropriate button.";
 actorLevel = "Level: ";
 all = "All";
 apartment = "Apartment";
 apologize = "Apologize";
-appliableModifications = "Возможные модификации";
-armorLeather = "Кожаная броня";
-armorLeatherDesc = "Броня из двухслойной дубленой кожи. Обладает невысокими показателями защиты, но достаточно высокой прочностью.";
-armorLightLeather = "Легкая кожаная броня";
+appliableModifications = "Possible modifications";
+armorLeather = "Leather armor";
+armorLeatherDesc = "Armor from two-layer tanned leather. It has low protection performance, but rather high strength.";
+armorLightLeather = "Light leather armor";
 armorLightLeatherDesc = "Simple armor of tanned leather. It has good fire protection, but is completely unsuitable for protracted battles due to its low strength.";
 armorSteel = "Steel armor";
 armorSteelDesc = "Shiny steel armor. It provides good protection against physical damage, but provides poor protection against chemical and fire damage. Standard armor of the royal guard.";
-armors = "Броня";
+armors = "Armor";
 authors = "$$00AACBFF$Game programming:$$FFFFFFFF$ Dmitry Stepanov
 $$00AACBFF$Engine programming:$$FFFFFFFF$ Dmitry Stepanov
 $$00AACBFF$Graphics:$$FFFFFFFF$ opengameart.org
@@ -83,134 +83,134 @@ $$FF0000FF$If I miss somebody, please mail me to d1maxa@yandex.ru  (my apologize
 ";
 authorsButton = "Authors";
 authorsTitle = "Authors";
-bCoins = " монет";
+bCoins = " coins";
 bItem = "Item";
 back = "< Back";
 bank = "Bank";
-barterItems = "Предметы для покупки или продажи";
+barterItems = "Barter items";
 bat = "Bat";
 bee = "Bee";
-beginModification = "Модифицировать...";
-bench = "Верстак";
+beginModification = "Modify...";
+bench = "Bench";
 blacksmith = "Blacksmith";
-blueprintAcidBlob = "Чертеж пузыря с кислотой";
-blueprintAcidBlobDesc = "Чертеж пузыря с кислотой. Используйте верстак, чтобы воспользоваться чертежом.";
-blueprintAcidGun = "Чертеж кислотной пушки";
-blueprintAcidGunDesc = "Чертеж кислотной пушки. Используйте верстак, чтобы воспользоваться чертежом.";
-blueprintDrill = "Чертеж бура";
+blueprintAcidBlob = "Acid blob blueprint";
+blueprintAcidBlobDesc = "Acid blob blueprint. Use a bench to use the blueprint.";
+blueprintAcidGun = "Acid gun blueprint";
+blueprintAcidGunDesc = "Acid gun blueprint. Use a bench to use the blueprint.";
+blueprintDrill = "Drill blueprint";
 blueprintDrillDesc = "Old blueprint of a drill. Use bench to use blueprint.";
 blueprintForceGun = "Force gun blueprint";
-blueprintForceGunDesc = "Чертеж силового пистолета. Используйте верстак, чтобы воспользоваться чертежом.";
-blueprintGravityGun = "Чертеж гравитационной пушки";
-blueprintGravityGunDesc = "Чертеж гравитационной пушки. Используйте верстак, чтобы воспользоваться чертежом.";
+blueprintForceGunDesc = "Force gun blueprint. Use a bench to use the blueprint.";
+blueprintGravityGun = "Gravity gun blueprint";
+blueprintGravityGunDesc = "Gravity gun blueprint. Use a bench to use the blueprint.";
 blueprintGrenade = "Grenade blueprint";
-blueprintGrenadeDesc = "Чертеж гранаты. Используйте верстак, чтобы воспользоваться чертежом.";
-blueprintGrenadeLauncher = "Чертеж гранатомета";
-blueprintGrenadeLauncherDesc = "Чертеж гранатомета. Используйте верстак, чтобы воспользоваться чертежом.";
-blueprintHarpoon = "Чертеж гарпунной пушки";
-blueprintHarpoonDesc = "Чертеж гарпунной пушки. Используйте верстак, чтобы воспользоваться чертежом.";
-blueprintHook = "Чертеж крюка";
-blueprintHookDesc = "Blueprint of manual construction winch. Use the bench to use the blueprint.";
-blueprintLightningGun = "Чертеж молнии";
-blueprintLightningGunDesc = "Lightning blueprint.";
-blueprintMetalCopper = "Рецепт слитка меди";
-blueprintMetalCopperDesc = "Инструкции по выплавке меди из руды.";
-blueprintMetalGold = "Рецепт слитка золота";
-blueprintMetalGoldDesc = "Инструкции по выплавке золота из руды.";
-blueprintMetalIron = "Рецепт слитка железа";
-blueprintMetalIronDesc = "Инструкции по выплавке железа из руды.";
-blueprintMetalPlatinum = "Рецепт слитка платины";
+blueprintGrenadeDesc = "Grenade blueprint. Use a bench to use the blueprint.";
+blueprintGrenadeLauncher = "Grenade launcher blueprint";
+blueprintGrenadeLauncherDesc = "Grenade launcher blueprint. Use a bench to use the blueprint.";
+blueprintHarpoon = "Harpoon gun blueprint";
+blueprintHarpoonDesc = "Harpoon gun blueprint. Use a bench to use the blueprint.";
+blueprintHook = "Hook blueprint";
+blueprintHookDesc = "Blueprint of manual construction winch. Use a bench to use the blueprint.";
+blueprintLightningGun = "Lightning blueprint";
+blueprintLightningGunDesc = "Lightning blueprint. Use a bench to use the blueprint.";
+blueprintMetalCopper = "Copper ingot blueprint";
+blueprintMetalCopperDesc = "Instructions for smelting copper from ore.";
+blueprintMetalGold = "Gold ingot blueprint";
+blueprintMetalGoldDesc = "Instructions for smelting gold from ore.";
+blueprintMetalIron = "Iron ingot blueprint";
+blueprintMetalIronDesc = "Instructions for smelting iron from ore.";
+blueprintMetalPlatinum = "Platinum ingot blueprint";
 blueprintMetalPlatinumDesc = "Instructions for smelting platinum from ore.";
-blueprintMetalSilver = "Рецепт слитка серебра";
+blueprintMetalSilver = "Silver ingot blueprint";
 blueprintMetalSilverDesc = "Instructions for smelting silver from ore.";
-blueprintMetalTin = "Рецепт слитка олова";
-blueprintMetalTinDesc = "Инструкции по выплавке олова из руды.";
+blueprintMetalTin = "Tin ingot blueprint";
+blueprintMetalTinDesc = "Instructions for smelting tin from ore.";
 blueprintMetalTungsten = "Рецепт слитка вольфрама";
-blueprintMetalTungstenDesc = "Инструкции по выплавке вольфрама из руды.";
-blueprintPickaxe = "Чертеж кирки";
-blueprintPickaxeDesc = "Чертеж кирки. Используйте верстак, чтобы воспользоваться чертежом.";
-blueprintPlasmaDrill = "Чертеж плазменного бура";
-blueprintPlasmaDrillDesc = "Большой чертеж плазменного бура. Используйте верстак, чтобы воспользоваться чертежом.";
-blueprintRail = "Чертеж рельсового снаряда";
-blueprintRailDesc = "Чертеж рельсового снаряда. Используйте верстак, чтобы воспользоваться чертежом.";
-blueprintRailgun = "Чертеж рельсовой пушки";
-blueprintRailgunDesc = "Чертеж рельсовой пушки. Используйте верстак, чтобы воспользоваться чертежом.";
-blueprintResult = "Позволяет создать";
-blueprintRevealGun = "Чертеж разведывательной пушки";
-blueprintRevealGunDesc = "Blueprint of reveal gun. Use the bench to use blueprint.";
-blueprintRocket = "Чертеж ракеты";
+blueprintMetalTungstenDesc = "Instructions for smelting tungsten from ore.";
+blueprintPickaxe = "Pickaxe blueprint";
+blueprintPickaxeDesc = "Pickaxe blueprint. Use a bench to use the blueprint.";
+blueprintPlasmaDrill = "Plasma drill blueprint";
+blueprintPlasmaDrillDesc = "Plasma drill blueprint. Use a bench to use the blueprint.";
+blueprintRail = "Rail blueprint";
+blueprintRailDesc = "Rail blueprint. Use a bench to use the blueprint.";
+blueprintRailgun = "Railgun blueprint";
+blueprintRailgunDesc = "Railgun blueprint. Use a bench to use the blueprint.";
+blueprintResult = "Allows to make";
+blueprintRevealGun = "Blueprint of reveal gun";
+blueprintRevealGunDesc = "Blueprint of reveal gun. Use a bench to use the blueprint.";
+blueprintRocket = "Rocket blueprint";
 blueprintRocketDesc = "Rocket blueprint. Use bench to use blueprint.";
 blueprintRocketLauncher = "Rocket launcher blueprint";
-blueprintRocketLauncherDesc = "Чертеж ракетницы. Используйте верстак, чтобы воспользоваться чертежом.";
-blueprintShells = "Чертеж патронов для дробовика";
-blueprintShellsDesc = "Чертеж патронов для дробовика. Используйте верстак, чтобы воспользоваться чертежом.";
-blueprintShotgun = "Чертеж дробовика";
-blueprintShotgunDesc = "Чертеж дробовика. Используйте верстак, чтобы воспользоваться чертежом.";
-blueprints = "Чертежи";
-bookDiscoveryOfArkalith = "Открытие аркалита";
-bookDiscoveryOfArkalithDesc = "Книга рассказывающая историю открытия аркалита.";
-bookDiscoveryOfArkalithText = "Аркалит был обнаружен в 470 году в месяц орла. В этом время на поверхности стояла необычно теплая погода, в то время как глубоко под землей в горных выработках было удивительно холодно. Шахтеры никогда с подобным не сталкивались. Спустя некоторое время, рабочие наткнулись на жилу ярко-голубых светящих кристаллов от которых веяло холодом. Долгое время не удавалось отколоть хоть один кусочек от этих кристаллов. Однако спустя некоторое время в королевской академии наук разработали новую взрывчатку способную раскалывать пласты этих кристаллов. Примерно в это же время первые образцы кристаллов были доставлены в академию для изучения. Ученые обнаружили множество необычных свойств - чрезвычайно высокая твердость, мощное излучение в невидимом глазу диапазоне волн, высокая химическая активность. Открытие столь мощного источника энергии позволило в кратчайшие сроки создать портативные источники питания для многих инструментов.";
-bookEpochBeforeArkalith = "До-аркалитовая эпоха";
-bookEpochBeforeArkalithDesc = "Книга рассказывающая историю гномьего королевства в до-аркалитовую эпоху.";
-bookEpochBeforeArkalithText = "Летоисчесление в королевстве ведется с момента объединения воинствующих племен под началом короля Гуннара.   Из-за крайней неразвитости письменности в те времена, достоверных записей истории завоеваний и событий тех времен - нет. Многие события передавались из уст в уста и со временем изменялись до неузнаваемости.";
-bookSeasons = "Времена года";
-bookSeasonsDesc = "Книга рассказывающая о временах года в мире гномов.";
-bookSeasonsText = "Согласно древним записям, год делится на четыре промежутка по два месяца. Таким образом в году получается восемь месяцев. Каждый месяц имеет свое собственное название, однако само происхождение названий остается загадкой. Перечислим тут все времена года и соответствующие месяца:
-Зима:
-  Месяц жатвы  
-  Месяц орла
-Весна:
-  Месяц плодородия
-  Месяц зайца
-Лето:
-  Месяц света
-  Месяц паука
-Осень
-  Месяц огня
-  Месяц волка
+blueprintRocketLauncherDesc = "Rocket launcher blueprint. Use a bench to use the blueprint.";
+blueprintShells = "Shotgun shells blueprint";
+blueprintShellsDesc = "Shotgun shells blueprint. Use a bench to use the blueprint.";
+blueprintShotgun = "Shotgun blueprint";
+blueprintShotgunDesc = "Shotgun blueprint. Use a bench to use the blueprint.";
+blueprints = "Blueprints";
+bookDiscoveryOfArkalith = "Discovery of arkalite";
+bookDiscoveryOfArkalithDesc = "The book about the discovery of arkalite.";
+bookDiscoveryOfArkalithText = "Arkalit was discovered in 470 in the month of the eagle. At this time, the surface was unusually warm weather, while deep underground in the mine workings was surprisingly cold. The miners have never encountered such a thing. After some time, the workers stumbled upon a vein of bright blue luminous crystals from which blew cold. For a long time it was not possible to break away at least one piece of these crystals. However, some time later, the Royal Academy of Sciences developed a new explosive capable of splitting the layers of these crystals. At about the same time, the first samples of crystals were delivered to the academy for study. Scientists have discovered many unusual properties - extremely high hardness, powerful radiation in the invisible eye wavelength range, high chemical activity. The discovery of such a powerful source of energy allowed in the shortest possible time to create portable power sources for many tools.";
+bookEpochBeforeArkalith = "Pre-arkalite era";
+bookEpochBeforeArkalithDesc = "The book tells the story of the gnome kingdom in the pre-arkalite era.";
+bookEpochBeforeArkalithText = "The life-years in the kingdom has been going on since the unification of the militant tribes under the authority of the king Gunnar. Due to the extreme underdevelopment of writing in those times, there are no reliable records of the history of conquests and events of those times. Many events were passed from mouth to mouth and over time changed to unrecognizability.";
+bookSeasons = "Seasons";
+bookSeasonsDesc = "The book tells about the seasons in the world of dwarves.";
+bookSeasonsText = "According to ancient records, the year is divided into four intervals of two months. Each month has its own name, but the very origin of the names remains a mystery. Here we list all the seasons and the corresponding months:
+Winter:
+   Month of Harvest
+   Month of Eagle
+Spring:
+   Month of Fertility
+   Month of Hare
+Summer:
+   Month of Light
+   Month of Spider
+Autumn:
+   Month of Fire
+   Month of Wolf
 ";
 books = "Books";
-bossBeast = "Черная тварь";
-bossCrystal = "Кристалл";
+bossBeast = "Black Beast";
+bossCrystal = "Crystal";
 canBeDecomposed = "Can be disassembled";
 canBeModified = "Can be modified";
-cancelItems = "Отмена";
-caves = "Шахты";
-charisma = "Харизма";
+cancelItems = "Cancel";
+caves = "Caves";
+charisma = "Charisma";
 charismaDesc = "Charisma affects the attitude of different characters to you. The price level of merchants also depends on charisma.";
-chemDmgResist = "Сопротивляемость химическому урону";
-chemicalDmg = "Химический";
-class_miner = "Шахтер";
-class_poorman = "Бедняк";
-class_scientist = "Ученый";
-class_scout = "Разведчик";
-class_thief = "Вор";
-class_warrior = "Воин";
+chemDmgResist = "Chemical dmg. resist";
+chemicalDmg = "Chemical";
+class_miner = "Miner";
+class_poorman = "Poor man";
+class_scientist = "Scientist";
+class_scout = "Scout";
+class_thief = "Thief";
+class_warrior = "Warrior";
 clearBarter = "Cancel deal";
 climbDown = "Climb down";
 climbUp = "Climp up";
-close = "Закончить";
-confirm = "Распределить очки";
+close = "Close";
+confirm = "Invest points";
 confirmBarter = "Confirm the deal";
-confirmModification = "Подтвердить модификацию";
+confirmModification = "Confirm modification";
 consumable = "consumable";
 continueButton = "Continue";
-continuous = "Непрерывная";
+continuous = "Continuous";
 controls = "Controls";
 conversation = "Conversation";
-count = "Количество: ";
-craft = "Создать";
-craftSelected = "Создать предмет";
-craftTooltip = "Создавайте снаряжение и предметы из найденных компонентов. Создание предметов требует навыков: чем сложнее чертеж, тем более высокие навыки требуются для создания предмета.";
-craftWnd = "Создать предметы";
-crystalHomeward = "Кристалл возвращения";
-crystalHomewardDesc = "Крошечный сиреневый кристалл аркалита. Возвращает владельца к последнему посещенному Материнскому кристаллу. Жилы этих кристаллов были обнаружены незадолго до открытия Черной твари и позволили владельцам избежать смерти. При использовании ломается.";
-crystalPolycrystal = "Arkalith polycrystal";
-crystalPolycrystalDesc = "Большой кусок аркалита в виде поликристалла. Используется для создания различных предметов.";
-crystalRareRed = "Редкий красный кристалл";
-crystalRareRedDesc = "Большой редкий красный кристалл аркалита. Долгое время не находил никакого применения, и часто продавался за бесценок в качестве безделушки. Истинная же сила этого кристалла раскрывается в момент смерти владельца кристалла...";
-crystalSmallPower = "Маленький кристалл аркалита";
-crystalSmallPowerDesc = "Маленький ярко-голубой светящийся кристалл аркалита. Один из первых обнаруженных кристаллов аркалита, обеспечивает энергией различные устройства и механизмы. Постепенно разрушается при исчерпании энергии.";
+count = "Count: ";
+craft = "Craft";
+craftSelected = "Craft items";
+craftTooltip = "Create equipment and items from the found components. Creating objects requires skills: the more complex the blueprint, the higher the skills required to create the object.";
+craftWnd = "Craft items";
+crystalHomeward = "Homeward crystal";
+crystalHomewardDesc = "A tiny lilac arkalite crystal. Returns the owner to the last visited Mother Crystal. These crystals were discovered shortly before the discovery of the Black Beast and allowed the owners to avoid death. Breaks on use.";
+crystalPolycrystal = "Arkalite polycrystal";
+crystalPolycrystalDesc = "A large piece of arcalite in the form of a polycrystal. Used to create various items.";
+crystalRareRed = "Rare red crystal";
+crystalRareRedDesc = "Large rare red arkalite crystal. For a long time did not find any use, and often sold for a song as a trinket. The true power of this crystal is revealed at the time of the death of the owner of the crystal ...";
+crystalSmallPower = "Small arcalite crystal";
+crystalSmallPowerDesc = "Small bright blue glowing crystal of arkalite. One of the first discovered crystals of arkalite, provides energy to various devices and mechanisms.";
 crystals = "Crystals";
 damage = "Damage";
 damageBlocked = "Blocked!";
