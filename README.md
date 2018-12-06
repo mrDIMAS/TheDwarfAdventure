@@ -2,7 +2,12 @@
 
 2D sandbox adventure RPG with destructible and generated world. 
 
-Key features:
+## Gameplay video
+- Soon
+
+You can always propose any video about the game.
+
+## Key features:
 - Destructible world - almost any piece of world can be destroyed.
 - Generated world - there is no pre-built levels in the game - everything is generated (including quests, NPC's and etc).
 - Advanced pixel-perfect physics + water physics
@@ -35,11 +40,6 @@ Can be found in releases (https://github.com/mrDIMAS/TheDwarfAdventure/releases)
 ![Flying islands](/release_screenshots/flying_islands.png?raw=true "Flying islands")
 - Settlement
 ![Settlement](/release_screenshots/settlement.png?raw=true "Settlement")
-
-## Gameplay video
-- Soon
-
-You can always propose any video about the game.
 
 ## Supported languages
 - Russian
