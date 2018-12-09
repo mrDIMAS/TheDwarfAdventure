@@ -8,7 +8,7 @@ https://www.youtube.com/watch?v=O3v6zptRwWw
 ## Latest stable build
 Can be found in releases (https://github.com/mrDIMAS/TheDwarfAdventure/releases)
 
-You can always propose any video about the game.
+Free version will be available here until game will be not be released in Steam.
 
 ## Key features:
 - Destructible world - almost any piece of world can be destroyed.
@@ -47,7 +47,7 @@ You are a dwarf and you live in a deserted kingdom. For a long time your people 
 - Russian
 - English
 
-Please note that my native language is russian, so in english translation can be mistakes. You can edit any translation, or add your own - any help is appreciated!
+Please note that my native language is russian, so in english translation can be mistakes.
 
 ## Questions and answers
 ### Can I win the game?
@@ -58,6 +58,9 @@ Use Construction gun to create ladder from soil that you mined by pickaxe.
 
 ### Is there some console/debug menu?
 Yes. Just press tilde `~`
+
+### Where can I find the data for game
+In the latest builds, until game is not released on Steam. After that you have to purchase the game.
 
 ## System requirements
 - 2 core processor with SSE2 support
