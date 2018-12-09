@@ -1,12 +1,31 @@
 # The Dwarf Adventure
 
-2D sandbox adventure RPG with destructible and generated world.
+2D sandbox adventure RPG with destructible and generated world. 
 
-## Story
-You are a dwarf and you live in a deserted kingdom. For a long time your people lived in wealth and prosperity, but on some day a huge chunk of mysterious energetic crystals was found. These crystal were called Arkalith, they were used to create amazing machines and powerful weapons that allowed the kingdom to seize neighboring kingdoms. Your kingdom fell into decay after the discovery of the mysterious Black creature deep underground in the thick of the arkalith. The ancient creature immediately incinerated the dwarves who were mining this sinister mineral. After a while the kingdom was filled with deadly creatures from other worlds. Royal forces were not prepared for this strike - dwarves dying everyday since then, not so many of them can survive. Discovery of Arkalith also affected ordinary creatures - bees, frogs, bats - even ordinary bee became huge and dangerous. Swords and axes became useless, creatures from other worlds could be destroyed only by the energy of the arkalith. You is the only hope for your kingdom!
+## Gameplay video
+https://www.youtube.com/watch?v=O3v6zptRwWw
 
 ## Latest stable build
 Can be found in releases (https://github.com/mrDIMAS/TheDwarfAdventure/releases)
+
+You can always propose any video about the game.
+
+## Key features:
+- Destructible world - almost any piece of world can be destroyed.
+- Generated world - there is no pre-built levels in the game - everything is generated (including quests, NPC's and etc).
+- Advanced pixel-perfect physics + water physics
+- 14 unique weapons - starting from pickaxe and ending by rocket launcher and plasma drill.
+- Role-playing elements - your character have stats. You can invest points into stats thus making your character stronger, smarter, etc.
+- Crafting - you can create items using blueprints on the workbench. Any item can be disassembled, modified, repaired.
+- Social elements - you can talk and barter with NPC's. Your character have reputation, if you will be killing other dwarves you will get penalties on reputation and cannot trade with dwarves and enter into their houses.
+- Bosses - on each location you can find a boss
+
+I'm making this game for more than 2,5 years alone on my own engine based on SFML, and it still far from complete. Some game elements are working not so well, some parts can be unbalanced. You can participate in development if want to.
+
+Average code base size: ~47000 lines of code.
+
+## Story
+You are a dwarf and you live in a deserted kingdom. For a long time your people lived in wealth and prosperity, but on some day a huge chunk of mysterious energetic crystals was found. These crystal were called Arkalith, they were used to create amazing machines and powerful weapons that allowed the kingdom to seize neighboring kingdoms. Your kingdom fell into decay after the discovery of the mysterious Black creature deep underground in the thick of the arkalith. The ancient creature immediately incinerated the dwarves who were mining this sinister mineral. After a while the kingdom was filled with deadly creatures from other worlds. Royal forces were not prepared for this strike - dwarves dying everyday since then, not so many of them can survive. Discovery of Arkalith also affected ordinary creatures - bees, frogs, bats - even ordinary bee became huge and dangerous. Swords and axes became useless, creatures from other worlds could be destroyed only by the energy of the arkalith. You is the only hope for your kingdom!
 
 ## Screenshots
 - Main menu
@@ -24,14 +43,11 @@ Can be found in releases (https://github.com/mrDIMAS/TheDwarfAdventure/releases)
 - Settlement
 ![Settlement](/release_screenshots/settlement.png?raw=true "Settlement")
 
-## Gameplay video
-- Soon
-
 ## Supported languages
 - Russian
-- English (soon) 
+- English
 
-Any help is appreciated!
+Please note that my native language is russian, so in english translation can be mistakes. You can edit any translation, or add your own - any help is appreciated!
 
 ## Questions and answers
 ### Can I win the game?
