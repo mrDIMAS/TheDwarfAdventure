@@ -1,8 +1,7 @@
-# Ignore data (only code is available)
+# Common stuff to ignore
 /bin/
-
-# Ignore steam sdk
 /steamsdk/
+/game_page_templates_v3/
 
 # Ignore VS project files
 *.psess
