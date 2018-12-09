@@ -59,6 +59,9 @@ Use Construction gun to create ladder from soil that you mined by pickaxe.
 ### Is there some console/debug menu?
 Yes. Just press tilde `~`
 
+### Where can I find the data for game
+In the latest builds, until game is not released on Steam. After that you have to purchase the game.
+
 ## System requirements
 - 2 core processor with SSE2 support
 - 1 Gb RAM
