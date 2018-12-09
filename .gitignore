@@ -1,6 +1,8 @@
-# Do not include executables
-/bin/*.exe
-/bin/*.lib
+# Ignore data (only code is available)
+/bin/
+
+# Ignore steam sdk
+/steamsdk/
 
 # Ignore VS project files
 *.psess
@@ -29,10 +31,3 @@ codeliteproj/.codelite
 
 # Ignore save files
 *.dsv
-
-# Ignore game-generated files
-/bin/*.log
-
-# Ignore archives
-/bin/*.zip
-/bin/*.rar

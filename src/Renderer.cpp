@@ -1234,12 +1234,15 @@ void Renderer::Render()
 		sf::Shader::bind(&mSimpleShader.mShader);
 		GLCall(glUniform1i(mSimpleShader.mUDiffuseTexture, 0));
 
-		if (terrain && terrain->GetFogOfWar() && terrain->IsFogOfWarEnabled())
+		if (!game->Debug.disableFogOfWar)
 		{
-			glBindTexture(GL_TEXTURE_2D, terrain->GetFogOfWar()->GetTexture()->mGLTexture);
-			mQuadVertices.clear();
-			FillQuad(mQuadVertices, Vec2f(0, 0), terrain->GetSizePixels(), sf::Color::White, { 0, 0, 1, 1 });
-			RenderQuads(sf::Transform::Identity, mQuadVertices);
+			if (terrain && terrain->GetFogOfWar() && terrain->IsFogOfWarEnabled())
+			{
+				glBindTexture(GL_TEXTURE_2D, terrain->GetFogOfWar()->GetTexture()->mGLTexture);
+				mQuadVertices.clear();
+				FillQuad(mQuadVertices, Vec2f(0, 0), terrain->GetSizePixels(), sf::Color::White, { 0, 0, 1, 1 });
+				RenderQuads(sf::Transform::Identity, mQuadVertices);
+			}
 		}
 
 		BuiltInProfiler_EndProfiling("render fog of war");

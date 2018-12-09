@@ -30,6 +30,7 @@
 #include "CaveGenerator.h"
 #include "ResourceDatabase.h"
 #include "FogGate.h"
+#include "BossAreaGenerator.h"
 
 void HubGenerator::CutTerrainTop()
 {
@@ -107,21 +108,20 @@ void HubGenerator::PlaceTrees(const shared_ptr<Location> & location, int count)
 
 shared_ptr<Location> HubGenerator::Generate()
 {
-	static constexpr float LayerHeightCells = 10.0f;
+	CreateBlankLocation();
+	CreateRandomTerrain();
+	AddBorders(false);
 
+	int layerCount = 2;
 	float layerWidth = static_cast<float>(Cell::Size * mDefinition->GetWidth());
-	float layerHeight = LayerHeightCells * Cell::Size;
+	float layerHeight = Cell::SizeF * mDefinition->GetHeight() / layerCount - 50;  
 	float lavaAreaHeight = 0.1f * Cell::Size;
 	float mLayerSeparatorHeight = 25;
 	float bossAreaWidth = 1000;
 	float bossAreaHeight = 300;
 	int cloudCount = 100;
 	int treeCount = mDefinition->GetWidth();
-	int layerCount = 2;
 
-	CreateBlankLocation();
-	CreateRandomTerrain();
-	AddBorders(false);
 
 	auto renderer = game->GetRenderer();
 
@@ -157,33 +157,28 @@ shared_ptr<Location> HubGenerator::Generate()
 		mSeparator.top = passageArea.top + passageArea.height;
 		mSeparator.width = passageArea.width;
 		mSeparator.height = mLayerSeparatorHeight;
-
+		
 		sf::FloatRect caveArea;
 		caveArea.width = passageArea.width * 0.5f;
 		caveArea.height = passageArea.height * 0.5f;
 		caveArea.left = Math::Rnd(passageArea.left, passageArea.left + passageArea.width - caveArea.width);
 		caveArea.top = Math::Rnd(passageArea.top, passageArea.top + passageArea.height - caveArea.height);
 
-		sf::FloatRect mBossArea;
-		mBossArea.left = caveArea.left + caveArea.width / 2 - bossAreaWidth / 2;
-		mBossArea.top = caveArea.top + caveArea.height / 2 - bossAreaHeight / 2;
-		mBossArea.width = bossAreaWidth;
-		mBossArea.height = bossAreaHeight;
+		sf::FloatRect bossArea;
+		bossArea.left = caveArea.left + caveArea.width / 2 - bossAreaWidth / 2;
+		bossArea.top = caveArea.top + caveArea.height / 2 - bossAreaHeight / 2;
+		bossArea.width = bossAreaWidth;
+		bossArea.height = bossAreaHeight;
+		
+		const float bossAreaSpacing = 200;
+		BossAreaGenerator bossGenerator(this, bossArea);
+		bossGenerator.Generate();
 
-		// set forbidden zones
-		passageGenerator.AddForbiddenArea(mBossArea);
+		// Build passages
+		passageGenerator.AddForbiddenArea(bossArea);
 		passageGenerator.AddForbiddenArea(caveArea);
 		passageGenerator.Generate();
-
-		// build caves first
-		/*
-		CaveGenerator mCaveGenerator(this);
-		mCaveGenerator.mArea = caveArea;
-		mCaveGenerator.mPointCount = (int)(caveArea.width * caveArea.height * 0.00005f);
-		mCaveGenerator.Generate();	
-
-		auto boss = GenerateBoss(location, layer.mBossArea);
-		*/
+		
 		PlaceTreasureChests();
 
 		const float nextLevelEntranceWidth = 200;
@@ -210,8 +205,7 @@ shared_ptr<Location> HubGenerator::Generate()
 	AddLava(lavaAreaHeight);
 
 	CreateClouds(cloudCount, terrain->GetTopBackgroundlessPartHeight());
-
-	//PlaceWaterInPassages(location, v->mPassageGen->GetPassageList());
+		
 	PlaceOre({ { 0, 0 }, mLocation->GetScene()->GetTerrain()->GetSizePixels() });
 
 	return mLocation;

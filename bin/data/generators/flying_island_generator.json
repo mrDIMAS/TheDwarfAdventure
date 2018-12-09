@@ -1,9 +1,0 @@
-{
-	"islandWidthRange": [300, 700],
-	"islandHeightRange": [150, 250],
-	"islandYOffsetRange": [-50, 50],
-	"xSpaceBetweenIslands": [30, 50],
-	"ySpaceBetweenIslands": [60, 120],
-	"islandSideSubpointsCount": [3, 6],
-	"borderSize": 100
-}

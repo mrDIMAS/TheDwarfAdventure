@@ -225,6 +225,7 @@ void Console::DrawUpdate()
 				ImGui::Checkbox("Terrain rendering disabled", &game->Debug.terrainRenderingDisabled);
 				ImGui::Checkbox("Show player fog-of-war reveal rays", &game->Debug.showPlayerFogOfWarRevealRays);
 				ImGui::Checkbox("Disable player-terrain collisions", &game->Debug.disablePlayerTerrainCollisions);
+				ImGui::Checkbox("Disable fog-of-war", &game->Debug.disableFogOfWar);
 			}
 
 			if (ImGui::CollapsingHeader("Inter-location doors"))

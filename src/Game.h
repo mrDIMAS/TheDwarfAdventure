@@ -165,6 +165,7 @@ public:
 		bool useMultithreadedWorldGenerator { false };
 		bool showPlayerFogOfWarRevealRays { false };
 		bool disablePlayerTerrainCollisions { false };
+		bool disableFogOfWar { false };
 	} Debug;
 
 	sf::View VirtualScreen = sf::View(sf::FloatRect(0, 0, 1000, 1000));
