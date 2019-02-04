@@ -2,6 +2,9 @@
 
 2D sandbox adventure RPG with destructible and generated world. 
 
+## Status
+Suspended. I burnt out and have no more ideas to implement in game.
+
 ## Gameplay video
 https://www.youtube.com/watch?v=O3v6zptRwWw
 
